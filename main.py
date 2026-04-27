@@ -14,6 +14,13 @@ from accelerate.utils import set_seed
 from datasets import load_dataset
 
 
+def maybe_select_subset(dataset, max_samples):
+    if max_samples is None:
+        return dataset
+    max_samples = min(int(max_samples), len(dataset))
+    return dataset.select(range(max_samples))
+
+
 def experiment(config):
     if config['task'].lower() == 'truthfulqa':
         from algo.task_adapters.truthfulqa_adapter import TruthfulQA_Adapter as Adapter
@@ -48,6 +55,9 @@ def experiment(config):
         
     else:
         raise NotImplementedError
+
+    train_dataset = maybe_select_subset(train_dataset, config.get("max_train_samples"))
+    test_dataset = maybe_select_subset(test_dataset, config.get("max_eval_samples"))
 
     adapter = Adapter(
         prompt=prompt, 

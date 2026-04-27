@@ -11,6 +11,13 @@ generator_model: gpt-3.5-turbo
 
 critic_model: microsoft/deberta-v3-large
 add_special_tokens: True
+use_lora: False
+lora_r: 8
+lora_alpha: 16
+lora_dropout: 0.05
+lora_target_modules: all-linear
+lora_modules_to_save:
+lora_bias: none
 
 # MODE
 critic_mode: classification # generation / classification
@@ -29,6 +36,8 @@ frequency_penalty: 0
 presence_penalty: 0 
 stop: ["\n", "\n\n", "\n\n\n"]
 max_tokens: 80
+max_train_samples:
+max_eval_samples:
 
 # TRAINING_PARAMS
 ## offline warmup

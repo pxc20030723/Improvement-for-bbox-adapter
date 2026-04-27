@@ -2,6 +2,7 @@ import torch
 from torch.utils.data import DataLoader
 from accelerate.state import PartialState
 from accelerate.utils import release_memory, InitProcessGroupKwargs
+from peft import LoraConfig, TaskType, get_peft_model
 import datasets 
 from datasets import Dataset
 datasets.disable_progress_bar()
@@ -73,6 +74,9 @@ class Whitebox_LLM():
             
         else:
             raise NotImplementedError
+
+        if self.config.get("use_lora", False):
+            self.model = self._apply_lora(self.model)
         
         self.model.config.use_cache = False if "phi" in self.config["critic_model"].lower() else True
         self.model.config.pretraining_tp = 1
@@ -97,6 +101,29 @@ class Whitebox_LLM():
         self.accelerator.print(
             f"Distributed: {self.accelerator.distributed_type}, Mixed precision: {self.accelerator.mixed_precision}"
         )
+        if self.config.get("use_lora", False):
+            self.model.print_trainable_parameters()
+
+    def _apply_lora(self, model):
+        task_type = TaskType.SEQ_CLS if self.mode == "classification" else TaskType.CAUSAL_LM
+        target_modules = self.config.get("lora_target_modules", "all-linear")
+        modules_to_save = self.config.get("lora_modules_to_save")
+
+        if modules_to_save is None and self.mode == "classification":
+            candidate_modules = ["classifier", "score", "qa_outputs"]
+            present_modules = {name for name, _ in model.named_modules()}
+            modules_to_save = [name for name in candidate_modules if name in present_modules]
+
+        lora_config = LoraConfig(
+            task_type=task_type,
+            r=self.config.get("lora_r", 8),
+            lora_alpha=self.config.get("lora_alpha", 16),
+            lora_dropout=self.config.get("lora_dropout", 0.0),
+            target_modules=target_modules,
+            modules_to_save=modules_to_save,
+            bias=self.config.get("lora_bias", "none"),
+        )
+        return get_peft_model(model, lora_config)
 
     @PartialState().on_main_process
     def build_dataset(self, positive_texts, negative_texts, save_to):    
