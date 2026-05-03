@@ -1,0 +1,15 @@
+[34m[1mwandb[0m: Detected [openai] in use.
+[34m[1mwandb[0m: Use W&B Weave for improved LLM call tracing. Install Weave with `pip install weave` then add `import weave` to the top of your script.
+[34m[1mwandb[0m: For more information, check out the docs at: https://weave-docs.wandb.ai
+Train size: 32, eval size: 32
+Offline warmup with: None
+Training:   0% 0/1 [00:00<?, ?it/s]         Parameter 'function'=<function Whitebox_LLM.build_dataset.<locals>.<lambda> at 0x7abc7a19a2a0> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+prepare: 100% 32/32 [01:29<00:00,  2.80s/it]
+
+Dataset saved to data/StrategyQA/microsoft/deberta-v3-base/train_epoch_0_idx_0
+Loss: 0.001: 100% 23/23 [00:13<00:00,  1.71it/s]
+Eval: 0 | idx 0: 100% 32/32 [07:47<00:00, 14.62s/it]
+Eval: 0 | idx 0: 100% 32/32 [07:46<00:00, 16.53s/it]
+
+
+Stage: Eval: 0 | idx 0, Accuracy: 37.50% ± 0.00%

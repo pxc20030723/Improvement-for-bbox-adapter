@@ -1,0 +1,104 @@
+diff --git a/algo/task_adapters/strategyqa_adapter.py b/algo/task_adapters/strategyqa_adapter.py
+index 34ca84c..8d3618e 100644
+--- a/algo/task_adapters/strategyqa_adapter.py
++++ b/algo/task_adapters/strategyqa_adapter.py
+@@ -20,7 +20,10 @@ Q: Was P. G. Wodehouse's favorite book The Hunger Games?
+ A: P. G. Wodehouse died in 1975.
+ The Hunger Games was published in 2008.
+ #### No.
+-
++IMPORTANT:
++- Think step by step.
++- The final line must be exactly in the format: #### Yes. or #### No.
++- Do not end with anything else after the final answer.
+ Your Question:
+ '''.strip()
+ 
+@@ -39,6 +42,10 @@ Q: Was P. G. Wodehouse's favorite book The Hunger Games?
+ A: P. G. Wodehouse died in 1975.
+ The Hunger Games was published in 2008.
+ #### No.
++IMPORTANT:
++- The final line must be exactly one of:
++  #### Yes.
++  #### No.
+ '''.strip() + "\n"
+ 
+ class StrategyQA_Adapter(Reasoning_Adapter):
+diff --git a/configs/strategyqa_colab_lora.yaml b/configs/strategyqa_colab_lora.yaml
+index c0380b1..5569d66 100644
+--- a/configs/strategyqa_colab_lora.yaml
++++ b/configs/strategyqa_colab_lora.yaml
+@@ -8,15 +8,7 @@ generator_model: gpt-4o-mini
+ critic_model: microsoft/deberta-v3-base
+ add_special_tokens: True
+ 
+-# PARAMETER-EFFICIENT FINETUNING
+-use_lora: True
+-lora_r: 8
+-lora_alpha: 16
+-lora_dropout: 0.05
+-lora_target_modules: all-linear
+-lora_modules_to_save:
+-lora_bias: none
+-
++use_lora: False
+ # MODE
+ critic_mode: classification
+ score_mode:
+@@ -61,12 +53,12 @@ num_negatives_for_training: 1
+ qa_template: "Q: <Q>\n\nA: <A>"
+ 
+ # EVALUATION
+-eval_blackbox: True
++eval_blackbox: False
+ eval_unfinetuned: False
+ num_eval_rounds: 1
+ 
+-log_with_wandb: False
++log_with_wandb: True
+ 
+ # LOW-COST COLAB SUBSETS
+-max_train_samples: 64
+-max_eval_samples: 64
++max_train_samples: 32
++max_eval_samples: 32
+diff --git a/utils/strategyqa_metric.py b/utils/strategyqa_metric.py
+index e5fafe8..891b597 100644
+--- a/utils/strategyqa_metric.py
++++ b/utils/strategyqa_metric.py
+@@ -16,7 +16,6 @@ def is_correct(model_completion, gt_answer):
+ 
+     return model_answer_bool == gt_answer
+ 
+-
+ def get_accuracy(results):
+     # Initialize a dictionary to store round-wise accuracies
+     round_accuracies = {}
+@@ -29,17 +28,21 @@ def get_accuracy(results):
+         round_accuracies[round]['total'] += 1
+ 
+         accuracy_so_far = round_accuracies[round]['correct'] / round_accuracies[round]['total']
+-        loggers["eval"].info(f"\n{'-'*20}\ncompletion:\n{ans}\nground-truth:\n{gt}\nround: {round}\ncorrect: {correct}, round accuracy so far: {accuracy_so_far}")
++        loggers["eval"].info(
++            f"\n{'-'*20}\ncompletion:\n{ans}\nground-truth:\n{gt}\nround: {round}\ncorrect: {correct}, round accuracy so far: {accuracy_so_far}"
++        )
++
++    total = sum(round_acc['total'] for round_acc in round_accuracies.values())
++    if total == 0:
++        loggers["eval"].info(f"{'='*20}\nNo valid evaluation completions were collected.")
++        return 0.0, 0.0
+ 
+-    # Calculating overall accuracy and standard deviation
+-    overall_accuracy = sum([round_acc['correct'] for round_acc in round_accuracies.values()]) / sum([round_acc['total'] for round_acc in round_accuracies.values()])
++    overall_accuracy = sum(round_acc['correct'] for round_acc in round_accuracies.values()) / total
+     round_wise_accuracies = [round_acc['correct'] / round_acc['total'] for round_acc in round_accuracies.values()]
+     std_dev = np.std(round_wise_accuracies)
+ 
+-    # Logging final results
+     loggers["eval"].info(f"{'='*20}\nOverall Accuracy: {overall_accuracy}\nStandard Deviation across rounds: {std_dev}")
+ 
+-    # Return both overall accuracy and standard deviation
+     return overall_accuracy, std_dev
+ 
+ 

@@ -16,7 +16,6 @@ def is_correct(model_completion, gt_answer):
 
     return model_answer_bool == gt_answer
 
-
 def get_accuracy(results):
     # Initialize a dictionary to store round-wise accuracies
     round_accuracies = {}
@@ -29,17 +28,21 @@ def get_accuracy(results):
         round_accuracies[round]['total'] += 1
 
         accuracy_so_far = round_accuracies[round]['correct'] / round_accuracies[round]['total']
-        loggers["eval"].info(f"\n{'-'*20}\ncompletion:\n{ans}\nground-truth:\n{gt}\nround: {round}\ncorrect: {correct}, round accuracy so far: {accuracy_so_far}")
+        loggers["eval"].info(
+            f"\n{'-'*20}\ncompletion:\n{ans}\nground-truth:\n{gt}\nround: {round}\ncorrect: {correct}, round accuracy so far: {accuracy_so_far}"
+        )
 
-    # Calculating overall accuracy and standard deviation
-    overall_accuracy = sum([round_acc['correct'] for round_acc in round_accuracies.values()]) / sum([round_acc['total'] for round_acc in round_accuracies.values()])
+    total = sum(round_acc['total'] for round_acc in round_accuracies.values())
+    if total == 0:
+        loggers["eval"].info(f"{'='*20}\nNo valid evaluation completions were collected.")
+        return 0.0, 0.0
+
+    overall_accuracy = sum(round_acc['correct'] for round_acc in round_accuracies.values()) / total
     round_wise_accuracies = [round_acc['correct'] / round_acc['total'] for round_acc in round_accuracies.values()]
     std_dev = np.std(round_wise_accuracies)
 
-    # Logging final results
     loggers["eval"].info(f"{'='*20}\nOverall Accuracy: {overall_accuracy}\nStandard Deviation across rounds: {std_dev}")
 
-    # Return both overall accuracy and standard deviation
     return overall_accuracy, std_dev
 
 

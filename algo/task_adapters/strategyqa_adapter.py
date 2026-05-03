@@ -20,7 +20,10 @@ Q: Was P. G. Wodehouse's favorite book The Hunger Games?
 A: P. G. Wodehouse died in 1975.
 The Hunger Games was published in 2008.
 #### No.
-
+IMPORTANT:
+- Think step by step.
+- The final line must be exactly in the format: #### Yes. or #### No.
+- Do not end with anything else after the final answer.
 Your Question:
 '''.strip()
 
@@ -39,6 +42,10 @@ Q: Was P. G. Wodehouse's favorite book The Hunger Games?
 A: P. G. Wodehouse died in 1975.
 The Hunger Games was published in 2008.
 #### No.
+IMPORTANT:
+- The final line must be exactly one of:
+  #### Yes.
+  #### No.
 '''.strip() + "\n"
 
 class StrategyQA_Adapter(Reasoning_Adapter):

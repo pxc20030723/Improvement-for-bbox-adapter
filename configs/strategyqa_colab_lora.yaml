@@ -8,15 +8,7 @@ generator_model: gpt-4o-mini
 critic_model: microsoft/deberta-v3-base
 add_special_tokens: True
 
-# PARAMETER-EFFICIENT FINETUNING
-use_lora: True
-lora_r: 8
-lora_alpha: 16
-lora_dropout: 0.05
-lora_target_modules: all-linear
-lora_modules_to_save:
-lora_bias: none
-
+use_lora: False
 # MODE
 critic_mode: classification
 score_mode:
@@ -61,12 +53,12 @@ num_negatives_for_training: 1
 qa_template: "Q: <Q>\n\nA: <A>"
 
 # EVALUATION
-eval_blackbox: True
+eval_blackbox: False
 eval_unfinetuned: False
 num_eval_rounds: 1
 
-log_with_wandb: False
+log_with_wandb: True
 
 # LOW-COST COLAB SUBSETS
-max_train_samples: 64
-max_eval_samples: 64
+max_train_samples: 32
+max_eval_samples: 32

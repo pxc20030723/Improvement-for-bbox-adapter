@@ -1,0 +1,186 @@
+_wandb:
+    value:
+        cli_version: 0.26.1
+        code_path: code/main.py
+        e:
+            cl4599vcqbofhzdtpwduvt6z0kfbsp8n:
+                args:
+                    - --config
+                    - configs/strategyqa_colab_lora.yaml
+                codePath: main.py
+                codePathLocal: main.py
+                cpu_count: 4
+                cpu_count_logical: 8
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "253055008768"
+                        used: "46878699520"
+                email: xinchep@andrew.cmu.edu
+                executable: /usr/bin/python3
+                git:
+                    commit: 047282bd60112db5acdba8b6cddd95ed9d6a7d36
+                    remote: https://github.com/pxc20030723/Improvement-for-bbox-adapter.git
+                gpu: Tesla T4
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 2560
+                      memoryTotal: "16106127360"
+                      name: Tesla T4
+                      uuid: GPU-0003a0c7-5b60-06ca-04d1-9be10f61f601
+                host: 661fbd141b0c
+                memory:
+                    total: "54750408704"
+                os: Linux-6.6.113+-x86_64-with-glibc2.35
+                program: /content/Improvement-for-bbox-adapter/main.py
+                python: CPython 3.12.13
+                root: /content/Improvement-for-bbox-adapter
+                startedAt: "2026-05-03T18:42:58.119954Z"
+                writerId: cl4599vcqbofhzdtpwduvt6z0kfbsp8n
+        m: []
+        python_version: 3.12.13
+        t:
+            "1":
+                - 1
+                - 2
+                - 3
+                - 5
+                - 11
+                - 12
+                - 49
+                - 51
+                - 53
+                - 71
+                - 95
+                - 98
+            "2":
+                - 1
+                - 2
+                - 3
+                - 5
+                - 11
+                - 12
+                - 49
+                - 51
+                - 53
+                - 71
+                - 95
+                - 98
+            "3":
+                - 2
+                - 13
+            "4": 3.12.13
+            "5": 0.26.1
+            "6": 4.37.2
+            "12": 0.26.1
+            "13": linux-x86_64
+T_lr:
+    value: 1000
+add_special_tokens:
+    value: true
+batch_size:
+    value: 32
+beam_size:
+    value: 2
+critic_mode:
+    value: classification
+critic_model:
+    value: microsoft/deberta-v3-base
+early_stopping:
+    value: true
+energy_temp:
+    value: 5
+eval_blackbox:
+    value: false
+eval_unfinetuned:
+    value: false
+frequency_penalty:
+    value: 0
+generator_model:
+    value: gpt-4o-mini
+gradient_accumulation_steps:
+    value: 1
+l2_reg_coef:
+    value: 1
+learning_rate:
+    value: 0
+log_with_wandb:
+    value: true
+lora_alpha:
+    value: 16
+lora_bias:
+    value: none
+lora_dropout:
+    value: 0.05
+lora_modules_to_save:
+    value: null
+lora_r:
+    value: 8
+lora_target_modules:
+    value:
+        - query_proj
+        - value_proj
+max_eval_samples:
+    value: 32
+max_length:
+    value: 8
+max_tokens:
+    value: 64
+max_train_samples:
+    value: 32
+min_lr:
+    value: 0.0001
+num_candidates:
+    value: 4
+num_candidates_blackbox_warmup:
+    value: 4
+num_epochs:
+    value: 1
+num_epochs_blackbox_warmup:
+    value: 1
+num_epochs_offline_warmup:
+    value: null
+num_eval_rounds:
+    value: 1
+num_negatives_for_training:
+    value: 1
+num_online_finetuning_repeat:
+    value: 1
+offline_warmup_path:
+    value: null
+only_eval_answers:
+    value: false
+presence_penalty:
+    value: 0
+qa_template:
+    value: |-
+        Q: <Q>
+
+        A: <A>
+score_mode:
+    value: null
+seed:
+    value: 42
+stop:
+    value:
+        - |4+
+        - |4+
+
+        - |4+
+
+
+task:
+    value: StrategyQA
+temperature:
+    value: 0.7
+train_ratio:
+    value: 0.9
+use_blackbox_warmup:
+    value: true
+use_lora:
+    value: true
+use_outcome_supervision:
+    value: true
+warmup_steps:
+    value: 10
