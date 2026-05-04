@@ -8,7 +8,28 @@ generator_model: gpt-4o-mini
 critic_model: microsoft/deberta-v3-base
 add_special_tokens: True
 
+# PARAMETER-EFFICIENT FINETUNING
 use_lora: False
+lora_r: 16
+lora_alpha: 64
+lora_dropout: 0.05
+lora_target_modules:
+  - query_proj
+  - value_proj
+lora_modules_to_save:
+lora_bias: none
+
+# MOE HEAD
+use_moe_head: True
+moe_num_experts: 4
+moe_gating_hidden_size: 128
+moe_expert_hidden_size: 256
+moe_expert_dropout: 0.25
+moe_load_balance_coef: 0.0005
+moe_entropy_coef: 0.001
+moe_top_k: 2
+
+
 # MODE
 critic_mode: classification
 score_mode:
@@ -37,8 +58,8 @@ num_candidates_blackbox_warmup: 4
 
 num_online_finetuning_repeat: 1
 
-num_epochs: 1
-batch_size: 32
+num_epochs: 2
+batch_size: 16
 gradient_accumulation_steps: 1
 
 l2_reg_coef: 1.
@@ -60,5 +81,6 @@ num_eval_rounds: 1
 log_with_wandb: True
 
 # LOW-COST COLAB SUBSETS
-max_train_samples: 32
+max_train_samples: 128
 max_eval_samples: 32
+

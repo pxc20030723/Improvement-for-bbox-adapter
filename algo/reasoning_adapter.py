@@ -168,18 +168,35 @@ class Reasoning_Adapter(Adapter):
                     results["completions"].append(completion)
                     results["ground_truths"].append(ground_truth)
                     results["rounds"].append(round)
+                    moe_diag = self.get_moe_diagnostics()
+                    if moe_diag is not None:
+                      results.setdefault("top_experts", []).append(moe_diag["top_expert"].tolist())
+                      results.setdefault("gate_probs", []).append(moe_diag["gate_probs"].tolist())
+                      results.setdefault("expert_scores", []).append(moe_diag["expert_scores"].tolist())
                 progress_bar.update(self.accelerator.num_processes)
             results = [results]
             
         gathered_results = gather_object(results)
         
         if self.accelerator.is_main_process:  
-            results = dict(completions=[], ground_truths=[], rounds=[])
+            results = dict(completions=[], ground_truths=[], rounds=[],top_experts=[],gate_probs=[],expert_scores=[])
             for result in gathered_results:
                 results["completions"].extend(result["completions"])
                 results["ground_truths"].extend(result["ground_truths"])
                 results["rounds"].extend(result["rounds"])
+                results["top_experts"].extend(result.get("top_experts", []))
+                results["gate_probs"].extend(result.get("gate_probs", []))
+                results["expert_scores"].extend(result.get("expert_scores", []))
+
             accuracy, std = self.get_accuracy(results)
+            if self.config.get("use_moe_head", False) and results.get("gate_probs"):
+               loggers["eval"].info(
+                  f"\n{'='*20}\nMoE diagnostics:\n"
+                  f"top_experts:\n{results['top_experts']}\n"
+                  f"gate_probs:\n{results['gate_probs']}\n"
+                  f"expert_scores:\n{results['expert_scores']}\n"
+              )
+
             print(f"\nStage: {stage_name}, Accuracy: {accuracy * 100:.2f}% ± {std * 100:.2f}%")
             data = [stage_name] + [accuracy]
             self.acc_table.add_data(*data)

@@ -1,0 +1,53 @@
+2026-05-04 16:33:31,719 INFO    MainThread:16872 [wandb_setup.py:_flush():81] Current SDK version is 0.26.1
+2026-05-04 16:33:31,719 INFO    MainThread:16872 [wandb_setup.py:_flush():81] Configure stats pid to 16872
+2026-05-04 16:33:31,719 INFO    MainThread:16872 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-05-04 16:33:31,719 INFO    MainThread:16872 [wandb_init.py:setup_run_log_directory():723] Logging user logs to /content/Improvement-for-bbox-adapter/wandb/run-20260504_163331-b6xtg9om/logs/debug.log
+2026-05-04 16:33:31,719 INFO    MainThread:16872 [wandb_init.py:setup_run_log_directory():724] Logging internal logs to /content/Improvement-for-bbox-adapter/wandb/run-20260504_163331-b6xtg9om/logs/debug-internal.log
+2026-05-04 16:33:31,719 INFO    MainThread:16872 [wandb_init.py:init():850] calling init triggers
+2026-05-04 16:33:31,719 INFO    MainThread:16872 [wandb_init.py:init():855] wandb.init called with sweep_config: {}
+config: {'_wandb': {'code_path': 'code/main.py'}}
+2026-05-04 16:33:31,719 INFO    MainThread:16872 [wandb_init.py:init():898] starting backend
+2026-05-04 16:33:32,255 INFO    MainThread:16872 [wandb_init.py:init():913] sending inform_init request
+2026-05-04 16:33:40,043 INFO    MainThread:16872 [wandb_init.py:init():918] backend started and connected
+2026-05-04 16:33:40,045 INFO    MainThread:16872 [wandb_init.py:init():988] updated telemetry
+2026-05-04 16:33:40,050 INFO    MainThread:16872 [wandb_init.py:init():1011] communicating run to backend with 90.0 second timeout
+2026-05-04 16:34:36,528 WARNING MainThread:16872 [wandb_init.py:init():1595] [no run ID] interrupted
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/wandb/sdk/lib/asyncio_manager.py", line 137, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 451, in result
+    self._condition.wait(timeout)
+  File "/usr/lib/python3.12/threading.py", line 355, in wait
+    waiter.acquire()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/wandb/sdk/wandb_init.py", line 1586, in init
+    run = wi.init(run_settings, run_config, run_printer)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/wandb/sdk/wandb_init.py", line 1022, in init
+    result = wait_with_progress(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/wandb/sdk/mailbox/wait_with_progress.py", line 24, in wait_with_progress
+    return wait_all_with_progress(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/wandb/sdk/mailbox/wait_with_progress.py", line 78, in wait_all_with_progress
+    return asyncer.run(progress_loop_with_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/wandb/sdk/lib/asyncio_manager.py", line 147, in run
+    future.cancel()
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 380, in cancel
+    self._invoke_callbacks()
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 340, in _invoke_callbacks
+    callback(self)
+  File "/usr/lib/python3.12/asyncio/futures.py", line 394, in _call_check_cancel
+    source_loop.call_soon_threadsafe(source.cancel)
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 842, in call_soon_threadsafe
+    def call_soon_threadsafe(self, callback, *args, context=None):
+    
+KeyboardInterrupt
+2026-05-04 16:34:36,538 INFO    wandb-AsyncioManager-main:16872 [service_client.py:_forward_responses():134] Reached EOF.
+2026-05-04 16:34:36,538 INFO    wandb-AsyncioManager-main:16872 [mailbox.py:close():155] Closing mailbox, abandoning 1 handles.
