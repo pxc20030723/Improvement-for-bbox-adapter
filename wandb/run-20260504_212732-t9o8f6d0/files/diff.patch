@@ -1,0 +1,42 @@
+diff --git a/configs/strategyqa_colab_lora.yaml b/configs/strategyqa_colab_lora.yaml
+index 1a191fd..7306b2e 100644
+--- a/configs/strategyqa_colab_lora.yaml
++++ b/configs/strategyqa_colab_lora.yaml
+@@ -81,6 +81,6 @@ num_eval_rounds: 1
+ log_with_wandb: True
+ 
+ # LOW-COST COLAB SUBSETS
+-max_train_samples: 128
++max_train_samples: 64
+ max_eval_samples: 32
+ 
+diff --git a/llms/__pycache__/whitebox.cpython-312.pyc b/llms/__pycache__/whitebox.cpython-312.pyc
+index e7faadd..e225a28 100644
+Binary files a/llms/__pycache__/whitebox.cpython-312.pyc and b/llms/__pycache__/whitebox.cpython-312.pyc differ
+diff --git a/wandb/debug-internal.log b/wandb/debug-internal.log
+index 6b3c2ef..46909b1 120000
+--- a/wandb/debug-internal.log
++++ b/wandb/debug-internal.log
+@@ -1 +1 @@
+-run-20260504_163331-b6xtg9om/logs/debug-internal.log
+\ No newline at end of file
++run-20260504_212732-t9o8f6d0/logs/debug-internal.log
+\ No newline at end of file
+diff --git a/wandb/debug.log b/wandb/debug.log
+index 3a80beb..4e04ec9 120000
+--- a/wandb/debug.log
++++ b/wandb/debug.log
+@@ -1 +1 @@
+-run-20260504_163331-b6xtg9om/logs/debug.log
+\ No newline at end of file
++run-20260504_212732-t9o8f6d0/logs/debug.log
+\ No newline at end of file
+diff --git a/wandb/latest-run b/wandb/latest-run
+index 7d9eb78..af4a2db 120000
+--- a/wandb/latest-run
++++ b/wandb/latest-run
+@@ -1 +1 @@
+-run-20260504_163331-b6xtg9om
+\ No newline at end of file
++run-20260504_212732-t9o8f6d0
+\ No newline at end of file

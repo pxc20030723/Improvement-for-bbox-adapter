@@ -93,9 +93,9 @@ class MoEScoringHead(nn.Module):
             gate_logits = gate_logits.masked_fill(drop_mask.unsqueeze(0), -1e4)
 
         gate_probs = torch.softmax(gate_logits, dim=-1)
-        top_k = self.config.get("moe_top_k")
-        if top_k is not None and top_k < self.num_experts:
-            top_values, top_indices = torch.topk(gate_probs, k=top_k, dim=-1)
+        
+        if self.top_k is not None and self.top_k < self.num_experts:
+            top_values, top_indices = torch.topk(gate_probs, k=self.top_k, dim=-1)
 
             sparse_gate = torch.zeros_like(gate_probs)
             sparse_gate.scatter_(dim=-1, index=top_indices, src=top_values)
@@ -334,12 +334,18 @@ class Whitebox_LLM:
         expert_scores = getattr(classifier_head, "latest_expert_scores", None)
 
         if gate_probs is None or expert_scores is None:
-            return None
+            return 
+        
+        top_k = getattr(classifier_head, "top_k", None) or 1
+        top_k = min(top_k, gate_probs.shape[-1])
+        _, top_k_indices = torch.topk(gate_probs, k=top_k, dim=-1)
+
 
         return {
             "gate_probs": gate_probs.detach().cpu(),
-            "expert_scores": expert_scores.detach().cpu(),
+            "expert_scores": expert_scores.detach().cpu() if expert_scores is not None else None,
             "top_expert": gate_probs.argmax(dim=-1).detach().cpu(),
+            "top_k_experts": top_k_indices.detach().cpu().tolist(),
         }
 
 

@@ -1,0 +1,472 @@
+
+====================
+epoch 0 | idx 0
+
+--------------------
+completion:
+Neanderthals were an ancient species of humans that lived in Europe and parts of Asia.
+They existed from approximately 400,000 to 40,000 years ago.
+There is no definitive evidence that Neanderthals used arithmetic as we understand it today.
+Some studies suggest that Neanderthals had the cognitive capacity for complex thought, but there is no concrete evidence they performed arithmetic calculations or had a numerical system.
+#### No.
+
+
+
+ground-truth:
+False
+round: 0
+correct: True, round accuracy so far: 1.0
+
+--------------------
+completion:
+A: Lieutenants are typically officers in the military or police forces.
+Lieutenants usually require a minimum age and educational qualifications to hold the position.
+In most military and police organizations, there are age restrictions for enlisting or being promoted to officer ranks.
+Typically, the minimum age to enlist in military service is 18 years old.
+Children are generally not allowed to enlist in military or police forces as they are below the minimum age requirement.
+#### No.
+
+
+ground-truth:
+True
+round: 0
+correct: False, round accuracy so far: 0.5
+
+--------------------
+completion:
+A: A coma is a state of unconsciousness where a person cannot respond to external stimuli.
+A: People in a coma do not exhibit awareness of their surroundings.
+A: Fear is an emotional response that requires some level of awareness and cognitive processing.
+A: Since individuals in a coma lack awareness and responsiveness, they cannot experience emotions like fear.
+#### No.
+
+ground-truth:
+False
+round: 0
+correct: True, round accuracy so far: 0.6666666666666666
+
+--------------------
+completion:
+Walt Disney was born in 1901 and died in 1966.
+Anderson Cooper is a journalist and television personality born in 1967.
+Walt Disney passed away in 1966, which means he could not have been interviewed by anyone after that date.
+#### No.
+
+ground-truth:
+False
+round: 0
+correct: True, round accuracy so far: 0.75
+
+--------------------
+completion:
+Gandalf is a powerful wizard from J.R.R. Tolkien's Middle-earth universe.
+Gandalf possesses a wide range of magical abilities and wisdom.
+Barbas is a demon from the TV show "Charmed" with the ability to manipulate fear and a strong connection to the underworld.
+A: Gandalf is a powerful wizard from J.R.R. Tolkien's Middle-earth universe.
+Gandalf possesses a wide range of magical abilities and wisdom.
+Barbas is a demon from the TV show "Charmed" with the ability to manipulate fear and a strong connection to the underworld.
+A: Gandalf is a powerful wizard from J.R.R. Tolkien's Middle-earth universe.
+Gandalf is a powerful wizard from J.R.R. Tolkien's Middle-earth universe.
+ground-truth:
+False
+round: 0
+correct: False, round accuracy so far: 0.6
+
+--------------------
+completion:
+A: A standard chessboard has 64 squares (8 rows and 8 columns).
+A: The average pea pod contains about 5 to 8 peas.
+A: If we take an average of 6 peas per pod, then twenty pea pods would contain about 120 peas (20 pods x 6 peas per pod).
+A: A standard chessboard has 64 squares (8 rows and 8 columns).
+A: Each square on a chessboard can fit one pea.
+A: Therefore, 120 peas would be enough to cover the entire chessboard since 120 is greater than 64.
+A: A standard chessboard has 64 squares (8 rows and 8 columns).
+A: A standard chessboard has 64 squares (8 rows and 8 columns).
+ground-truth:
+True
+round: 0
+correct: False, round accuracy so far: 0.5
+
+--------------------
+completion:
+A: A liquid diet primarily consists of clear liquids or pureed foods.
+Certain soups may not fit these criteria if they contain solid chunks or are too thick.
+A: Clear broths and strained soups are generally acceptable on a liquid diet.
+Some creamy or chunky soups may not be suitable for a liquid diet.
+A: A liquid diet primarily consists of clear liquids or pureed foods.
+A: A liquid diet primarily consists of clear liquids or pureed foods.
+A: A liquid diet primarily consists of clear liquids or pureed foods.
+A: A liquid diet primarily consists of clear liquids or pureed foods.
+ground-truth:
+True
+round: 0
+correct: False, round accuracy so far: 0.42857142857142855
+
+--------------------
+completion:
+Breast cancer awareness is symbolized by a pink ribbon.
+Breast cancer awareness campaigns widely use the pink ribbon as a symbol.
+A: The pink ribbon is recognized globally as a symbol for breast cancer awareness.
+#### Yes.
+
+ground-truth:
+True
+round: 0
+correct: True, round accuracy so far: 0.5
+
+--------------------
+completion:
+Eddie Murphy was born in 1961.
+Eddie Murphy grew up in the 1960s and 1970s.
+At that time, dial phones were common, but mobile phones did not exist yet.
+There were no mobile phones for children to use in cars during Eddie Murphy's childhood.
+#### No.
+
+
+
+ground-truth:
+False
+round: 0
+correct: True, round accuracy so far: 0.5555555555555556
+
+--------------------
+completion:
+Olympia is the capital city of Washington State in the United States.
+Olympia, Washington is named after the Olympic Mountains nearby.
+Hephaestus, in Greek mythology, is known as the god of fire and craftsmanship.
+Hephaestus's workshop is traditionally associated with the location called "Olympus" rather than "Olympia.".
+A: Olympia is the capital city of Washington State in the United States.
+Olympia, Washington is named after the Olympic Mountains nearby.
+Hephaestus, in Greek mythology, is known as the god of fire and craftsmanship.
+Hephaestus's workshop is traditionally associated with the location called "Olympus" rather than "Olympia.".
+ground-truth:
+True
+round: 0
+correct: False, round accuracy so far: 0.5
+
+--------------------
+completion:
+A: A Nike shoebox is designed to hold a pair of shoes, typically measuring around 12 x 8 x 4 inches.
+To determine if a Nike shoebox would be too small to fit a swan, we need to consider the size of both the shoebox and a swan.
+A: Adult swans typically range in size from about 3 to 4 feet in length and can have a wingspan of up to 10 feet.
+A: The average dimensions of a swan far exceed the dimensions of a Nike shoebox.
+A: Therefore, a Nike shoebox would be too small to fit a swan.
+A: A Nike shoebox is designed to hold a pair of shoes, typically measuring around 12 x 8 x 4 inches.
+To determine if a Nike shoebox would be too small to fit a swan, we can break the problem down into smaller parts:.
+1. A Nike shoebox is designed to hold a pair of shoes, typically measuring around 12 x 8 x 4 inches.
+ground-truth:
+True
+round: 0
+correct: False, round accuracy so far: 0.45454545454545453
+
+--------------------
+completion:
+Photosynthesis primarily requires carbon dioxide, water, and sunlight.
+Mars has a very thin atmosphere, composed mostly of carbon dioxide (about 95.3%).
+However, Mars has very little water in liquid form and experiences extreme temperatures.
+A: Photosynthesis primarily requires carbon dioxide, water, and sunlight.
+Mars has a very thin atmosphere, composed mostly of carbon dioxide (about 95.3%).
+However, Mars has very little liquid water and experiences extreme temperatures that are not conducive to photosynthesis.
+A: Photosynthesis primarily requires carbon dioxide, water, and sunlight.
+A: Photosynthesis primarily requires carbon dioxide, water, and sunlight.
+ground-truth:
+True
+round: 0
+correct: False, round accuracy so far: 0.4166666666666667
+
+--------------------
+completion:
+The kitchen 'holy trinity' typically refers to a combination of three ingredients: onions, bell peppers, and celery.
+The kitchen 'holy trinity' is commonly used in Cajun and Creole cooking.
+Celery is a key component of the kitchen 'holy trinity.'.
+A: The kitchen 'holy trinity' typically refers to a combination of three ingredients: onions, bell peppers, and celery.
+A: The kitchen 'holy trinity' typically refers to a combination of three ingredients: onions, bell peppers, and celery.
+A: The kitchen 'holy trinity' typically refers to a combination of three ingredients: onions, bell peppers, and celery.
+A: The kitchen 'holy trinity' typically refers to a combination of three ingredients: onions, bell peppers, and celery.
+A: The kitchen 'holy trinity' typically refers to a combination of three ingredients: onions, bell peppers, and celery.
+ground-truth:
+False
+round: 0
+correct: False, round accuracy so far: 0.38461538461538464
+
+--------------------
+completion:
+Garfield is a fictional cat created by Jim Davis.
+Garfield is known for his love of lasagna, which is an Italian dish.
+Garfield often expresses disdain for other foods but has a strong affection for lasagna.
+#### No.
+
+ground-truth:
+False
+round: 0
+correct: True, round accuracy so far: 0.42857142857142855
+
+--------------------
+completion:
+Jack Dempsey was a professional boxer who became the world heavyweight champion in the 1920s.
+Jack Dempsey retired from boxing in 1927.
+The current WBC heavyweight champion as of 2023 is Tyson Fury.
+Jack Dempsey and Tyson Fury belong to different eras of boxing.
+#### No.
+
+ground-truth:
+False
+round: 0
+correct: True, round accuracy so far: 0.4666666666666667
+
+--------------------
+completion:
+Spartina Patens, commonly known as saltmarsh cordgrass, is a plant that typically grows in coastal salt marshes and brackish areas.
+Spartina Patens is adapted to wet, saline environments, particularly in coastal regions.
+The Sahara Desert is characterized by extremely dry conditions and very little precipitation.
+A: The Sahara Desert does not provide the wet, saline environments that Spartina Patens requires to thrive.
+#### No.
+
+ground-truth:
+False
+round: 0
+correct: True, round accuracy so far: 0.5
+
+--------------------
+completion:
+A: Meat from cows is influenced by their diet.
+The taste of meat can vary based on what the animals are fed.
+Grass-fed beef tends to have a different flavor profile compared to grain-fed beef.
+Grass-fed beef is often described as having a more intense and earthy flavor.
+Wild game typically has a distinct, robust flavor due to their natural diet and lifestyle.
+To determine whether meat from cows fed only grass tastes more like wild game, we can break down the problem as follows:.
+1. Compare the diets of grass-fed cows and wild game.
+2. Grass-fed cows primarily consume grass and forage.
+ground-truth:
+True
+round: 0
+correct: False, round accuracy so far: 0.47058823529411764
+
+--------------------
+completion:
+Popular science refers to the communication of scientific ideas to a general audience.
+Popular science articles are typically written for the public and do not undergo the formal peer review process that academic papers do.
+Academic papers are usually peer-reviewed by experts in the field before publication in scientific journals.
+#### No.
+
+
+
+
+ground-truth:
+False
+round: 0
+correct: True, round accuracy so far: 0.5
+
+--------------------
+completion:
+Dementia is a medical condition that affects memory and cognitive functions.
+A: Dementia is a medical condition that affects memory and cognitive functions.
+A: There is currently no cure for dementia.
+A: A cast is used to immobilize broken bones or injuries.
+A: A cast is not a treatment for dementia.
+#### No.
+
+ground-truth:
+False
+round: 0
+correct: True, round accuracy so far: 0.5263157894736842
+
+--------------------
+completion:
+Wearing sandals provides minimal insulation and protection against cold temperatures.
+Snow can be very cold and slippery.
+Wearing sandals in snow exposes the feet to freezing temperatures and can lead to frostbite.
+A: Wearing sandals provides minimal insulation and protection against cold temperatures.
+Snow can be very cold and slippery.
+A: Wearing sandals provides minimal insulation and protection against cold temperatures.
+Wearing sandals provides minimal insulation and protection against cold temperatures.
+A: Wearing sandals provides minimal insulation and protection against cold temperatures.
+ground-truth:
+False
+round: 0
+correct: False, round accuracy so far: 0.5
+
+--------------------
+completion:
+Parma ham is a type of dry-cured ham that requires a specific aging process.
+The aging process for Parma ham typically takes a minimum of 12 months.
+The pig must be slaughtered in December for the ham to be cured.
+The aging process cannot be completed in time for New Year's if the pig is slaughtered in December.
+#### No.
+
+
+
+ground-truth:
+False
+round: 0
+correct: True, round accuracy so far: 0.5238095238095238
+
+--------------------
+completion:
+Marco Rubio is a United States Senator.
+Marco Rubio is an adult male politician.
+The Candymonium roller coaster at Hershey Park has a minimum height requirement for riders.
+To determine if Marco Rubio could ride the Candymonium roller coaster, we need to consider a few factors:.
+A: Marco Rubio is a United States Senator.
+Marco Rubio is an adult male politician.
+The Candymonium roller coaster at Hershey Park has a minimum height requirement for riders.
+To determine if Marco Rubio could ride the Candymonium roller coaster at Hershey Park, I need to analyze the following:.
+ground-truth:
+True
+round: 0
+correct: False, round accuracy so far: 0.5
+
+--------------------
+completion:
+Alligators are primarily found in freshwater environments, such as swamps and rivers.
+Saltwater crocodiles are larger and more aggressive than alligators.
+Alligators typically grow to around 13-15 feet in length, while saltwater crocodiles can exceed 20 feet.
+A: Alligators are primarily found in freshwater environments, such as swamps and rivers.
+A: Alligators are primarily found in freshwater environments, such as swamps and rivers.
+A: Alligators are primarily found in freshwater environments, such as swamps and rivers.
+A: Alligators are primarily found in freshwater environments, such as swamps and rivers.
+A: Alligators are primarily found in freshwater environments, such as swamps and rivers.
+ground-truth:
+False
+round: 0
+correct: False, round accuracy so far: 0.4782608695652174
+
+--------------------
+completion:
+Terence Tao is a renowned mathematician known for his contributions to various fields in mathematics.
+Terence Tao won the Fields Medal in 2006, which is one of the highest honors in mathematics.
+Eminem is a famous rapper and songwriter, not known for mathematical achievements.
+Eminem has not publicly demonstrated proficiency in mathematics or participated in math competitions.
+#### Yes.
+
+
+ground-truth:
+True
+round: 0
+correct: True, round accuracy so far: 0.5
+
+--------------------
+completion:
+Frost is a thin layer of ice that forms on surfaces when the temperature drops below freezing.
+Frost occurs when the temperature is at or below 0°C (32°F) and moisture in the air condenses and freezes.
+Frost does not necessarily indicate that it will snow.
+Snow occurs when there is precipitation, which is not always present when frost forms.
+#### No.
+
+ground-truth:
+False
+round: 0
+correct: True, round accuracy so far: 0.52
+
+--------------------
+completion:
+Mary, Queen of Scots was born in December 1542.
+Mary, Queen of Scots was of Scottish and French descent.
+Mary, Queen of Scots was the daughter of King James V of Scotland and Mary of Guise, who was French.
+To determine if Scottish people descended from Mary, Queen of Scots are part French, we can break it down as follows:.
+1. Mary, Queen of Scots had a French mother, Mary of Guise.
+2. This means that Mary, Queen of Scots herself had French ancestry.
+3. Scottish people descended from Mary, Queen of Scots would inherit her ancestry.
+4. Therefore, it is reasonable to conclude that those descended from her would have some part French ancestry.
+ground-truth:
+True
+round: 0
+correct: False, round accuracy so far: 0.5
+
+--------------------
+completion:
+A: The Titanic was approximately 882 feet long and 92 feet wide.
+Giant squids can grow to lengths of up to 43 feet.
+The deck of the Titanic would have ample space for a giant squid, given its maximum length.
+#### Yes.
+
+
+
+
+ground-truth:
+True
+round: 0
+correct: True, round accuracy so far: 0.5185185185185185
+
+--------------------
+completion:
+Methuselah is a biblical figure mentioned in the Book of Genesis.
+Methuselah is said to have lived 969 years according to the Bible.
+Sarah is another biblical figure mentioned in the Book of Genesis.
+Sarah lived to be 127 years old according to the Bible.
+To determine if Methuselah lived at least 800 years as long as Sarah, we can break down the problem as follows:.
+1. Methuselah lived 969 years.
+2. Sarah lived 127 years.
+3. To find if Methuselah lived at least 800 years longer than Sarah, we can subtract Sarah's age from Methuselah's age: 969 - 127 = 842.
+ground-truth:
+True
+round: 0
+correct: False, round accuracy so far: 0.5
+
+--------------------
+completion:
+Ground bell peppers are a spice made from dried, ground bell peppers.
+Ground black pepper is a spice made from the berries of the Piper nigrum plant.
+Ground bell peppers and ground black pepper come from different plants.
+Ground bell peppers are not the same as black pepper.
+#### No.
+
+ground-truth:
+False
+round: 0
+correct: True, round accuracy so far: 0.5172413793103449
+
+--------------------
+completion:
+Disney's seven dwarfs are characters from the animated film "Snow White and the Seven Dwarfs," released in 1937.
+The seven dwarfs in the Disney film are named Doc, Grumpy, Happy, Sleepy, Bashful, Sneezy, and Dopey.
+The original story of Snow White was published by the Brothers Grimm in their collection of fairy tales in 1812.
+The Brothers Grimm's version of Snow White included dwarfs, but they were not named or characterized as in the Disney adaptation.
+A: The original story of Snow White was published by the Brothers Grimm in their collection of fairy tales in 1812.
+A: Disney's seven dwarfs are characters from the animated film "Snow White and the Seven Dwarfs," released in 1937.
+A: Disney's seven dwarfs are characters from the animated film "Snow White and the Seven Dwarfs," released in 1937.
+A: Disney's seven dwarfs are characters from the animated film "Snow White and the Seven Dwarfs," released in 1937.
+ground-truth:
+False
+round: 0
+correct: False, round accuracy so far: 0.5
+
+--------------------
+completion:
+Johann Sebastian Bach was a German composer who lived from 1685 to 1750.
+Bach's music is highly regarded and has influenced many composers and musicians.
+Bach lived long before the Grammy Awards were established, which began in 1959.
+#### No.
+
+ground-truth:
+False
+round: 0
+correct: True, round accuracy so far: 0.5161290322580645
+
+--------------------
+completion:
+A: The New York Public Library is located in Manhattan, New York City.
+To visit the New York Public Library, you would need to be in Manhattan, New York City.
+To go to Six Flags Great Escape, which is located in Queensbury, New York, you would need to travel approximately 200 miles north of Manhattan.
+The New York Public Library is located in Manhattan, New York City.
+A: The New York Public Library is located in Manhattan, New York City.
+A: The New York Public Library is located in Manhattan, New York City.
+A: The New York Public Library is located in Manhattan, New York City.
+A: The New York Public Library is located in Manhattan, New York City.
+ground-truth:
+True
+round: 0
+correct: False, round accuracy so far: 0.5
+====================
+Overall Accuracy: 0.5
+Standard Deviation across rounds: 0.0
+
+====================
+MoE diagnostics:
+top_experts:
+[[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]]
+gate_probs:
+[[[0.0, 0.6096839308738708, 0.39031606912612915, 0.0], [0.0, 0.609466016292572, 0.3905339539051056, 0.0], [0.0, 0.5999979972839355, 0.40000206232070923, 0.0], [0.0, 0.5999979972839355, 0.40000206232070923, 0.0]], [[0.0, 0.5984734892845154, 0.40152648091316223, 0.0], [0.0, 0.5984734892845154, 0.40152648091316223, 0.0], [0.0, 0.6020835041999817, 0.3979164659976959, 0.0], [0.0, 0.6020835041999817, 0.3979164659976959, 0.0]], [[0.0, 0.5911093354225159, 0.40889066457748413, 0.0], [0.0, 0.5911093354225159, 0.40889066457748413, 0.0], [0.0, 0.596591055393219, 0.4034089148044586, 0.0], [0.0, 0.596591055393219, 0.4034089148044586, 0.0]], [[0.0, 0.5876251459121704, 0.412374883890152, 0.0], [0.0, 0.5876251459121704, 0.412374883890152, 0.0], [0.0, 0.5888891220092773, 0.41111084818840027, 0.0], [0.0, 0.5888891220092773, 0.41111084818840027, 0.0]], [[0.0, 0.6087394952774048, 0.39126056432724, 0.0], [0.0, 0.6069936156272888, 0.3930063843727112, 0.0], [0.0, 0.6070809960365295, 0.39291906356811523, 0.0], [0.0, 0.6077213883399963, 0.39227864146232605, 0.0]], [[0.0, 0.6010741591453552, 0.39892590045928955, 0.0], [0.0, 0.6010741591453552, 0.39892590045928955, 0.0], [0.0, 0.5908271670341492, 0.40917283296585083, 0.0], [0.0, 0.5908271670341492, 0.40917283296585083, 0.0]], [[0.0, 0.6079250574111938, 0.39207494258880615, 0.0], [0.0, 0.6079250574111938, 0.39207494258880615, 0.0], [0.0, 0.5982168316841125, 0.40178313851356506, 0.0], [0.0, 0.5982168316841125, 0.40178313851356506, 0.0]], [[0.0, 0.5786044001579285, 0.42139557003974915, 0.0], [0.0, 0.5786044001579285, 0.42139557003974915, 0.0], [0.0, 0.5791873931884766, 0.4208126366138458, 0.0], [0.0, 0.5791873931884766, 0.4208126366138458, 0.0]], [[0.0, 0.6060540676116943, 0.3939459025859833, 0.0], [0.0, 0.6060540676116943, 0.3939459025859833, 0.0], [0.0, 0.5953969955444336, 0.4046030044555664, 0.0], [0.0, 0.5953969955444336, 0.4046030044555664, 0.0]], [[0.0, 0.6089575290679932, 0.3910425305366516, 0.0], [0.0, 0.6089575290679932, 0.3910425305366516, 0.0], [0.0, 0.6010228991508484, 0.3989771008491516, 0.0], [0.0, 0.6010228991508484, 0.3989771008491516, 0.0]], [[0.0, 0.6063382029533386, 0.3936617970466614, 0.0], [0.0, 0.6050845980644226, 0.394915372133255, 0.0], [0.0, 0.6062070727348328, 0.39379289746284485, 0.0], [0.0, 0.6011326313018799, 0.39886733889579773, 0.0]], [[0.0, 0.606010377407074, 0.39398959279060364, 0.0], [0.0, 0.606010377407074, 0.39398959279060364, 0.0], [0.0, 0.6066513657569885, 0.3933486044406891, 0.0], [0.0, 0.6073284149169922, 0.3926715552806854, 0.0]], [[0.0, 0.6074885129928589, 0.3925114870071411, 0.0], [0.0, 0.6074885129928589, 0.3925114870071411, 0.0], [0.0, 0.5979233980178833, 0.4020766019821167, 0.0], [0.0, 0.5979233980178833, 0.4020766019821167, 0.0]], [[0.0, 0.5907552242279053, 0.40924474596977234, 0.0], [0.0, 0.5907552242279053, 0.40924474596977234, 0.0], [0.0, 0.5936018824577332, 0.40639808773994446, 0.0], [0.0, 0.5936018824577332, 0.40639808773994446, 0.0]], [[0.0, 0.5868003964424133, 0.41319966316223145, 0.0], [0.0, 0.6066732406616211, 0.3933267593383789, 0.0], [0.0, 0.5891329050064087, 0.4108670651912689, 0.0], [0.0, 0.5891329050064087, 0.4108670651912689, 0.0]], [[0.0, 0.5945881009101868, 0.4054119288921356, 0.0], [0.0, 0.5945881009101868, 0.4054119288921356, 0.0], [0.0, 0.6031870245933533, 0.39681297540664673, 0.0], [0.0, 0.6031870245933533, 0.39681297540664673, 0.0]], [[0.0, 0.6049970984458923, 0.39500290155410767, 0.0], [0.0, 0.6065202355384827, 0.39347967505455017, 0.0], [0.0, 0.6063236594200134, 0.3936763405799866, 0.0], [0.0, 0.6057189106941223, 0.3942811191082001, 0.0]], [[0.0, 0.6093643307685852, 0.3906356394290924, 0.0], [0.0, 0.6093643307685852, 0.3906356394290924, 0.0], [0.0, 0.6016008853912354, 0.39839911460876465, 0.0], [0.0, 0.6016008853912354, 0.39839911460876465, 0.0]], [[0.0, 0.5883598327636719, 0.4116401672363281, 0.0], [0.0, 0.5883598327636719, 0.4116401672363281, 0.0], [0.0, 0.5970903635025024, 0.40290960669517517, 0.0], [0.0, 0.5970903635025024, 0.40290960669517517, 0.0]], [[0.0, 0.6010411977767944, 0.39895883202552795, 0.0], [0.0, 0.6010411977767944, 0.39895883202552795, 0.0], [0.0, 0.5881547331809998, 0.41184526681900024, 0.0], [0.0, 0.5881547331809998, 0.41184526681900024, 0.0]], [[0.0, 0.6092044711112976, 0.3907954692840576, 0.0], [0.0, 0.610163152217865, 0.389836847782135, 0.0], [0.0, 0.6104534864425659, 0.38954654335975647, 0.0], [0.0, 0.6103808879852295, 0.3896191120147705, 0.0]], [[0.0, 0.5980994701385498, 0.4019005596637726, 0.0], [0.0, 0.6022882461547852, 0.39771178364753723, 0.0], [0.0, 0.6029167175292969, 0.3970833122730255, 0.0], [0.0, 0.5963670611381531, 0.4036329984664917, 0.0]], [[0.0, 0.6081141829490662, 0.3918858468532562, 0.0], [0.0, 0.6081141829490662, 0.3918858468532562, 0.0], [0.0, 0.5985468626022339, 0.4014531373977661, 0.0], [0.0, 0.5985468626022339, 0.4014531373977661, 0.0]], [[0.0, 0.5957645773887634, 0.40423551201820374, 0.0], [0.0, 0.5957645773887634, 0.40423551201820374, 0.0], [0.0, 0.6010228991508484, 0.3989771008491516, 0.0], [0.0, 0.6010228991508484, 0.3989771008491516, 0.0]], [[0.0, 0.591219961643219, 0.4087800085544586, 0.0], [0.0, 0.591219961643219, 0.4087800085544586, 0.0], [0.0, 0.5970537066459656, 0.4029462933540344, 0.0], [0.0, 0.5970537066459656, 0.4029462933540344, 0.0]], [[0.0, 0.6073211431503296, 0.392678827047348, 0.0], [0.0, 0.6072920560836792, 0.3927079737186432, 0.0], [0.0, 0.6072629690170288, 0.39273709058761597, 0.0], [0.0, 0.6077359318733215, 0.39226409792900085, 0.0]], [[0.0, 0.5968554019927979, 0.40314456820487976, 0.0], [0.0, 0.5968554019927979, 0.40314456820487976, 0.0], [0.0, 0.5809946060180664, 0.41900545358657837, 0.0], [0.0, 0.5809946060180664, 0.41900545358657837, 0.0]], [[0.0, 0.6058354377746582, 0.394164502620697, 0.0], [0.0, 0.6043843030929565, 0.39561566710472107, 0.0], [0.0, 0.6012058258056641, 0.39879417419433594, 0.0], [0.0, 0.6057990193367004, 0.3942009210586548, 0.0]], [[0.0, 0.5817264318466187, 0.41827359795570374, 0.0], [0.0, 0.5817264318466187, 0.41827359795570374, 0.0], [0.0, 0.581350564956665, 0.41864946484565735, 0.0], [0.0, 0.581350564956665, 0.41864946484565735, 0.0]], [[0.0, 0.612367570400238, 0.3876323699951172, 0.0], [0.0, 0.612367570400238, 0.3876323699951172, 0.0], [0.0, 0.6043989658355713, 0.3956010937690735, 0.0], [0.0, 0.6043989658355713, 0.3956010937690735, 0.0]], [[0.0, 0.6065276265144348, 0.39347243309020996, 0.0], [0.0, 0.6065276265144348, 0.39347243309020996, 0.0], [0.0, 0.5957130789756775, 0.4042869210243225, 0.0], [0.0, 0.5957130789756775, 0.4042869210243225, 0.0]], [[0.0, 0.6037931442260742, 0.3962068557739258, 0.0], [0.0, 0.6037931442260742, 0.3962068557739258, 0.0], [0.0, 0.5904545187950134, 0.4095454216003418, 0.0], [0.0, 0.5904545187950134, 0.4095454216003418, 0.0]]]
+expert_scores:
+[[[-0.004669189453125, -0.10888671875, -0.2332763671875, -0.06646728515625], [-0.0048828125, -0.1107177734375, -0.2359619140625, -0.06842041015625], [0.03802490234375, -0.05615234375, -0.1171875, -0.036224365234375], [0.03802490234375, -0.05615234375, -0.1171875, -0.036224365234375]], [[0.1300048828125, 0.048431396484375, 0.1793212890625, 0.079833984375], [0.1300048828125, 0.048431396484375, 0.1793212890625, 0.079833984375], [0.05963134765625, -0.023040771484375, -0.0289764404296875, 0.00351715087890625], [0.05963134765625, -0.023040771484375, -0.0289764404296875, 0.00351715087890625]], [[0.1878662109375, 0.1326904296875, 0.337890625, 0.13916015625], [0.1878662109375, 0.1326904296875, 0.337890625, 0.13916015625], [0.09979248046875, 0.039764404296875, 0.07769775390625, 0.040069580078125], [0.09979248046875, 0.039764404296875, 0.07769775390625, 0.040069580078125]], [[0.1666259765625, 0.09332275390625, 0.254150390625, 0.10760498046875], [0.1666259765625, 0.09332275390625, 0.254150390625, 0.10760498046875], [0.114501953125, 0.04254150390625, 0.0965576171875, 0.03619384765625], [0.114501953125, 0.04254150390625, 0.0965576171875, 0.03619384765625]], [[-0.0039005279541015625, -0.10174560546875, -0.22021484375, -0.06646728515625], [0.002490997314453125, -0.09375, -0.20361328125, -0.063232421875], [0.001922607421875, -0.09405517578125, -0.20458984375, -0.06317138671875], [-0.00023639202117919922, -0.09710693359375, -0.2115478515625, -0.0650634765625]], [[0.07635498046875, 0.018890380859375, 0.01525115966796875, 0.02667236328125], [0.07635498046875, 0.018890380859375, 0.01525115966796875, 0.02667236328125], [0.1275634765625, 0.0787353515625, 0.1668701171875, 0.072509765625], [0.1275634765625, 0.0787353515625, 0.1668701171875, 0.072509765625]], [[0.054595947265625, -0.01488494873046875, -0.045928955078125, 0.006870269775390625], [0.054595947265625, -0.01488494873046875, -0.045928955078125, 0.006870269775390625], [0.103759765625, 0.048797607421875, 0.1005859375, 0.051788330078125], [0.103759765625, 0.048797607421875, 0.1005859375, 0.051788330078125]], [[0.25830078125, 0.238525390625, 0.56640625, 0.2286376953125], [0.25830078125, 0.238525390625, 0.56640625, 0.2286376953125], [0.1904296875, 0.1602783203125, 0.33349609375, 0.1300048828125], [0.1904296875, 0.1602783203125, 0.33349609375, 0.1300048828125]], [[0.0216827392578125, -0.06591796875, -0.1541748046875, -0.0362548828125], [0.0216827392578125, -0.06591796875, -0.1541748046875, -0.0362548828125], [0.0838623046875, 0.01244354248046875, 0.0246429443359375, 0.0177154541015625], [0.0838623046875, 0.01244354248046875, 0.0246429443359375, 0.0177154541015625]], [[0.0003523826599121094, -0.09796142578125, -0.2127685546875, -0.06268310546875], [0.0003523826599121094, -0.09796142578125, -0.2127685546875, -0.06268310546875], [0.0419921875, -0.04486083984375, -0.094482421875, -0.0308380126953125], [0.0419921875, -0.04486083984375, -0.094482421875, -0.0308380126953125]], [[0.0261688232421875, -0.061767578125, -0.12335205078125, -0.0226287841796875], [0.0347900390625, -0.04779052734375, -0.09735107421875, -0.01404571533203125], [0.02178955078125, -0.0692138671875, -0.1341552734375, -0.027069091796875], [0.06182861328125, -0.01727294921875, -0.01983642578125, 0.0068511962890625]], [[0.034637451171875, -0.048187255859375, -0.1102294921875, -0.0254669189453125], [0.037445068359375, -0.042877197265625, -0.1007080078125, -0.0189971923828125], [0.029083251953125, -0.0562744140625, -0.12103271484375, -0.025360107421875], [0.02459716796875, -0.06439208984375, -0.131591796875, -0.0278472900390625]], [[0.01479339599609375, -0.07733154296875, -0.1700439453125, -0.043975830078125], [0.01479339599609375, -0.07733154296875, -0.1700439453125, -0.043975830078125], [0.07061767578125, -0.0113372802734375, -0.020904541015625, -0.005649566650390625], [0.07061767578125, -0.0113372802734375, -0.020904541015625, -0.005649566650390625]], [[0.1641845703125, 0.09429931640625, 0.252685546875, 0.10491943359375], [0.1641845703125, 0.09429931640625, 0.252685546875, 0.10491943359375], [0.08563232421875, 0.01534271240234375, 0.02215576171875, 0.01015472412109375], [0.08563232421875, 0.01534271240234375, 0.02215576171875, 0.01015472412109375]], [[0.1829833984375, 0.119140625, 0.306640625, 0.1273193359375], [0.009246826171875, -0.07989501953125, -0.1904296875, -0.051544189453125], [0.11163330078125, 0.050079345703125, 0.0931396484375, 0.034149169921875], [0.11163330078125, 0.050079345703125, 0.0931396484375, 0.034149169921875]], [[0.1373291015625, 0.0557861328125, 0.1810302734375, 0.07525634765625], [0.1373291015625, 0.0557861328125, 0.1810302734375, 0.07525634765625], [0.0491943359375, -0.0279083251953125, -0.0701904296875, -0.01459503173828125], [0.0491943359375, -0.0279083251953125, -0.0701904296875, -0.01459503173828125]], [[0.043243408203125, -0.043975830078125, -0.08270263671875, -0.00959014892578125], [0.038116455078125, -0.04925537109375, -0.092529296875, -0.00909423828125], [0.03369140625, -0.056182861328125, -0.1058349609375, -0.01422882080078125], [0.040863037109375, -0.046905517578125, -0.08984375, -0.01110076904296875]], [[0.01082611083984375, -0.08453369140625, -0.1788330078125, -0.044921875], [0.01082611083984375, -0.08453369140625, -0.1788330078125, -0.044921875], [0.058380126953125, -0.023040771484375, -0.041473388671875, -0.0042572021484375], [0.058380126953125, -0.023040771484375, -0.041473388671875, -0.0042572021484375]], [[0.1920166015625, 0.137451171875, 0.34814453125, 0.1416015625], [0.1920166015625, 0.137451171875, 0.34814453125, 0.1416015625], [0.09185791015625, 0.03216552734375, 0.04901123046875, 0.027923583984375], [0.09185791015625, 0.03216552734375, 0.04901123046875, 0.027923583984375]], [[0.08770751953125, 0.039093017578125, 0.020751953125, 0.0234222412109375], [0.08770751953125, 0.039093017578125, 0.020751953125, 0.0234222412109375], [0.150634765625, 0.11944580078125, 0.211669921875, 0.08795166015625], [0.150634765625, 0.11944580078125, 0.211669921875, 0.08795166015625]], [[0.01561737060546875, -0.072021484375, -0.1632080078125, -0.03948974609375], [0.0082550048828125, -0.08209228515625, -0.1767578125, -0.040924072265625], [0.00836944580078125, -0.08160400390625, -0.1767578125, -0.039886474609375], [0.00856781005859375, -0.08270263671875, -0.1744384765625, -0.039642333984375]], [[0.06036376953125, -0.009246826171875, -0.061859130859375, -0.01541900634765625], [0.040191650390625, -0.029388427734375, -0.1051025390625, -0.021759033203125], [0.0305938720703125, -0.048187255859375, -0.1312255859375, -0.0311431884765625], [0.0706787109375, 0.002887725830078125, -0.031768798828125, -0.0030918121337890625]], [[0.0277099609375, -0.057891845703125, -0.1243896484375, -0.023773193359375], [0.0277099609375, -0.057891845703125, -0.1243896484375, -0.023773193359375], [0.08319091796875, 0.01320648193359375, 0.034515380859375, 0.0238037109375], [0.08319091796875, 0.01320648193359375, 0.034515380859375, 0.0238037109375]], [[0.1298828125, 0.0465087890625, 0.161865234375, 0.06658935546875], [0.1298828125, 0.0465087890625, 0.161865234375, 0.06658935546875], [0.035919189453125, -0.059906005859375, -0.11932373046875, -0.039459228515625], [0.035919189453125, -0.059906005859375, -0.11932373046875, -0.039459228515625]], [[0.18896484375, 0.134033203125, 0.344970703125, 0.13671875], [0.18896484375, 0.134033203125, 0.344970703125, 0.13671875], [0.10333251953125, 0.047576904296875, 0.08880615234375, 0.0419921875], [0.10333251953125, 0.047576904296875, 0.08880615234375, 0.0419921875]], [[0.0295867919921875, -0.050262451171875, -0.12109375, -0.0197296142578125], [0.0285797119140625, -0.0518798828125, -0.1265869140625, -0.0222015380859375], [0.0261688232421875, -0.056365966796875, -0.1336669921875, -0.0249481201171875], [0.02655029296875, -0.05645751953125, -0.1279296875, -0.0213623046875]], [[0.10321044921875, 0.0634765625, 0.06695556640625, 0.040740966796875], [0.10321044921875, 0.0634765625, 0.06695556640625, 0.040740966796875], [0.184814453125, 0.151611328125, 0.30712890625, 0.12042236328125], [0.184814453125, 0.151611328125, 0.30712890625, 0.12042236328125]], [[0.027740478515625, -0.049591064453125, -0.127197265625, -0.0244598388671875], [0.034271240234375, -0.04144287109375, -0.11236572265625, -0.0209808349609375], [0.05377197265625, -0.0200042724609375, -0.06622314453125, -0.01453399658203125], [0.0265655517578125, -0.05096435546875, -0.1279296875, -0.0256500244140625]], [[0.2384033203125, 0.2003173828125, 0.485107421875, 0.1995849609375], [0.2384033203125, 0.2003173828125, 0.485107421875, 0.1995849609375], [0.1749267578125, 0.1392822265625, 0.2890625, 0.1162109375], [0.1749267578125, 0.1392822265625, 0.2890625, 0.1162109375]], [[0.01517486572265625, -0.0714111328125, -0.152099609375, -0.035980224609375], [0.01517486572265625, -0.0714111328125, -0.152099609375, -0.035980224609375], [0.046142578125, -0.0367431640625, -0.07049560546875, -0.0189666748046875], [0.046142578125, -0.0367431640625, -0.07049560546875, -0.0189666748046875]], [[0.00251007080078125, -0.10089111328125, -0.2183837890625, -0.062744140625], [0.00251007080078125, -0.10089111328125, -0.2183837890625, -0.062744140625], [0.06695556640625, -0.01953125, -0.03533935546875, -0.0101165771484375], [0.06695556640625, -0.01953125, -0.03533935546875, -0.0101165771484375]], [[0.0484619140625, -0.0222015380859375, -0.07275390625, -0.007343292236328125], [0.0484619140625, -0.0222015380859375, -0.07275390625, -0.007343292236328125], [0.11724853515625, 0.0535888671875, 0.11041259765625, 0.047393798828125], [0.11724853515625, 0.0535888671875, 0.11041259765625, 0.047393798828125]]]
+

@@ -81,6 +81,6 @@ num_eval_rounds: 1
 log_with_wandb: True
 
 # LOW-COST COLAB SUBSETS
-max_train_samples: 128
+max_train_samples: 64
 max_eval_samples: 32
 

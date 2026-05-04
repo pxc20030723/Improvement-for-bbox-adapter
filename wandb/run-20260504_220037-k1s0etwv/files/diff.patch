@@ -1,0 +1,75 @@
+diff --git a/configs/strategyqa_colab_lora.yaml b/configs/strategyqa_colab_lora.yaml
+index 1a191fd..7306b2e 100644
+--- a/configs/strategyqa_colab_lora.yaml
++++ b/configs/strategyqa_colab_lora.yaml
+@@ -81,6 +81,6 @@ num_eval_rounds: 1
+ log_with_wandb: True
+ 
+ # LOW-COST COLAB SUBSETS
+-max_train_samples: 128
++max_train_samples: 64
+ max_eval_samples: 32
+ 
+diff --git a/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_0_idx_0/data-00000-of-00001.arrow b/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_0_idx_0/data-00000-of-00001.arrow
+index dce1640..2039071 100644
+Binary files a/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_0_idx_0/data-00000-of-00001.arrow and b/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_0_idx_0/data-00000-of-00001.arrow differ
+diff --git a/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_0_idx_0/state.json b/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_0_idx_0/state.json
+index e803e30..2b7f645 100644
+--- a/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_0_idx_0/state.json
++++ b/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_0_idx_0/state.json
+@@ -4,7 +4,7 @@
+       "filename": "data-00000-of-00001.arrow"
+     }
+   ],
+-  "_fingerprint": "c1fe73521eb0f321",
++  "_fingerprint": "b49688529f435f24",
+   "_format_columns": null,
+   "_format_kwargs": {},
+   "_format_type": "torch",
+diff --git a/llms/__pycache__/whitebox.cpython-312.pyc b/llms/__pycache__/whitebox.cpython-312.pyc
+index e7faadd..19aa1b4 100644
+Binary files a/llms/__pycache__/whitebox.cpython-312.pyc and b/llms/__pycache__/whitebox.cpython-312.pyc differ
+diff --git a/llms/whitebox.py b/llms/whitebox.py
+index f0c3ba5..3c1f139 100644
+--- a/llms/whitebox.py
++++ b/llms/whitebox.py
+@@ -93,9 +93,9 @@ class MoEScoringHead(nn.Module):
+             gate_logits = gate_logits.masked_fill(drop_mask.unsqueeze(0), -1e4)
+ 
+         gate_probs = torch.softmax(gate_logits, dim=-1)
+-        top_k = self.config.get("moe_top_k")
+-        if top_k is not None and top_k < self.num_experts:
+-            top_values, top_indices = torch.topk(gate_probs, k=top_k, dim=-1)
++        
++        if self.top_k is not None and self.top_k < self.num_experts:
++            top_values, top_indices = torch.topk(gate_probs, k=self.top_k, dim=-1)
+ 
+             sparse_gate = torch.zeros_like(gate_probs)
+             sparse_gate.scatter_(dim=-1, index=top_indices, src=top_values)
+diff --git a/wandb/debug-internal.log b/wandb/debug-internal.log
+index 6b3c2ef..40cb50b 120000
+--- a/wandb/debug-internal.log
++++ b/wandb/debug-internal.log
+@@ -1 +1 @@
+-run-20260504_163331-b6xtg9om/logs/debug-internal.log
+\ No newline at end of file
++run-20260504_220037-k1s0etwv/logs/debug-internal.log
+\ No newline at end of file
+diff --git a/wandb/debug.log b/wandb/debug.log
+index 3a80beb..6bb94a4 120000
+--- a/wandb/debug.log
++++ b/wandb/debug.log
+@@ -1 +1 @@
+-run-20260504_163331-b6xtg9om/logs/debug.log
+\ No newline at end of file
++run-20260504_220037-k1s0etwv/logs/debug.log
+\ No newline at end of file
+diff --git a/wandb/latest-run b/wandb/latest-run
+index 7d9eb78..894546a 120000
+--- a/wandb/latest-run
++++ b/wandb/latest-run
+@@ -1 +1 @@
+-run-20260504_163331-b6xtg9om
+\ No newline at end of file
++run-20260504_220037-k1s0etwv
+\ No newline at end of file
