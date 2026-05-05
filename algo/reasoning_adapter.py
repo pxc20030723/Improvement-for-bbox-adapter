@@ -29,12 +29,18 @@ class Reasoning_Adapter(Adapter):
  
     def get_ans_from_blackbox(self, q, n=1, temp=1):
         qa_text = self.formulate_qa(q=q, a="")
-        prompt = f"{self.prompt}\n{qa_text}"
+        prompt = (f"{self.prompt}\n"
+              f"{qa_text}\n\n"
+             "End your answer with exactly one final line: #### Yes. or #### No."
+        )
+        stop = self.config.get("stop", None)
+        if stop == []:
+           stop = None
         ans = self.generator.get_response(
                 prompt, 
                 n=n, 
-                stop=["\n\n"], 
-                max_tokens=500, 
+                stop=stop, 
+                max_tokens=self.config.get("max_tokens", 256), 
                 extract_first_sentence=False,
                 temp=temp
             )
@@ -159,7 +165,7 @@ class Reasoning_Adapter(Adapter):
         
         self.accelerator.wait_for_everyone()
         with self.accelerator.split_between_processes(split_dict) as splitted_dict:
-            results = dict(completions=[], ground_truths=[], rounds=[])
+            results = dict(completions=[], ground_truths=[], rounds=[], top_experts=[],top_k_experts=[],gate_probs=[],expert_scores=[],)
             for idx, round in zip(splitted_dict["list_idx"], splitted_dict["round_idx"]):
                 b = eval_dataset[idx]
                 result = process_batch_item(b)
@@ -170,10 +176,10 @@ class Reasoning_Adapter(Adapter):
                     results["rounds"].append(round)
                     moe_diag = self.get_moe_diagnostics()
                     if moe_diag is not None:
-                      results.setdefault("top_experts", []).append(moe_diag["top_expert"].tolist())
-                      results.setdefault("top_k_experts", []).append(moe_diag["top_k_experts"].tolist())
-                      results.setdefault("gate_probs", []).append(moe_diag["gate_probs"].tolist())
-                      results.setdefault("expert_scores", []).append(moe_diag["expert_scores"].tolist())
+                      results["top_experts"].append(moe_diag["top_expert"])
+                      results["top_k_experts"].append(moe_diag["top_k_experts"])
+                      results["gate_probs"].append(moe_diag["gate_probs"])
+                      results["expert_scores"].append(moe_diag["expert_scores"])
                 progress_bar.update(self.accelerator.num_processes)
             results = [results]
             

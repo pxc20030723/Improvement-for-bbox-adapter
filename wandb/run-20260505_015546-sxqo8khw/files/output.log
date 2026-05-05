@@ -1,0 +1,51 @@
+[34m[1mwandb[0m: Detected [openai] in use.
+[34m[1mwandb[0m: Use W&B Weave for improved LLM call tracing. Install Weave with `pip install weave` then add `import weave` to the top of your script.
+[34m[1mwandb[0m: For more information, check out the docs at: https://weave-docs.wandb.ai
+Train size: 4, eval size: 4
+Offline warmup with: None
+Training:   0% 0/2 [00:00<?, ?it/s]       Parameter 'function'=<function Whitebox_LLM.build_dataset.<locals>.<lambda> at 0x7fafbe879c60> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+prepare: 100% 4/4 [00:09<00:00,  2.44s/it]
+
+Dataset saved to data/StrategyQA/microsoft/deberta-v3-base/train_epoch_0_idx_0
+Loss: 0.006: 100% 2/2 [00:01<00:00,  1.48it/s]
+Eval: 0 | idx 0: 100% 4/4 [00:32<00:00,  8.02s/it]
+
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4910, 0.0000, 0.5090], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4910, 0.0000, 0.5090], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.49096423387527466
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.5090357661247253
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4814, 0.0000, 0.5186], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4814, 0.0000, 0.5186], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.48136651515960693
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.5186334848403931
+prepare: 100% 4/4 [00:34<00:00,  8.58s/it].43s/it]
+
+Stage: Eval: 0 | idx 0, Accuracy: 50.00% ± 0.00%
+Loss: 0.005: 100% 2/2 [00:00<00:00,  2.08it/s]
+
+Dataset saved to data/StrategyQA/microsoft/deberta-v3-base/train_epoch_1_idx_0
+Eval: 1 | idx 0: 100% 4/4 [00:32<00:00,  8.10s/it]
+
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4912, 0.0000, 0.5088], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4912, 0.0000, 0.5088], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4911826550960541
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.5088173151016235
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4009, 0.0924, 0.5067], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4009, 0.0924, 0.5067], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4008534550666809
+logging expert_2_usage = 0.09240441024303436
+logging expert_3_usage = 0.5067421197891235
+Eval: 1 | idx 0: 100% 4/4 [00:32<00:00,  7.35s/it]
+
+Stage: Eval: 1 | idx 0, Accuracy: 25.00% ± 0.00%

@@ -1,0 +1,44 @@
+{
+  "os":  "Linux-6.6.113+-x86_64-with-glibc2.35",
+  "python":  "CPython 3.12.13",
+  "startedAt":  "2026-05-05T02:06:29.487179Z",
+  "args":  [
+    "--config",
+    "configs/strategyqa_colab_lora.yaml"
+  ],
+  "program":  "/content/Improvement-for-bbox-adapter/main.py",
+  "codePath":  "main.py",
+  "codePathLocal":  "main.py",
+  "git":  {
+    "remote":  "https://github.com/pxc20030723/Improvement-for-bbox-adapter.git",
+    "commit":  "6ec28d3bc181017eef36ad09aac761db12d6d3d9"
+  },
+  "email":  "xinchep@andrew.cmu.edu",
+  "root":  "/content/Improvement-for-bbox-adapter",
+  "host":  "9a66a967d9b7",
+  "executable":  "/usr/bin/python3",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "gpu":  "Tesla T4",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "253055008768",
+      "used":  "47299448832"
+    }
+  },
+  "memory":  {
+    "total":  "54750400512"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "Tesla T4",
+      "memoryTotal":  "16106127360",
+      "cudaCores":  2560,
+      "architecture":  "Turing",
+      "uuid":  "GPU-716403ed-6434-841b-165e-55800227a81a"
+    }
+  ],
+  "cudaVersion":  "13.0",
+  "writerId":  "r209n6p4adm6kda5qttwz5l2vuj7jmmc"
+}

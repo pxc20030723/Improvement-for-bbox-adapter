@@ -1,0 +1,1268 @@
+[34m[1mwandb[0m: Detected [openai] in use.
+[34m[1mwandb[0m: Use W&B Weave for improved LLM call tracing. Install Weave with `pip install weave` then add `import weave` to the top of your script.
+[34m[1mwandb[0m: For more information, check out the docs at: https://weave-docs.wandb.ai
+Train size: 128, eval size: 64
+Offline warmup with: None
+Training:   0% 0/3 [00:00<?, ?it/s]           Parameter 'function'=<function Whitebox_LLM.build_dataset.<locals>.<lambda> at 0x7913577da980> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+prepare: 100% 128/128 [05:20<00:00,  2.51s/it]
+
+Dataset saved to data/StrategyQA/microsoft/deberta-v3-base/train_epoch_0_idx_0
+
+Loss: 0.006:   2% 4/178 [00:02<01:24,  2.06it/s]
+
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0284, 0.0000, 0.4338, 0.5378], device='cuda:0')
+expert_usage before wandb log: tensor([0.0284, 0.0000, 0.4338, 0.5378], device='cuda:0')
+logging expert_0_usage = 0.028422009199857712
+logging expert_1_usage = 0.0
+logging expert_2_usage = 0.4338145852088928
+logging expert_3_usage = 0.5377634167671204
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4806, 0.0000, 0.5194], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4806, 0.0000, 0.5194], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.48062217235565186
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.5193778276443481
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4841, 0.0000, 0.5159], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4841, 0.0000, 0.5159], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4840596616268158
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.5159403085708618
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4877, 0.0000, 0.5123], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4877, 0.0000, 0.5123], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4877265393733978
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.5122734904289246
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0273, 0.0000, 0.4347, 0.5380], device='cuda:0')
+expert_usage before wandb log: tensor([0.0273, 0.0000, 0.4347, 0.5380], device='cuda:0')
+logging expert_0_usage = 0.027264483273029327
+logging expert_1_usage = 0.0
+logging expert_2_usage = 0.43471112847328186
+logging expert_3_usage = 0.5380244255065918
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5055, 0.0290, 0.4655], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5055, 0.0290, 0.4655], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5054985284805298
+logging expert_2_usage = 0.028971193358302116
+logging expert_3_usage = 0.46553024649620056
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4076, 0.1243, 0.4681], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4076, 0.1243, 0.4681], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.40764880180358887
+logging expert_2_usage = 0.12429177016019821
+logging expert_3_usage = 0.4680594205856323
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4735, 0.0307, 0.4959], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4735, 0.0307, 0.4959], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4734557867050171
+logging expert_2_usage = 0.03069406934082508
+logging expert_3_usage = 0.495850145816803
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4786, 0.0593, 0.4621], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4786, 0.0593, 0.4621], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.47857797145843506
+logging expert_2_usage = 0.05931525677442551
+logging expert_3_usage = 0.4621068239212036
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5143, 0.0301, 0.4556], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5143, 0.0301, 0.4556], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5143445730209351
+logging expert_2_usage = 0.0301003847271204
+logging expert_3_usage = 0.4555550217628479
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5298, 0.4702, 0.0000], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5298, 0.4702, 0.0000], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5297609567642212
+logging expert_2_usage = 0.4702390432357788
+logging expert_3_usage = 0.0
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5132, 0.0911, 0.3958], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5132, 0.0911, 0.3958], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5131888389587402
+logging expert_2_usage = 0.09105132520198822
+logging expert_3_usage = 0.39575985074043274
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.0000, 0.4953, 0.5047], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.0000, 0.4953, 0.5047], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.0
+logging expert_2_usage = 0.49533766508102417
+logging expert_3_usage = 0.5046623349189758
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0592, 0.5169, 0.4240, 0.0000], device='cuda:0')
+expert_usage before wandb log: tensor([0.0592, 0.5169, 0.4240, 0.0000], device='cuda:0')
+logging expert_0_usage = 0.05916092172265053
+logging expert_1_usage = 0.5168758630752563
+logging expert_2_usage = 0.4239632189273834
+logging expert_3_usage = 0.0
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.4603, 0.5397, 0.0000, 0.0000], device='cuda:0')
+expert_usage before wandb log: tensor([0.4603, 0.5397, 0.0000, 0.0000], device='cuda:0')
+logging expert_0_usage = 0.4603135287761688
+logging expert_1_usage = 0.5396865010261536
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.0
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5223, 0.0000, 0.4777], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5223, 0.0000, 0.4777], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5223400592803955
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.4776599407196045
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0296, 0.5240, 0.0000, 0.4464], device='cuda:0')
+expert_usage before wandb log: tensor([0.0296, 0.5240, 0.0000, 0.4464], device='cuda:0')
+logging expert_0_usage = 0.0295622106641531
+logging expert_1_usage = 0.5239990949630737
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.44643864035606384
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0301, 0.5158, 0.2736, 0.1805], device='cuda:0')
+expert_usage before wandb log: tensor([0.0301, 0.5158, 0.2736, 0.1805], device='cuda:0')
+logging expert_0_usage = 0.03005455806851387
+logging expert_1_usage = 0.5158294439315796
+logging expert_2_usage = 0.27356958389282227
+logging expert_3_usage = 0.18054643273353577
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5286, 0.2364, 0.2351], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5286, 0.2364, 0.2351], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5285528302192688
+logging expert_2_usage = 0.23637381196022034
+logging expert_3_usage = 0.23507332801818848
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.4800, 0.0000, 0.5200, 0.0000], device='cuda:0')
+expert_usage before wandb log: tensor([0.4800, 0.0000, 0.5200, 0.0000], device='cuda:0')
+logging expert_0_usage = 0.4800433814525604
+logging expert_1_usage = 0.0
+logging expert_2_usage = 0.519956648349762
+logging expert_3_usage = 0.0
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5271, 0.3256, 0.1472], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5271, 0.3256, 0.1472], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5271437168121338
+logging expert_2_usage = 0.3256204426288605
+logging expert_3_usage = 0.14723582565784454
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5328, 0.2639, 0.2033], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5328, 0.2639, 0.2033], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5327694416046143
+logging expert_2_usage = 0.2638823390007019
+logging expert_3_usage = 0.2033482789993286
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5350, 0.3487, 0.1162], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5350, 0.3487, 0.1162], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5350133776664734
+logging expert_2_usage = 0.3487444519996643
+logging expert_3_usage = 0.1162421703338623
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5320, 0.2942, 0.1738], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5320, 0.2942, 0.1738], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5320078730583191
+logging expert_2_usage = 0.2942383289337158
+logging expert_3_usage = 0.17375381290912628
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5253, 0.2381, 0.2366], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5253, 0.2381, 0.2366], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5253245830535889
+logging expert_2_usage = 0.23807117342948914
+logging expert_3_usage = 0.2366042584180832
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5313, 0.3208, 0.1478], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5313, 0.3208, 0.1478], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5313311815261841
+logging expert_2_usage = 0.3208402395248413
+logging expert_3_usage = 0.14782854914665222
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.0000, 0.4994, 0.5006], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.0000, 0.4994, 0.5006], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.0
+logging expert_2_usage = 0.49935588240623474
+logging expert_3_usage = 0.5006440877914429
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5221, 0.3587, 0.1192], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5221, 0.3587, 0.1192], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5221224427223206
+logging expert_2_usage = 0.35865652561187744
+logging expert_3_usage = 0.1192210391163826
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.4746, 0.0000, 0.0000, 0.5254], device='cuda:0')
+expert_usage before wandb log: tensor([0.4746, 0.0000, 0.0000, 0.5254], device='cuda:0')
+logging expert_0_usage = 0.474604994058609
+logging expert_1_usage = 0.0
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.5253949761390686
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0288, 0.5301, 0.0000, 0.4412], device='cuda:0')
+expert_usage before wandb log: tensor([0.0288, 0.5301, 0.0000, 0.4412], device='cuda:0')
+logging expert_0_usage = 0.02875099889934063
+logging expert_1_usage = 0.5300619602203369
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.4411870837211609
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5162, 0.4246, 0.0591], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5162, 0.4246, 0.0591], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5162414908409119
+logging expert_2_usage = 0.4246208369731903
+logging expert_3_usage = 0.059137679636478424
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5276, 0.3840, 0.0883], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5276, 0.3840, 0.0883], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5276229977607727
+logging expert_2_usage = 0.3840295076370239
+logging expert_3_usage = 0.08834752440452576
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4902, 0.3880, 0.1218], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4902, 0.3880, 0.1218], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4902113080024719
+logging expert_2_usage = 0.38800567388534546
+logging expert_3_usage = 0.12178300321102142
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5185, 0.3910, 0.0905], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5185, 0.3910, 0.0905], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5185050964355469
+logging expert_2_usage = 0.39098525047302246
+logging expert_3_usage = 0.09050965309143066
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5248, 0.2975, 0.1777], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5248, 0.2975, 0.1777], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5248374938964844
+logging expert_2_usage = 0.29749786853790283
+logging expert_3_usage = 0.1776646226644516
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.0000, 0.5086, 0.4914], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.0000, 0.5086, 0.4914], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.0
+logging expert_2_usage = 0.508571982383728
+logging expert_3_usage = 0.4914279282093048
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0312, 0.0000, 0.4793, 0.4895], device='cuda:0')
+expert_usage before wandb log: tensor([0.0312, 0.0000, 0.4793, 0.4895], device='cuda:0')
+logging expert_0_usage = 0.03118443675339222
+logging expert_1_usage = 0.0
+logging expert_2_usage = 0.47929996252059937
+logging expert_3_usage = 0.4895155727863312
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5210, 0.3871, 0.0919], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5210, 0.3871, 0.0919], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5210126638412476
+logging expert_2_usage = 0.38709303736686707
+logging expert_3_usage = 0.09189431369304657
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0294, 0.5195, 0.2948, 0.1563], device='cuda:0')
+expert_usage before wandb log: tensor([0.0294, 0.5195, 0.2948, 0.1563], device='cuda:0')
+logging expert_0_usage = 0.029366396367549896
+logging expert_1_usage = 0.5194888710975647
+logging expert_2_usage = 0.29484042525291443
+logging expert_3_usage = 0.15630429983139038
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.4355, 0.5645, 0.0000, 0.0000], device='cuda:0')
+expert_usage before wandb log: tensor([0.4355, 0.5645, 0.0000, 0.0000], device='cuda:0')
+logging expert_0_usage = 0.43550020456314087
+logging expert_1_usage = 0.5644998550415039
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.0
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5259, 0.3289, 0.1453], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5259, 0.3289, 0.1453], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.525856077671051
+logging expert_2_usage = 0.3288601040840149
+logging expert_3_usage = 0.1452837735414505
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5259, 0.3826, 0.0915], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5259, 0.3826, 0.0915], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5258888006210327
+logging expert_2_usage = 0.3826478123664856
+logging expert_3_usage = 0.09146340191364288
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5329, 0.2916, 0.1755], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5329, 0.2916, 0.1755], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5329411029815674
+logging expert_2_usage = 0.2915990352630615
+logging expert_3_usage = 0.1754598766565323
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0562, 0.5357, 0.2051, 0.2030], device='cuda:0')
+expert_usage before wandb log: tensor([0.0562, 0.5357, 0.2051, 0.2030], device='cuda:0')
+logging expert_0_usage = 0.056238241493701935
+logging expert_1_usage = 0.5356537699699402
+logging expert_2_usage = 0.20506218075752258
+logging expert_3_usage = 0.2030458152294159
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0583, 0.5374, 0.2890, 0.1154], device='cuda:0')
+expert_usage before wandb log: tensor([0.0583, 0.5374, 0.2890, 0.1154], device='cuda:0')
+logging expert_0_usage = 0.05826272815465927
+logging expert_1_usage = 0.5373812913894653
+logging expert_2_usage = 0.2890016734600067
+logging expert_3_usage = 0.11535431444644928
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0274, 0.5489, 0.0000, 0.4237], device='cuda:0')
+expert_usage before wandb log: tensor([0.0274, 0.5489, 0.0000, 0.4237], device='cuda:0')
+logging expert_0_usage = 0.027387209236621857
+logging expert_1_usage = 0.5489119291305542
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.42370086908340454
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.0000, 0.5109, 0.4891], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.0000, 0.5109, 0.4891], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.0
+logging expert_2_usage = 0.5109221935272217
+logging expert_3_usage = 0.4890778660774231
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0585, 0.0000, 0.4516, 0.4899], device='cuda:0')
+expert_usage before wandb log: tensor([0.0585, 0.0000, 0.4516, 0.4899], device='cuda:0')
+logging expert_0_usage = 0.058540403842926025
+logging expert_1_usage = 0.0
+logging expert_2_usage = 0.45157983899116516
+logging expert_3_usage = 0.4898797273635864
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5434, 0.3175, 0.1390], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5434, 0.3175, 0.1390], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5434426069259644
+logging expert_2_usage = 0.31752344965934753
+logging expert_3_usage = 0.13903392851352692
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5340, 0.4117, 0.0543], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5340, 0.4117, 0.0543], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5339934825897217
+logging expert_2_usage = 0.411667138338089
+logging expert_3_usage = 0.05433934926986694
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0797, 0.5496, 0.3707, 0.0000], device='cuda:0')
+expert_usage before wandb log: tensor([0.0797, 0.5496, 0.3707, 0.0000], device='cuda:0')
+logging expert_0_usage = 0.07971206307411194
+logging expert_1_usage = 0.5496060252189636
+logging expert_2_usage = 0.37068188190460205
+logging expert_3_usage = 0.0
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.3895, 0.6105, 0.0000, 0.0000], device='cuda:0')
+expert_usage before wandb log: tensor([0.3895, 0.6105, 0.0000, 0.0000], device='cuda:0')
+logging expert_0_usage = 0.3895435631275177
+logging expert_1_usage = 0.6104564070701599
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.0
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5400, 0.3498, 0.1102], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5400, 0.3498, 0.1102], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5399559140205383
+logging expert_2_usage = 0.34980717301368713
+logging expert_3_usage = 0.11023695021867752
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5422, 0.3745, 0.0832], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5422, 0.3745, 0.0832], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5422127842903137
+logging expert_2_usage = 0.3745380640029907
+logging expert_3_usage = 0.08324908465147018
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5454, 0.3764, 0.0781], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5454, 0.3764, 0.0781], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5454311966896057
+logging expert_2_usage = 0.37644779682159424
+logging expert_3_usage = 0.07812103629112244
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.4521, 0.0000, 0.5479, 0.0000], device='cuda:0')
+expert_usage before wandb log: tensor([0.4521, 0.0000, 0.5479, 0.0000], device='cuda:0')
+logging expert_0_usage = 0.4520656168460846
+logging expert_1_usage = 0.0
+logging expert_2_usage = 0.5479344129562378
+logging expert_3_usage = 0.0
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5356, 0.4397, 0.0246], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5356, 0.4397, 0.0246], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.535607635974884
+logging expert_2_usage = 0.43974751234054565
+logging expert_3_usage = 0.024644847959280014
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0249, 0.5613, 0.0000, 0.4137], device='cuda:0')
+expert_usage before wandb log: tensor([0.0249, 0.5613, 0.0000, 0.4137], device='cuda:0')
+logging expert_0_usage = 0.02494979090988636
+logging expert_1_usage = 0.5613157153129578
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.413734495639801
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5289, 0.4458, 0.0253], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5289, 0.4458, 0.0253], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5288898944854736
+logging expert_2_usage = 0.4457758665084839
+logging expert_3_usage = 0.025334222242236137
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5246, 0.3918, 0.0836], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5246, 0.3918, 0.0836], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5245946645736694
+logging expert_2_usage = 0.3918452262878418
+logging expert_3_usage = 0.08356013894081116
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5173, 0.3977, 0.0850], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5173, 0.3977, 0.0850], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5172742605209351
+logging expert_2_usage = 0.3977493941783905
+logging expert_3_usage = 0.08497630059719086
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5192, 0.4226, 0.0582], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5192, 0.4226, 0.0582], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5192380547523499
+logging expert_2_usage = 0.42260032892227173
+logging expert_3_usage = 0.05816160887479782
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5182, 0.4244, 0.0574], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5182, 0.4244, 0.0574], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5182033777236938
+logging expert_2_usage = 0.4244062900543213
+logging expert_3_usage = 0.05739031359553337
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0271, 0.5525, 0.0000, 0.4203], device='cuda:0')
+expert_usage before wandb log: tensor([0.0271, 0.5525, 0.0000, 0.4203], device='cuda:0')
+logging expert_0_usage = 0.0271135363727808
+logging expert_1_usage = 0.5525369644165039
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.42034947872161865
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5108, 0.4892, 0.0000], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5108, 0.4892, 0.0000], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5108007788658142
+logging expert_2_usage = 0.4891992509365082
+logging expert_3_usage = 0.0
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5140, 0.4860, 0.0000], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5140, 0.4860, 0.0000], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5139778852462769
+logging expert_2_usage = 0.48602205514907837
+logging expert_3_usage = 0.0
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0308, 0.5245, 0.3834, 0.0613], device='cuda:0')
+expert_usage before wandb log: tensor([0.0308, 0.5245, 0.3834, 0.0613], device='cuda:0')
+logging expert_0_usage = 0.030840659514069557
+logging expert_1_usage = 0.5244778394699097
+logging expert_2_usage = 0.3834143579006195
+logging expert_3_usage = 0.06126713752746582
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5249, 0.3856, 0.0896], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5249, 0.3856, 0.0896], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5248655080795288
+logging expert_2_usage = 0.385550856590271
+logging expert_3_usage = 0.08958367258310318
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5202, 0.3889, 0.0909], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5202, 0.3889, 0.0909], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5201998353004456
+logging expert_2_usage = 0.3889157176017761
+logging expert_3_usage = 0.09088440239429474
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5273, 0.2611, 0.2116], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5273, 0.2611, 0.2116], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5272778868675232
+logging expert_2_usage = 0.26112017035484314
+logging expert_3_usage = 0.21160191297531128
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5281, 0.2328, 0.2392], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5281, 0.2328, 0.2392], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5280777215957642
+logging expert_2_usage = 0.23276099562644958
+logging expert_3_usage = 0.23916128277778625
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5197, 0.3289, 0.1514], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5197, 0.3289, 0.1514], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5196695327758789
+logging expert_2_usage = 0.3289489150047302
+logging expert_3_usage = 0.15138152241706848
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5261, 0.3005, 0.1734], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5261, 0.3005, 0.1734], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5261468291282654
+logging expert_2_usage = 0.3004581332206726
+logging expert_3_usage = 0.1733950674533844
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5243, 0.1785, 0.2972], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5243, 0.1785, 0.2972], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5243344902992249
+logging expert_2_usage = 0.17850062251091003
+logging expert_3_usage = 0.2971648573875427
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5095, 0.3092, 0.1813], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5095, 0.3092, 0.1813], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5095309615135193
+logging expert_2_usage = 0.30916666984558105
+logging expert_3_usage = 0.18130236864089966
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5080, 0.3148, 0.1772], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5080, 0.3148, 0.1772], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5079653263092041
+logging expert_2_usage = 0.3148128390312195
+logging expert_3_usage = 0.17722180485725403
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5062, 0.3427, 0.1511], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5062, 0.3427, 0.1511], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5062039494514465
+logging expert_2_usage = 0.34271439909935
+logging expert_3_usage = 0.15108169615268707
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4981, 0.3508, 0.1512], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4981, 0.3508, 0.1512], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.49805396795272827
+logging expert_2_usage = 0.35078999400138855
+logging expert_3_usage = 0.15115606784820557
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5035, 0.3149, 0.1816], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5035, 0.3149, 0.1816], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5034892559051514
+logging expert_2_usage = 0.31491369009017944
+logging expert_3_usage = 0.1815970242023468
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5457, 0.0000, 0.4543], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5457, 0.0000, 0.4543], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5456717014312744
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.4543282985687256
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.1949, 0.0000, 0.3396, 0.4655], device='cuda:0')
+expert_usage before wandb log: tensor([0.1949, 0.0000, 0.3396, 0.4655], device='cuda:0')
+logging expert_0_usage = 0.19487568736076355
+logging expert_1_usage = 0.0
+logging expert_2_usage = 0.3395999073982239
+logging expert_3_usage = 0.46552443504333496
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.1072, 0.0000, 0.3840, 0.5088], device='cuda:0')
+expert_usage before wandb log: tensor([0.1072, 0.0000, 0.3840, 0.5088], device='cuda:0')
+logging expert_0_usage = 0.10716240108013153
+logging expert_1_usage = 0.0
+logging expert_2_usage = 0.3840109407901764
+logging expert_3_usage = 0.508826732635498
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5176, 0.1491, 0.3332], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5176, 0.1491, 0.3332], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5176316499710083
+logging expert_2_usage = 0.14914502203464508
+logging expert_3_usage = 0.3332233428955078
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5182, 0.3587, 0.1231], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5182, 0.3587, 0.1231], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5182229280471802
+logging expert_2_usage = 0.3586820960044861
+logging expert_3_usage = 0.12309500575065613
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5194, 0.4507, 0.0299], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5194, 0.4507, 0.0299], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5194035768508911
+logging expert_2_usage = 0.45072072744369507
+logging expert_3_usage = 0.02987568825483322
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.1211, 0.5580, 0.3209, 0.0000], device='cuda:0')
+expert_usage before wandb log: tensor([0.1211, 0.5580, 0.3209, 0.0000], device='cuda:0')
+logging expert_0_usage = 0.12108118832111359
+logging expert_1_usage = 0.5580310821533203
+logging expert_2_usage = 0.3208876848220825
+logging expert_3_usage = 0.0
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4883, 0.1812, 0.3305], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4883, 0.1812, 0.3305], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4883349537849426
+logging expert_2_usage = 0.1811916083097458
+logging expert_3_usage = 0.3304734528064728
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4915, 0.2781, 0.2304], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4915, 0.2781, 0.2304], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.49145519733428955
+logging expert_2_usage = 0.27810943126678467
+logging expert_3_usage = 0.23043540120124817
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4909, 0.3717, 0.1375], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4909, 0.3717, 0.1375], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.49086305499076843
+logging expert_2_usage = 0.3716539144515991
+logging expert_3_usage = 0.13748303055763245
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4857, 0.2487, 0.2656], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4857, 0.2487, 0.2656], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.48565828800201416
+logging expert_2_usage = 0.24869513511657715
+logging expert_3_usage = 0.2656465768814087
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4751, 0.3179, 0.2070], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4751, 0.3179, 0.2070], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.47506284713745117
+logging expert_2_usage = 0.317913293838501
+logging expert_3_usage = 0.20702381432056427
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4892, 0.2448, 0.2660], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4892, 0.2448, 0.2660], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4891743063926697
+logging expert_2_usage = 0.24483796954154968
+logging expert_3_usage = 0.265987753868103
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0235, 0.4845, 0.0000, 0.4920], device='cuda:0')
+expert_usage before wandb log: tensor([0.0235, 0.4845, 0.0000, 0.4920], device='cuda:0')
+logging expert_0_usage = 0.0235192459076643
+logging expert_1_usage = 0.4844564199447632
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.492024302482605
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0., 0., 1., 0.], device='cuda:0')
+expert_usage before wandb log: tensor([0., 0., 1., 0.], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.0
+logging expert_2_usage = 1.0
+logging expert_3_usage = 0.0
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0963, 0.0000, 0.3467, 0.5569], device='cuda:0')
+expert_usage before wandb log: tensor([0.0963, 0.0000, 0.3467, 0.5569], device='cuda:0')
+logging expert_0_usage = 0.09632085263729095
+logging expert_1_usage = 0.0
+logging expert_2_usage = 0.346741259098053
+logging expert_3_usage = 0.5569378733634949
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4779, 0.0599, 0.4621], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4779, 0.0599, 0.4621], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4779449701309204
+logging expert_2_usage = 0.059945836663246155
+logging expert_3_usage = 0.46210920810699463
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4870, 0.1790, 0.3340], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4870, 0.1790, 0.3340], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.487024188041687
+logging expert_2_usage = 0.17898747324943542
+logging expert_3_usage = 0.3339883089065552
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5183, 0.0000, 0.4817], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5183, 0.0000, 0.4817], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5183099508285522
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.48169004917144775
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5021, 0.3284, 0.1695], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5021, 0.3284, 0.1695], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5021499991416931
+logging expert_2_usage = 0.3283803164958954
+logging expert_3_usage = 0.1694696843624115
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5254, 0.4746, 0.0000], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5254, 0.4746, 0.0000], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5253615379333496
+logging expert_2_usage = 0.4746384918689728
+logging expert_3_usage = 0.0
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4938, 0.3629, 0.1433], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4938, 0.3629, 0.1433], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4937955439090729
+logging expert_2_usage = 0.3629435896873474
+logging expert_3_usage = 0.1432608664035797
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4653, 0.2674, 0.2673], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4653, 0.2674, 0.2673], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4652990698814392
+logging expert_2_usage = 0.26735350489616394
+logging expert_3_usage = 0.26734742522239685
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4870, 0.1804, 0.3327], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4870, 0.1804, 0.3327], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4869816303253174
+logging expert_2_usage = 0.1803644597530365
+logging expert_3_usage = 0.3326539397239685
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0269, 0.4600, 0.2440, 0.2692], device='cuda:0')
+expert_usage before wandb log: tensor([0.0269, 0.4600, 0.2440, 0.2692], device='cuda:0')
+logging expert_0_usage = 0.026854554191231728
+logging expert_1_usage = 0.4600411057472229
+logging expert_2_usage = 0.24395239353179932
+logging expert_3_usage = 0.2691519856452942
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4872, 0.2131, 0.2997], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4872, 0.2131, 0.2997], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.48719385266304016
+logging expert_2_usage = 0.2131328582763672
+logging expert_3_usage = 0.29967328906059265
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4913, 0.3058, 0.2028], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4913, 0.3058, 0.2028], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4913422167301178
+logging expert_2_usage = 0.3058416247367859
+logging expert_3_usage = 0.2028161734342575
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4806, 0.2149, 0.3045], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4806, 0.2149, 0.3045], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4805760085582733
+logging expert_2_usage = 0.21491312980651855
+logging expert_3_usage = 0.30451083183288574
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4783, 0.3125, 0.2092], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4783, 0.3125, 0.2092], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4782775044441223
+logging expert_2_usage = 0.31252622604370117
+logging expert_3_usage = 0.2091962993144989
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4748, 0.3809, 0.1444], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4748, 0.3809, 0.1444], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.47475430369377136
+logging expert_2_usage = 0.3808508813381195
+logging expert_3_usage = 0.14439481496810913
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4529, 0.3462, 0.2010], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4529, 0.3462, 0.2010], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4528924226760864
+logging expert_2_usage = 0.34615010023117065
+logging expert_3_usage = 0.20095746219158173
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5125, 0.4875, 0.0000], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5125, 0.4875, 0.0000], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5124564170837402
+logging expert_2_usage = 0.48754364252090454
+logging expert_3_usage = 0.0
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4901, 0.2793, 0.2306], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4901, 0.2793, 0.2306], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4901139438152313
+logging expert_2_usage = 0.279327392578125
+logging expert_3_usage = 0.23055867850780487
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4895, 0.2470, 0.2634], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4895, 0.2470, 0.2634], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4895116686820984
+logging expert_2_usage = 0.2470395267009735
+logging expert_3_usage = 0.2634487748146057
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5033, 0.0000, 0.4967], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5033, 0.0000, 0.4967], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5033314228057861
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.4966685175895691
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0260, 0.4511, 0.3127, 0.2102], device='cuda:0')
+expert_usage before wandb log: tensor([0.0260, 0.4511, 0.3127, 0.2102], device='cuda:0')
+logging expert_0_usage = 0.025992318987846375
+logging expert_1_usage = 0.4511081576347351
+logging expert_2_usage = 0.31271618604660034
+logging expert_3_usage = 0.21018336713314056
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0260, 0.4243, 0.3418, 0.2079], device='cuda:0')
+expert_usage before wandb log: tensor([0.0260, 0.4243, 0.3418, 0.2079], device='cuda:0')
+logging expert_0_usage = 0.025978418067097664
+logging expert_1_usage = 0.4242962598800659
+logging expert_2_usage = 0.3418385684490204
+logging expert_3_usage = 0.20788678526878357
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4745, 0.3833, 0.1422], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4745, 0.3833, 0.1422], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4745021462440491
+logging expert_2_usage = 0.38334137201309204
+logging expert_3_usage = 0.14215649664402008
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4899, 0.3760, 0.1340], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4899, 0.3760, 0.1340], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4899342358112335
+logging expert_2_usage = 0.3760198652744293
+logging expert_3_usage = 0.13404589891433716
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4845, 0.2516, 0.2639], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4845, 0.2516, 0.2639], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.48452526330947876
+logging expert_2_usage = 0.25162044167518616
+logging expert_3_usage = 0.2638542950153351
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4956, 0.4407, 0.0637], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4956, 0.4407, 0.0637], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4956391751766205
+logging expert_2_usage = 0.44068747758865356
+logging expert_3_usage = 0.06367332488298416
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4919, 0.4055, 0.1025], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4919, 0.4055, 0.1025], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.49194639921188354
+logging expert_2_usage = 0.4055325984954834
+logging expert_3_usage = 0.10252100229263306
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4985, 0.3393, 0.1623], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4985, 0.3393, 0.1623], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4984614849090576
+logging expert_2_usage = 0.3392590880393982
+logging expert_3_usage = 0.16227948665618896
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4982, 0.3418, 0.1600], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4982, 0.3418, 0.1600], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4981802701950073
+logging expert_2_usage = 0.3418028652667999
+logging expert_3_usage = 0.16001690924167633
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5010, 0.3690, 0.1299], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5010, 0.3690, 0.1299], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5010380744934082
+logging expert_2_usage = 0.36902496218681335
+logging expert_3_usage = 0.12993700802326202
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4896, 0.4018, 0.1086], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4896, 0.4018, 0.1086], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.48959794640541077
+logging expert_2_usage = 0.401800274848938
+logging expert_3_usage = 0.10860168933868408
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4804, 0.3436, 0.1759], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4804, 0.3436, 0.1759], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.48040762543678284
+logging expert_2_usage = 0.3436432480812073
+logging expert_3_usage = 0.1759491115808487
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.4468, 0.0000, 0.0000, 0.5532], device='cuda:0')
+expert_usage before wandb log: tensor([0.4468, 0.0000, 0.0000, 0.5532], device='cuda:0')
+logging expert_0_usage = 0.44678428769111633
+logging expert_1_usage = 0.0
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.553215742111206
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4950, 0.4056, 0.0995], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4950, 0.4056, 0.0995], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.49496132135391235
+logging expert_2_usage = 0.4055522084236145
+logging expert_3_usage = 0.09948648512363434
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0497, 0.3315, 0.3361, 0.2826], device='cuda:0')
+expert_usage before wandb log: tensor([0.0497, 0.3315, 0.3361, 0.2826], device='cuda:0')
+logging expert_0_usage = 0.04970952868461609
+logging expert_1_usage = 0.33154815435409546
+logging expert_2_usage = 0.33611035346984863
+logging expert_3_usage = 0.2826319634914398
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0735, 0.2337, 0.3051, 0.3877], device='cuda:0')
+expert_usage before wandb log: tensor([0.0735, 0.2337, 0.3051, 0.3877], device='cuda:0')
+logging expert_0_usage = 0.07350260019302368
+logging expert_1_usage = 0.23374196887016296
+logging expert_2_usage = 0.3050689697265625
+logging expert_3_usage = 0.38768649101257324
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.3786, 0.3726, 0.2489], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.3786, 0.3726, 0.2489], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.3785691559314728
+logging expert_2_usage = 0.3725602626800537
+logging expert_3_usage = 0.24887055158615112
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4903, 0.0000, 0.5097], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4903, 0.0000, 0.5097], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.49032852053642273
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.5096714496612549
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4502, 0.4481, 0.1017], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4502, 0.4481, 0.1017], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4502011239528656
+logging expert_2_usage = 0.44811028242111206
+logging expert_3_usage = 0.10168856382369995
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4497, 0.4839, 0.0664], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4497, 0.4839, 0.0664], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.44974398612976074
+logging expert_2_usage = 0.48389145731925964
+logging expert_3_usage = 0.06636455655097961
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4593, 0.4765, 0.0642], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4593, 0.4765, 0.0642], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4592568278312683
+logging expert_2_usage = 0.4765271544456482
+logging expert_3_usage = 0.0642160177230835
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4706, 0.3084, 0.2210], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4706, 0.3084, 0.2210], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4705972671508789
+logging expert_2_usage = 0.30842655897140503
+logging expert_3_usage = 0.22097617387771606
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5065, 0.2788, 0.2146], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5065, 0.2788, 0.2146], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5065457224845886
+logging expert_2_usage = 0.27883464097976685
+logging expert_3_usage = 0.21461963653564453
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5023, 0.2729, 0.2249], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5023, 0.2729, 0.2249], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.502280592918396
+logging expert_2_usage = 0.27285605669021606
+logging expert_3_usage = 0.22486338019371033
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5045, 0.2104, 0.2851], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5045, 0.2104, 0.2851], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5045032501220703
+logging expert_2_usage = 0.21040822565555573
+logging expert_3_usage = 0.2850884795188904
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.4090, 0.0000, 0.5910, 0.0000], device='cuda:0')
+expert_usage before wandb log: tensor([0.4090, 0.0000, 0.5910, 0.0000], device='cuda:0')
+logging expert_0_usage = 0.40904104709625244
+logging expert_1_usage = 0.0
+logging expert_2_usage = 0.5909589529037476
+logging expert_3_usage = 0.0
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.4012, 0.0000, 0.0000, 0.5988], device='cuda:0')
+expert_usage before wandb log: tensor([0.4012, 0.0000, 0.0000, 0.5988], device='cuda:0')
+logging expert_0_usage = 0.4012065529823303
+logging expert_1_usage = 0.0
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.5987935066223145
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4923, 0.0590, 0.4487], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4923, 0.0590, 0.4487], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4922958314418793
+logging expert_2_usage = 0.05904751643538475
+logging expert_3_usage = 0.44865670800209045
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5273, 0.1180, 0.3547], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5273, 0.1180, 0.3547], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5273313522338867
+logging expert_2_usage = 0.117965467274189
+logging expert_3_usage = 0.3547031879425049
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5299, 0.0872, 0.3829], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5299, 0.0872, 0.3829], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5299156904220581
+logging expert_2_usage = 0.0871928334236145
+logging expert_3_usage = 0.3828914761543274
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4844, 0.0578, 0.4578], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4844, 0.0578, 0.4578], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4844283163547516
+logging expert_2_usage = 0.057802919298410416
+logging expert_3_usage = 0.4577687978744507
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5216, 0.0864, 0.3920], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5216, 0.0864, 0.3920], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5215921998023987
+logging expert_2_usage = 0.08639351278543472
+logging expert_3_usage = 0.3920142948627472
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5204, 0.0000, 0.4796], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5204, 0.0000, 0.4796], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5204143524169922
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.4795856475830078
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5157, 0.0000, 0.4843], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5157, 0.0000, 0.4843], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5157124996185303
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.4842875003814697
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5073, 0.0000, 0.4927], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5073, 0.0000, 0.4927], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5072796940803528
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.4927203059196472
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4724, 0.0285, 0.4991], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4724, 0.0285, 0.4991], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.47242066264152527
+logging expert_2_usage = 0.028501715511083603
+logging expert_3_usage = 0.49907761812210083
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.0000, 0.4456, 0.5544], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.0000, 0.4456, 0.5544], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.0
+logging expert_2_usage = 0.44563522934913635
+logging expert_3_usage = 0.5543647408485413
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4837, 0.0000, 0.5163], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4837, 0.0000, 0.5163], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.483712762594223
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.5162872076034546
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4455, 0.0299, 0.5247], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4455, 0.0299, 0.5247], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.44547590613365173
+logging expert_2_usage = 0.029858555644750595
+logging expert_3_usage = 0.5246655344963074
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4405, 0.0290, 0.5306], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4405, 0.0290, 0.5306], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4404680132865906
+logging expert_2_usage = 0.02895471453666687
+logging expert_3_usage = 0.5305772423744202
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4754, 0.0000, 0.5246], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4754, 0.0000, 0.5246], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.47543129324913025
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.5245686769485474
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4692, 0.0000, 0.5308], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4692, 0.0000, 0.5308], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4691837430000305
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.5308162569999695
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4673, 0.0000, 0.5327], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4673, 0.0000, 0.5327], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4673246145248413
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.5326753854751587
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.0000, 0.4226, 0.5774], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.0000, 0.4226, 0.5774], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.0
+logging expert_2_usage = 0.4225963354110718
+logging expert_3_usage = 0.5774036645889282
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4526, 0.0307, 0.5168], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4526, 0.0307, 0.5168], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.45255544781684875
+logging expert_2_usage = 0.030673569068312645
+logging expert_3_usage = 0.5167709589004517
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.4295, 0.0000, 0.5705, 0.0000], device='cuda:0')
+expert_usage before wandb log: tensor([0.4295, 0.0000, 0.5705, 0.0000], device='cuda:0')
+logging expert_0_usage = 0.4294991195201874
+logging expert_1_usage = 0.0
+logging expert_2_usage = 0.5705008506774902
+logging expert_3_usage = 0.0
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.4973, 0.0000, 0.5027], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.4973, 0.0000, 0.5027], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.4972999095916748
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.5027000308036804
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5124, 0.0000, 0.4876], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5124, 0.0000, 0.4876], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5124161243438721
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.48758387565612793
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5477, 0.4523, 0.0000], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5477, 0.4523, 0.0000], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5477007031440735
+logging expert_2_usage = 0.4522992670536041
+logging expert_3_usage = 0.0
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5127, 0.0000, 0.4873], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5127, 0.0000, 0.4873], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5127394199371338
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.4872605800628662
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.0000, 0.4801, 0.5199], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.0000, 0.4801, 0.5199], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.0
+logging expert_2_usage = 0.4801497757434845
+logging expert_3_usage = 0.5198501944541931
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.0000, 0.4866, 0.5134], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.0000, 0.4866, 0.5134], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.0
+logging expert_2_usage = 0.48655325174331665
+logging expert_3_usage = 0.5134468078613281
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5235, 0.0863, 0.3902], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5235, 0.0863, 0.3902], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5235230326652527
+logging expert_2_usage = 0.08631201833486557
+logging expert_3_usage = 0.3901650309562683
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.3737, 0.6263, 0.0000, 0.0000], device='cuda:0')
+expert_usage before wandb log: tensor([0.3737, 0.6263, 0.0000, 0.0000], device='cuda:0')
+logging expert_0_usage = 0.3736734688282013
+logging expert_1_usage = 0.6263265609741211
+logging expert_2_usage = 0.0
+logging expert_3_usage = 0.0
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5056, 0.2595, 0.2349], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5056, 0.2595, 0.2349], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5055508613586426
+logging expert_2_usage = 0.2595207393169403
+logging expert_3_usage = 0.2349284142255783
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5513, 0.4487, 0.0000], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5513, 0.4487, 0.0000], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5512926578521729
+logging expert_2_usage = 0.44870731234550476
+logging expert_3_usage = 0.0
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5427, 0.1962, 0.2611], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5427, 0.1962, 0.2611], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5426868200302124
+logging expert_2_usage = 0.19623959064483643
+logging expert_3_usage = 0.26107358932495117
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5345, 0.2256, 0.2399], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5345, 0.2256, 0.2399], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5344959497451782
+logging expert_2_usage = 0.22561559081077576
+logging expert_3_usage = 0.2398884892463684
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5115, 0.3098, 0.1787], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5115, 0.3098, 0.1787], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5115311145782471
+logging expert_2_usage = 0.3097779452800751
+logging expert_3_usage = 0.17869096994400024
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5510, 0.4490, 0.0000], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5510, 0.4490, 0.0000], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5509849190711975
+logging expert_2_usage = 0.4490150809288025
+logging expert_3_usage = 0.0
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5485, 0.4515, 0.0000], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5485, 0.4515, 0.0000], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5485055446624756
+logging expert_2_usage = 0.4514944851398468
+logging expert_3_usage = 0.0
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.0000, 0.5015, 0.4985], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.0000, 0.5015, 0.4985], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.0
+logging expert_2_usage = 0.501498818397522
+logging expert_3_usage = 0.498501181602478
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.5427, 0.2827, 0.1745], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.5427, 0.2827, 0.1745], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.5427442789077759
+logging expert_2_usage = 0.28272387385368347
+logging expert_3_usage = 0.17453178763389587
+classifier_head type: <class 'llms.whitebox.MoEScoringHead'>
+latest_expert_usage: tensor([0.0000, 0.0000, 0.5098, 0.4902], device='cuda:0')
+expert_usage before wandb log: tensor([0.0000, 0.0000, 0.5098, 0.4902], device='cuda:0')
+logging expert_0_usage = 0.0
+logging expert_1_usage = 0.0
+logging expert_2_usage = 0.5097690224647522
+logging expert_3_usage = 0.4902310073375702
+  File "/content/Improvement-for-bbox-adapter/main.py", line 87, in <module>
+    experiment(config)
+  File "/content/Improvement-for-bbox-adapter/main.py", line 66, in experiment
+    adapter.train(
+  File "/content/Improvement-for-bbox-adapter/algo/adapter.py", line 217, in train
+    self.evaluate(
+  File "/content/Improvement-for-bbox-adapter/algo/reasoning_adapter.py", line 174, in evaluate
+    results.setdefault("top_k_experts", []).append(moe_diag["top_k_experts"].tolist())
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'tolist'

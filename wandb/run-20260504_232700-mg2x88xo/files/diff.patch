@@ -1,0 +1,66 @@
+diff --git a/algo/__pycache__/reasoning_adapter.cpython-312.pyc b/algo/__pycache__/reasoning_adapter.cpython-312.pyc
+index 4d6ea3d..9176865 100644
+Binary files a/algo/__pycache__/reasoning_adapter.cpython-312.pyc and b/algo/__pycache__/reasoning_adapter.cpython-312.pyc differ
+diff --git a/configs/strategyqa_colab_lora.yaml b/configs/strategyqa_colab_lora.yaml
+index 7306b2e..6a105a7 100644
+--- a/configs/strategyqa_colab_lora.yaml
++++ b/configs/strategyqa_colab_lora.yaml
+@@ -24,8 +24,8 @@ use_moe_head: True
+ moe_num_experts: 4
+ moe_gating_hidden_size: 128
+ moe_expert_hidden_size: 256
+-moe_expert_dropout: 0.25
+-moe_load_balance_coef: 0.0005
++moe_expert_dropout: 0.1
++moe_load_balance_coef: 0.001
+ moe_entropy_coef: 0.001
+ moe_top_k: 2
+ 
+@@ -58,7 +58,7 @@ num_candidates_blackbox_warmup: 4
+ 
+ num_online_finetuning_repeat: 1
+ 
+-num_epochs: 2
++num_epochs: 3
+ batch_size: 16
+ gradient_accumulation_steps: 1
+ 
+@@ -81,6 +81,6 @@ num_eval_rounds: 1
+ log_with_wandb: True
+ 
+ # LOW-COST COLAB SUBSETS
+-max_train_samples: 64
+-max_eval_samples: 32
++max_train_samples: 128
++max_eval_samples: 64
+ 
+diff --git a/llms/__pycache__/whitebox.cpython-312.pyc b/llms/__pycache__/whitebox.cpython-312.pyc
+index 19aa1b4..01129ed 100644
+Binary files a/llms/__pycache__/whitebox.cpython-312.pyc and b/llms/__pycache__/whitebox.cpython-312.pyc differ
+diff --git a/wandb/debug-internal.log b/wandb/debug-internal.log
+index 40cb50b..5e8da80 120000
+--- a/wandb/debug-internal.log
++++ b/wandb/debug-internal.log
+@@ -1 +1 @@
+-run-20260504_220037-k1s0etwv/logs/debug-internal.log
+\ No newline at end of file
++run-20260504_232700-mg2x88xo/logs/debug-internal.log
+\ No newline at end of file
+diff --git a/wandb/debug.log b/wandb/debug.log
+index 6bb94a4..d6dbe2f 120000
+--- a/wandb/debug.log
++++ b/wandb/debug.log
+@@ -1 +1 @@
+-run-20260504_220037-k1s0etwv/logs/debug.log
+\ No newline at end of file
++run-20260504_232700-mg2x88xo/logs/debug.log
+\ No newline at end of file
+diff --git a/wandb/latest-run b/wandb/latest-run
+index 894546a..40a1ec6 120000
+--- a/wandb/latest-run
++++ b/wandb/latest-run
+@@ -1 +1 @@
+-run-20260504_220037-k1s0etwv
+\ No newline at end of file
++run-20260504_232700-mg2x88xo
+\ No newline at end of file

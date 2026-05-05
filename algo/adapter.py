@@ -57,12 +57,39 @@ class Adapter(Whitebox_LLM):
         prompt = f"{self.prompt}\n{input_string}"
         prompt = prompt.strip()
 
-        if self.config["max_length"] > 1 or "truthfulqa" in self.config["task"].lower():
-            generated_texts = self.generator.get_response(prompt, max_tokens=self.config["max_tokens"], extract_first_sentence=True)
+        answer_part = input_string.split("A:", 1)[-1]
+        num_answer_lines = len([line for line in answer_part.split("\n") if line.strip()])
+
+        force_final_answer = (
+            self.config.get("force_final_answer", False)
+            and "strategyqa" in self.config["task"].lower()
+            and "####" not in input_string
+            and num_answer_lines >= self.config.get("force_final_after_steps", 3)
+        )
+
+        if force_final_answer:
+          generated_texts = ["#### Yes.", "#### No."]
+
+        elif self.config["max_length"] > 1 or "truthfulqa" in self.config["task"].lower():
+            generated_texts = self.generator.get_response(
+            prompt,
+            max_tokens=self.config["max_tokens"],
+            extract_first_sentence=True,
+            )
         elif self.config["task"].lower() == "alpacafarm":
-            generated_texts = self.generator.get_response(prompt, max_tokens=self.config["max_tokens"], extract_first_sentence=False)
+            generated_texts = self.generator.get_response(
+            prompt,
+            max_tokens=self.config["max_tokens"],
+            extract_first_sentence=False,
+            ) 
         else:
-            generated_texts = self.generator.get_response(prompt, stop=["\n\n"], max_tokens=500, extract_first_sentence=False)
+            generated_texts = self.generator.get_response(
+            prompt,
+            stop=self.config.get("stop", None),
+            max_tokens=self.config.get("max_tokens", 256),
+            extract_first_sentence=False,
+            )
+
             
         if generated_texts == '<SKIP>' or len(generated_texts) < 1:
             return '<SKIP>'
@@ -77,9 +104,9 @@ class Adapter(Whitebox_LLM):
         if self.config.get("only_eval_answers", False):
             # eliminate the input_string before "A:" and save it as prev_ans
             prev_ans = extract_answer(input_string)
-            texts_to_score = [prev_ans + t.strip() for t in generated_texts]
+            texts_to_score = [prev_ans.rstrip() + "\n" + t.strip() for t in generated_texts]
         else:
-            texts_to_score = [input_string + t.strip() for t in generated_texts]
+            texts_to_score = [input_string.rstrip() + "\n" + t.strip() for t in generated_texts]
 
         scores = self.get_scores_from_texts(texts_to_score, mode=self.config['score_mode'])
         

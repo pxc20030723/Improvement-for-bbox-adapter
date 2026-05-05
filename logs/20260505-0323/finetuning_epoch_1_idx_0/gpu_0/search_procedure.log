@@ -1,0 +1,3013 @@
+
+====================
+epoch 1 | idx 0
+====================
+Q: Does taking ukemi halt kinetic energy?
+
+
+********** Step: 1 **********
+
+Ukemi is a Japanese term that refers to the practice of falling safely in martial arts. (Score: -0.0005211527459323406, Parent: 0)
+
+Taking ukemi is a technique used in martial arts, particularly in judo and aikido, to safely fall and roll when thrown or taken down. (Score: -0.0010684267617762089, Parent: 0)
+
+********** Step: 2 **********
+
+Ukemi is a Japanese term that refers to the practice of falling safely in martial arts.
+Ukemi involves techniques that allow a practitioner to absorb and dissipate the energy from a fall. (Score: -0.00021522212773561478, Parent: 0)
+
+Ukemi is a Japanese term that refers to the practice of falling safely in martial arts.
+Ukemi involves techniques that allow a practitioner to absorb and dissipate the energy from a fall. (Score: -0.00021522212773561478, Parent: 0)
+
+********** Step: 3 **********
+
+Ukemi is a Japanese term that refers to the practice of falling safely in martial arts.
+Ukemi involves techniques that allow a practitioner to absorb and dissipate the energy from a fall.
+When a practitioner performs ukemi, they use specific movements to roll or break their fall, which helps to reduce the impact and transfer of kinetic energy. (Score: -0.0008867084980010986, Parent: 0)
+
+Ukemi is a Japanese term that refers to the practice of falling safely in martial arts.
+Ukemi involves techniques that allow a practitioner to absorb and dissipate the energy from a fall.
+When a practitioner performs ukemi, they roll or fall in a way that spreads the impact over a larger area and time, which helps to reduce the force experienced by the body. (Score: -0.0009551728144288063, Parent: 1)
+
+********** Step: 4 **********
+
+Ukemi is a Japanese term that refers to the practice of falling safely in martial arts.
+Ukemi involves techniques that allow a practitioner to absorb and dissipate the energy from a fall.
+When a practitioner performs ukemi, they use specific movements to roll or break their fall, which helps to reduce the impact and transfer of kinetic energy.
+#### Yes. (Score: -0.00020646024495363235, Parent: 0)
+
+Ukemi is a Japanese term that refers to the practice of falling safely in martial arts.
+Ukemi involves techniques that allow a practitioner to absorb and dissipate the energy from a fall.
+When a practitioner performs ukemi, they use specific movements to roll or break their fall, which helps to reduce the impact and transfer of kinetic energy.
+#### No. (Score: -0.0002168850041925907, Parent: 0)
+
+********** Step: 5 **********
+
+Ukemi is a Japanese term that refers to the practice of falling safely in martial arts.
+Ukemi involves techniques that allow a practitioner to absorb and dissipate the energy from a fall.
+When a practitioner performs ukemi, they use specific movements to roll or break their fall, which helps to reduce the impact and transfer of kinetic energy.
+#### Yes.
+ (Score: -0.00020646024495363235, Parent: 0)
+
+Ukemi is a Japanese term that refers to the practice of falling safely in martial arts.
+Ukemi involves techniques that allow a practitioner to absorb and dissipate the energy from a fall.
+When a practitioner performs ukemi, they use specific movements to roll or break their fall, which helps to reduce the impact and transfer of kinetic energy.
+#### No.
+ (Score: -0.0002168850041925907, Parent: 1)
+
+---------- FINAL ----------
+step 5
+Ukemi is a Japanese term that refers to the practice of falling safely in martial arts.
+Ukemi involves techniques that allow a practitioner to absorb and dissipate the energy from a fall.
+When a practitioner performs ukemi, they use specific movements to roll or break their fall, which helps to reduce the impact and transfer of kinetic energy.
+#### Yes.
+ (Score: -0.00020646024495363235)
+
+Ukemi is a Japanese term that refers to the practice of falling safely in martial arts.
+Ukemi involves techniques that allow a practitioner to absorb and dissipate the energy from a fall.
+When a practitioner performs ukemi, they use specific movements to roll or break their fall, which helps to reduce the impact and transfer of kinetic energy.
+#### No.
+ (Score: -0.0002168850041925907)
+tensor([[ 1512032398502160938, -5539746337634928043,  6755526430978367305,
+          3471282636905793098,                    0],
+        [ 1512032398502160938, -5539746337634928043,  6755526430978367305,
+         -3109048355575009819,                    0]])
+
+====================
+Q: Would the Cookie Monster decline an offer of free Keebler products?
+
+
+********** Step: 1 **********
+
+The Cookie Monster is a character from the children's television show "Sesame Street."  . (Score: 0.00033668195828795433, Parent: 0)
+
+The Cookie Monster is a character from the children's television show "Sesame Street."  . (Score: 0.00033668195828795433, Parent: 0)
+
+********** Step: 2 **********
+
+The Cookie Monster is a character from the children's television show "Sesame Street."  .
+The Cookie Monster is known for his love of cookies and treats. (Score: 0.0007086521945893764, Parent: 0)
+
+The Cookie Monster is a character from the children's television show "Sesame Street."  .
+The Cookie Monster is known for his love of cookies and treats. (Score: 0.0007086521945893764, Parent: 1)
+
+********** Step: 3 **********
+
+The Cookie Monster is a character from the children's television show "Sesame Street."  .
+The Cookie Monster is known for his love of cookies and treats.
+He is often depicted as being very enthusiastic about eating cookies. (Score: 3.851298242807388e-05, Parent: 0)
+
+The Cookie Monster is a character from the children's television show "Sesame Street."  .
+The Cookie Monster is known for his love of cookies and treats.
+He is often depicted as being very enthusiastic about eating cookies. (Score: 3.851298242807388e-05, Parent: 1)
+
+********** Step: 4 **********
+
+The Cookie Monster is a character from the children's television show "Sesame Street."  .
+The Cookie Monster is known for his love of cookies and treats.
+He is often depicted as being very enthusiastic about eating cookies.
+#### Yes. (Score: 0.0007878076285123825, Parent: 0)
+
+The Cookie Monster is a character from the children's television show "Sesame Street."  .
+The Cookie Monster is known for his love of cookies and treats.
+He is often depicted as being very enthusiastic about eating cookies.
+#### Yes. (Score: 0.0007878076285123825, Parent: 1)
+
+********** Step: 5 **********
+
+The Cookie Monster is a character from the children's television show "Sesame Street."  .
+The Cookie Monster is known for his love of cookies and treats.
+He is often depicted as being very enthusiastic about eating cookies.
+#### Yes.
+ (Score: 0.0007878076285123825, Parent: 0)
+
+The Cookie Monster is a character from the children's television show "Sesame Street."  .
+The Cookie Monster is known for his love of cookies and treats.
+He is often depicted as being very enthusiastic about eating cookies.
+#### Yes.
+ (Score: 0.0007878076285123825, Parent: 1)
+
+---------- FINAL ----------
+step 5
+The Cookie Monster is a character from the children's television show "Sesame Street."  .
+The Cookie Monster is known for his love of cookies and treats.
+He is often depicted as being very enthusiastic about eating cookies.
+#### Yes.
+ (Score: 0.0007878076285123825)
+
+The Cookie Monster is a character from the children's television show "Sesame Street."  .
+The Cookie Monster is known for his love of cookies and treats.
+He is often depicted as being very enthusiastic about eating cookies.
+#### Yes.
+ (Score: 0.0007878076285123825)
+tensor([[ 7128472837812727591,  2754323021247852102, -3723297885840500120,
+          3471282636905793098,                    0],
+        [ 7128472837812727591,  2754323021247852102, -3723297885840500120,
+          3471282636905793098,                    0]])
+
+====================
+Q: Were paparazzi involved in the death of a member of the royal family?
+
+
+********** Step: 1 **********
+
+A: The term "paparazzi" refers to photographers who take candid pictures of celebrities and public figures, often in intrusive ways. (Score: -0.0014960519038140774, Parent: 0)
+
+A: The term "paparazzi" refers to photographers who take candid pictures of celebrities and public figures, often in intrusive ways. (Score: -0.0014960519038140774, Parent: 0)
+
+********** Step: 2 **********
+
+A: The term "paparazzi" refers to photographers who take candid pictures of celebrities and public figures, often in intrusive ways.
+Paparazzi have been known to follow and photograph members of the royal family, sometimes leading to dangerous situations. (Score: -0.0012921416200697422, Parent: 0)
+
+A: The term "paparazzi" refers to photographers who take candid pictures of celebrities and public figures, often in intrusive ways.
+Paparazzi have been known to follow and photograph members of the royal family, sometimes leading to dangerous situations. (Score: -0.0012921416200697422, Parent: 1)
+
+********** Step: 3 **********
+
+A: The term "paparazzi" refers to photographers who take candid pictures of celebrities and public figures, often in intrusive ways.
+Paparazzi have been known to follow and photograph members of the royal family, sometimes leading to dangerous situations.
+In 1997, Princess Diana, a member of the British royal family, died in a car crash in Paris. (Score: -0.0008178986608982086, Parent: 0)
+
+A: The term "paparazzi" refers to photographers who take candid pictures of celebrities and public figures, often in intrusive ways.
+Paparazzi have been known to follow and photograph members of the royal family, sometimes leading to dangerous situations.
+In 1997, Princess Diana, a member of the British royal family, died in a car crash in Paris. (Score: -0.0008178986608982086, Parent: 1)
+
+********** Step: 4 **********
+
+A: The term "paparazzi" refers to photographers who take candid pictures of celebrities and public figures, often in intrusive ways.
+Paparazzi have been known to follow and photograph members of the royal family, sometimes leading to dangerous situations.
+In 1997, Princess Diana, a member of the British royal family, died in a car crash in Paris.
+#### No. (Score: 0.00014512008056044579, Parent: 0)
+
+A: The term "paparazzi" refers to photographers who take candid pictures of celebrities and public figures, often in intrusive ways.
+Paparazzi have been known to follow and photograph members of the royal family, sometimes leading to dangerous situations.
+In 1997, Princess Diana, a member of the British royal family, died in a car crash in Paris.
+#### No. (Score: 0.00014512008056044579, Parent: 1)
+
+********** Step: 5 **********
+
+A: The term "paparazzi" refers to photographers who take candid pictures of celebrities and public figures, often in intrusive ways.
+Paparazzi have been known to follow and photograph members of the royal family, sometimes leading to dangerous situations.
+In 1997, Princess Diana, a member of the British royal family, died in a car crash in Paris.
+#### No.
+ (Score: 0.00014512008056044579, Parent: 0)
+
+A: The term "paparazzi" refers to photographers who take candid pictures of celebrities and public figures, often in intrusive ways.
+Paparazzi have been known to follow and photograph members of the royal family, sometimes leading to dangerous situations.
+In 1997, Princess Diana, a member of the British royal family, died in a car crash in Paris.
+#### No.
+ (Score: 0.00014512008056044579, Parent: 1)
+
+---------- FINAL ----------
+step 5
+A: The term "paparazzi" refers to photographers who take candid pictures of celebrities and public figures, often in intrusive ways.
+Paparazzi have been known to follow and photograph members of the royal family, sometimes leading to dangerous situations.
+In 1997, Princess Diana, a member of the British royal family, died in a car crash in Paris.
+#### No.
+ (Score: 0.00014512008056044579)
+
+A: The term "paparazzi" refers to photographers who take candid pictures of celebrities and public figures, often in intrusive ways.
+Paparazzi have been known to follow and photograph members of the royal family, sometimes leading to dangerous situations.
+In 1997, Princess Diana, a member of the British royal family, died in a car crash in Paris.
+#### No.
+ (Score: 0.00014512008056044579)
+tensor([[  332464378302705062,  2085763250334785336, -5925097355875667328,
+         -3109048355575009819,                    0],
+        [  332464378302705062,  2085763250334785336, -5925097355875667328,
+         -3109048355575009819,                    0]])
+
+====================
+Q: Karachi was a part of Alexander the Great's success?
+
+
+********** Step: 1 **********
+
+Karachi is a city in modern-day Pakistan. (Score: -0.0004502139054238796, Parent: 0)
+
+Karachi is a city in modern-day Pakistan. (Score: -0.0004502139054238796, Parent: 0)
+
+********** Step: 2 **********
+
+Karachi is a city in modern-day Pakistan.
+Krokola was an ancient port located in what is now Karachi. (Score: -0.000739093404263258, Parent: 0)
+
+Karachi is a city in modern-day Pakistan.
+Krokola was an ancient port located in what is now Karachi. (Score: -0.000739093404263258, Parent: 1)
+
+********** Step: 3 **********
+
+Karachi is a city in modern-day Pakistan.
+Krokola was an ancient port located in what is now Karachi.
+Alexander the Great stationed his fleet in Krokola on his way to Babylon. (Score: -0.0005597961135208607, Parent: 0)
+
+Karachi is a city in modern-day Pakistan.
+Krokola was an ancient port located in what is now Karachi.
+Alexander the Great stationed his fleet in Krokola on his way to Babylon. (Score: -0.0005597961135208607, Parent: 1)
+
+********** Step: 4 **********
+
+Karachi is a city in modern-day Pakistan.
+Krokola was an ancient port located in what is now Karachi.
+Alexander the Great stationed his fleet in Krokola on his way to Babylon.
+#### No. (Score: 0.00040944525972008705, Parent: 0)
+
+Karachi is a city in modern-day Pakistan.
+Krokola was an ancient port located in what is now Karachi.
+Alexander the Great stationed his fleet in Krokola on his way to Babylon.
+#### No. (Score: 0.00040944525972008705, Parent: 1)
+
+********** Step: 5 **********
+
+Karachi is a city in modern-day Pakistan.
+Krokola was an ancient port located in what is now Karachi.
+Alexander the Great stationed his fleet in Krokola on his way to Babylon.
+#### No.
+ (Score: 0.00040944525972008705, Parent: 0)
+
+Karachi is a city in modern-day Pakistan.
+Krokola was an ancient port located in what is now Karachi.
+Alexander the Great stationed his fleet in Krokola on his way to Babylon.
+#### No.
+ (Score: 0.00040944525972008705, Parent: 1)
+
+---------- FINAL ----------
+step 5
+Karachi is a city in modern-day Pakistan.
+Krokola was an ancient port located in what is now Karachi.
+Alexander the Great stationed his fleet in Krokola on his way to Babylon.
+#### No.
+ (Score: 0.00040944525972008705)
+
+Karachi is a city in modern-day Pakistan.
+Krokola was an ancient port located in what is now Karachi.
+Alexander the Great stationed his fleet in Krokola on his way to Babylon.
+#### No.
+ (Score: 0.00040944525972008705)
+tensor([[-1755934989182156943, -6298738505235629206, -4632653502219158816,
+         -3109048355575009819,                    0],
+        [-1755934989182156943, -6298738505235629206, -4632653502219158816,
+         -3109048355575009819,                    0]])
+
+====================
+Q: Could the Dominican Order hypothetically defeat Blessed Gerard's order?
+
+
+********** Step: 1 **********
+
+The Dominican Order is a religious order founded in the early 13th century, known for its emphasis on preaching and teaching. (Score: -0.0011136331595480442, Parent: 0)
+
+The Dominican Order is a Catholic religious order founded in the early 13th century, known for its emphasis on preaching and teaching. (Score: -0.0012563415803015232, Parent: 0)
+
+********** Step: 2 **********
+
+The Dominican Order is a Catholic religious order founded in the early 13th century, known for its emphasis on preaching and teaching.
+The Order of Blessed Gerard, also known as the Knights Hospitaller, was established in the 11th century to provide care for sick and injured pilgrims in the Holy Land. (Score: 0.00011538760736584663, Parent: 1)
+
+The Dominican Order is a religious order founded in the early 13th century, known for its emphasis on preaching and teaching.
+The Order of Blessed Gerard, also known as the Knights of Malta, was established in the 11th century and is known for its focus on hospitality and care for the sick. (Score: -0.0002701408229768276, Parent: 0)
+
+********** Step: 3 **********
+
+The Dominican Order is a Catholic religious order founded in the early 13th century, known for its emphasis on preaching and teaching.
+The Order of Blessed Gerard, also known as the Knights Hospitaller, was established in the 11th century to provide care for sick and injured pilgrims in the Holy Land.
+The Dominican Order and the Knights Hospitaller have different missions and historical contexts. (Score: 0.00013189297169446945, Parent: 0)
+
+The Dominican Order is a Catholic religious order founded in the early 13th century, known for its emphasis on preaching and teaching.
+The Order of Blessed Gerard, also known as the Knights Hospitaller, was established in the 11th century to provide care for sick and injured pilgrims in the Holy Land.
+The Dominican Order focuses on education and preaching, while the Knights Hospitaller were primarily a military and charitable organization. (Score: -0.00020478805527091026, Parent: 0)
+
+********** Step: 4 **********
+
+The Dominican Order is a Catholic religious order founded in the early 13th century, known for its emphasis on preaching and teaching.
+The Order of Blessed Gerard, also known as the Knights Hospitaller, was established in the 11th century to provide care for sick and injured pilgrims in the Holy Land.
+The Dominican Order and the Knights Hospitaller have different missions and historical contexts.
+#### No. (Score: 0.000820668414235115, Parent: 0)
+
+The Dominican Order is a Catholic religious order founded in the early 13th century, known for its emphasis on preaching and teaching.
+The Order of Blessed Gerard, also known as the Knights Hospitaller, was established in the 11th century to provide care for sick and injured pilgrims in the Holy Land.
+The Dominican Order and the Knights Hospitaller have different missions and historical contexts.
+#### Yes. (Score: 0.0007190769538283348, Parent: 0)
+
+********** Step: 5 **********
+
+The Dominican Order is a Catholic religious order founded in the early 13th century, known for its emphasis on preaching and teaching.
+The Order of Blessed Gerard, also known as the Knights Hospitaller, was established in the 11th century to provide care for sick and injured pilgrims in the Holy Land.
+The Dominican Order and the Knights Hospitaller have different missions and historical contexts.
+#### No.
+ (Score: 0.000820668414235115, Parent: 0)
+
+The Dominican Order is a Catholic religious order founded in the early 13th century, known for its emphasis on preaching and teaching.
+The Order of Blessed Gerard, also known as the Knights Hospitaller, was established in the 11th century to provide care for sick and injured pilgrims in the Holy Land.
+The Dominican Order and the Knights Hospitaller have different missions and historical contexts.
+#### Yes.
+ (Score: 0.0007190769538283348, Parent: 1)
+
+---------- FINAL ----------
+step 5
+The Dominican Order is a Catholic religious order founded in the early 13th century, known for its emphasis on preaching and teaching.
+The Order of Blessed Gerard, also known as the Knights Hospitaller, was established in the 11th century to provide care for sick and injured pilgrims in the Holy Land.
+The Dominican Order and the Knights Hospitaller have different missions and historical contexts.
+#### No.
+ (Score: 0.000820668414235115)
+
+The Dominican Order is a Catholic religious order founded in the early 13th century, known for its emphasis on preaching and teaching.
+The Order of Blessed Gerard, also known as the Knights Hospitaller, was established in the 11th century to provide care for sick and injured pilgrims in the Holy Land.
+The Dominican Order and the Knights Hospitaller have different missions and historical contexts.
+#### Yes.
+ (Score: 0.0007190769538283348)
+tensor([[-1572832253002554628,  1025208931156464779, -3510832756388884233,
+         -3109048355575009819,                    0],
+        [-1572832253002554628,  1025208931156464779, -3510832756388884233,
+          3471282636905793098,                    0]])
+
+====================
+Q: Could someone with fine motor control issues benefit from an altered keyboard layout?
+
+
+********** Step: 1 **********
+
+A: Fine motor control issues can make it difficult for individuals to use standard keyboard layouts effectively. (Score: -0.0002488875761628151, Parent: 0)
+
+A: Fine motor control issues can make it difficult for individuals to use standard keyboard layouts effectively. (Score: -0.0002488875761628151, Parent: 0)
+
+********** Step: 2 **********
+
+A: Fine motor control issues can make it difficult for individuals to use standard keyboard layouts effectively.
+An altered keyboard layout can be designed to accommodate individuals with fine motor control issues by providing larger keys or a more ergonomic arrangement. (Score: -0.0007860586047172546, Parent: 1)
+
+A: Fine motor control issues can make it difficult for individuals to use standard keyboard layouts effectively.
+A: Altered keyboard layouts can be designed to accommodate individuals with fine motor control issues by providing larger keys or a more intuitive arrangement. (Score: -0.00094203045591712, Parent: 0)
+
+********** Step: 3 **********
+
+A: Fine motor control issues can make it difficult for individuals to use standard keyboard layouts effectively.
+An altered keyboard layout can be designed to accommodate individuals with fine motor control issues by providing larger keys or a more ergonomic arrangement.
+This can help reduce the strain and improve accessibility for those individuals. (Score: -0.0009639821946620941, Parent: 0)
+
+A: Fine motor control issues can make it difficult for individuals to use standard keyboard layouts effectively.
+An altered keyboard layout can be designed to accommodate individuals with fine motor control issues by providing larger keys or a more ergonomic arrangement.
+This can help reduce the strain and improve accessibility for those individuals. (Score: -0.0009639821946620941, Parent: 0)
+
+********** Step: 4 **********
+
+A: Fine motor control issues can make it difficult for individuals to use standard keyboard layouts effectively.
+An altered keyboard layout can be designed to accommodate individuals with fine motor control issues by providing larger keys or a more ergonomic arrangement.
+This can help reduce the strain and improve accessibility for those individuals.
+#### No. (Score: -0.0011348659172654152, Parent: 0)
+
+A: Fine motor control issues can make it difficult for individuals to use standard keyboard layouts effectively.
+An altered keyboard layout can be designed to accommodate individuals with fine motor control issues by providing larger keys or a more ergonomic arrangement.
+This can help reduce the strain and improve accessibility for those individuals.
+#### No. (Score: -0.0011348659172654152, Parent: 1)
+
+********** Step: 5 **********
+
+A: Fine motor control issues can make it difficult for individuals to use standard keyboard layouts effectively.
+An altered keyboard layout can be designed to accommodate individuals with fine motor control issues by providing larger keys or a more ergonomic arrangement.
+This can help reduce the strain and improve accessibility for those individuals.
+#### No.
+ (Score: -0.0011348659172654152, Parent: 0)
+
+A: Fine motor control issues can make it difficult for individuals to use standard keyboard layouts effectively.
+An altered keyboard layout can be designed to accommodate individuals with fine motor control issues by providing larger keys or a more ergonomic arrangement.
+This can help reduce the strain and improve accessibility for those individuals.
+#### No.
+ (Score: -0.0011348659172654152, Parent: 1)
+
+---------- FINAL ----------
+step 5
+A: Fine motor control issues can make it difficult for individuals to use standard keyboard layouts effectively.
+An altered keyboard layout can be designed to accommodate individuals with fine motor control issues by providing larger keys or a more ergonomic arrangement.
+This can help reduce the strain and improve accessibility for those individuals.
+#### No.
+ (Score: -0.0011348659172654152)
+
+A: Fine motor control issues can make it difficult for individuals to use standard keyboard layouts effectively.
+An altered keyboard layout can be designed to accommodate individuals with fine motor control issues by providing larger keys or a more ergonomic arrangement.
+This can help reduce the strain and improve accessibility for those individuals.
+#### No.
+ (Score: -0.0011348659172654152)
+tensor([[ 3202725388313422258,  7205899160348621451,  1989459493734722105,
+         -3109048355575009819,                    0],
+        [ 3202725388313422258,  7205899160348621451,  1989459493734722105,
+         -3109048355575009819,                    0]])
+
+====================
+Q: Was Mother Theresa a follower of atheism?
+
+
+********** Step: 1 **********
+
+Mother Teresa was a Roman Catholic nun and missionary. (Score: 0.0009803790599107742, Parent: 0)
+
+Mother Teresa was a Roman Catholic nun and missionary. (Score: 0.0009803790599107742, Parent: 0)
+
+********** Step: 2 **********
+
+Mother Teresa was a Roman Catholic nun and missionary.
+She dedicated her life to serving the poor and sick, following the teachings of Christianity. (Score: -0.0007050945423543453, Parent: 1)
+
+Mother Teresa was a Roman Catholic nun and missionary.
+She dedicated her life to serving the poor and sick, following the teachings of Christianity. (Score: -0.0007134703919291496, Parent: 0)
+
+********** Step: 3 **********
+
+Mother Teresa was a Roman Catholic nun and missionary.
+She dedicated her life to serving the poor and sick, following the teachings of Christianity.
+She was known for her strong faith and belief in God. (Score: -8.137896656990051e-05, Parent: 0)
+
+Mother Teresa was a Roman Catholic nun and missionary.
+She dedicated her life to serving the poor and sick, following the teachings of Christianity.
+She was known for her deep faith and commitment to God. (Score: -0.00020533287897706032, Parent: 0)
+
+********** Step: 4 **********
+
+Mother Teresa was a Roman Catholic nun and missionary.
+She dedicated her life to serving the poor and sick, following the teachings of Christianity.
+She was known for her strong faith and belief in God.
+#### No. (Score: 0.0009188107214868069, Parent: 0)
+
+Mother Teresa was a Roman Catholic nun and missionary.
+She dedicated her life to serving the poor and sick, following the teachings of Christianity.
+She was known for her deep faith and commitment to God.
+#### No. (Score: 0.0007750471122562885, Parent: 1)
+
+********** Step: 5 **********
+
+Mother Teresa was a Roman Catholic nun and missionary.
+She dedicated her life to serving the poor and sick, following the teachings of Christianity.
+She was known for her strong faith and belief in God.
+#### No.
+ (Score: 0.0009188107214868069, Parent: 0)
+
+Mother Teresa was a Roman Catholic nun and missionary.
+She dedicated her life to serving the poor and sick, following the teachings of Christianity.
+She was known for her deep faith and commitment to God.
+#### No.
+ (Score: 0.0007750471122562885, Parent: 1)
+
+---------- FINAL ----------
+step 5
+Mother Teresa was a Roman Catholic nun and missionary.
+She dedicated her life to serving the poor and sick, following the teachings of Christianity.
+She was known for her strong faith and belief in God.
+#### No.
+ (Score: 0.0009188107214868069)
+
+Mother Teresa was a Roman Catholic nun and missionary.
+She dedicated her life to serving the poor and sick, following the teachings of Christianity.
+She was known for her deep faith and commitment to God.
+#### No.
+ (Score: 0.0007750471122562885)
+tensor([[-3611160894963991936, -8711938997642535211,  -637527987977753652,
+         -3109048355575009819,                    0],
+        [-3611160894963991936, -8711938997642535211, -8116674980782948710,
+         -3109048355575009819,                    0]])
+
+====================
+Q: Are all types of pottery safe to cook in?
+
+
+********** Step: 1 **********
+
+A: Pottery can be made from various materials, including earthenware, stoneware, and porcelain. (Score: -0.001077981200069189, Parent: 0)
+
+A: Pottery can be made from various materials, including earthenware, stoneware, and porcelain. (Score: -0.001077981200069189, Parent: 0)
+
+********** Step: 2 **********
+
+A: Pottery can be made from various materials, including earthenware, stoneware, and porcelain.
+Different types of pottery have different properties and safety standards. (Score: -0.00021888874471187592, Parent: 0)
+
+A: Pottery can be made from various materials, including earthenware, stoneware, and porcelain.
+Different types of pottery have different properties and safety standards. (Score: -0.00021888874471187592, Parent: 1)
+
+********** Step: 3 **********
+
+A: Pottery can be made from various materials, including earthenware, stoneware, and porcelain.
+Different types of pottery have different properties and safety standards.
+Some pottery is specifically designed for cooking and is safe to use in ovens and microwaves, while others may contain harmful materials or glazes that can leach into food when heated. (Score: -0.00035678455606102943, Parent: 0)
+
+A: Pottery can be made from various materials, including earthenware, stoneware, and porcelain.
+Different types of pottery have different properties and safety standards.
+Some pottery is specifically designed for cooking and is labeled as oven-safe or microwave-safe. (Score: -0.0005042511038482189, Parent: 0)
+
+********** Step: 4 **********
+
+A: Pottery can be made from various materials, including earthenware, stoneware, and porcelain.
+Different types of pottery have different properties and safety standards.
+Some pottery is specifically designed for cooking and is safe to use in ovens and microwaves, while others may contain harmful materials or glazes that can leach into food when heated.
+#### No. (Score: 0.00036990735679864883, Parent: 0)
+
+A: Pottery can be made from various materials, including earthenware, stoneware, and porcelain.
+Different types of pottery have different properties and safety standards.
+Some pottery is specifically designed for cooking and is safe to use in ovens and microwaves, while others may contain harmful materials or glazes that can leach into food when heated.
+#### Yes. (Score: 0.00025778496637940407, Parent: 0)
+
+********** Step: 5 **********
+
+A: Pottery can be made from various materials, including earthenware, stoneware, and porcelain.
+Different types of pottery have different properties and safety standards.
+Some pottery is specifically designed for cooking and is safe to use in ovens and microwaves, while others may contain harmful materials or glazes that can leach into food when heated.
+#### No.
+ (Score: 0.00036990735679864883, Parent: 0)
+
+A: Pottery can be made from various materials, including earthenware, stoneware, and porcelain.
+Different types of pottery have different properties and safety standards.
+Some pottery is specifically designed for cooking and is safe to use in ovens and microwaves, while others may contain harmful materials or glazes that can leach into food when heated.
+#### Yes.
+ (Score: 0.00025778496637940407, Parent: 1)
+
+---------- FINAL ----------
+step 5
+A: Pottery can be made from various materials, including earthenware, stoneware, and porcelain.
+Different types of pottery have different properties and safety standards.
+Some pottery is specifically designed for cooking and is safe to use in ovens and microwaves, while others may contain harmful materials or glazes that can leach into food when heated.
+#### No.
+ (Score: 0.00036990735679864883)
+
+A: Pottery can be made from various materials, including earthenware, stoneware, and porcelain.
+Different types of pottery have different properties and safety standards.
+Some pottery is specifically designed for cooking and is safe to use in ovens and microwaves, while others may contain harmful materials or glazes that can leach into food when heated.
+#### Yes.
+ (Score: 0.00025778496637940407)
+tensor([[-7381652073357386319, -7147227650811285496,  7460187613823367613,
+         -3109048355575009819,                    0],
+        [-7381652073357386319, -7147227650811285496,  7460187613823367613,
+          3471282636905793098,                    0]])
+
+====================
+Q: Is Edgar Allan Poe obscure in the world of horror fiction?
+
+
+********** Step: 1 **********
+
+Edgar Allan Poe is a well-known American writer and poet. (Score: 0.0001409389078617096, Parent: 0)
+
+Edgar Allan Poe is a well-known American writer and poet. (Score: 0.0001409389078617096, Parent: 0)
+
+********** Step: 2 **********
+
+Edgar Allan Poe is a well-known American writer and poet.
+He is often regarded as a pioneer of the horror genre. (Score: 0.0001325095072388649, Parent: 0)
+
+Edgar Allan Poe is a well-known American writer and poet.
+He is often regarded as a pioneer of the horror genre. (Score: 0.0001325095072388649, Parent: 1)
+
+********** Step: 3 **********
+
+Edgar Allan Poe is a well-known American writer and poet.
+He is often regarded as a pioneer of the horror genre.
+He is famous for works such as "The Tell-Tale Heart" and "The Raven.". (Score: -0.00156425591558218, Parent: 0)
+
+Edgar Allan Poe is a well-known American writer and poet.
+He is often regarded as a pioneer of the horror genre.
+He is famous for his macabre and gothic tales, such as "The Tell-Tale Heart" and "The Fall of the House of Usher.". (Score: -0.0028980905190110207, Parent: 0)
+
+********** Step: 4 **********
+
+Edgar Allan Poe is a well-known American writer and poet.
+He is often regarded as a pioneer of the horror genre.
+He is famous for works such as "The Tell-Tale Heart" and "The Raven.".
+#### Yes. (Score: -7.95312225818634e-05, Parent: 0)
+
+Edgar Allan Poe is a well-known American writer and poet.
+He is often regarded as a pioneer of the horror genre.
+He is famous for works such as "The Tell-Tale Heart" and "The Raven.".
+#### No. (Score: -0.0001653609797358513, Parent: 0)
+
+********** Step: 5 **********
+
+Edgar Allan Poe is a well-known American writer and poet.
+He is often regarded as a pioneer of the horror genre.
+He is famous for works such as "The Tell-Tale Heart" and "The Raven.".
+#### Yes.
+ (Score: -7.95312225818634e-05, Parent: 0)
+
+Edgar Allan Poe is a well-known American writer and poet.
+He is often regarded as a pioneer of the horror genre.
+He is famous for works such as "The Tell-Tale Heart" and "The Raven.".
+#### No.
+ (Score: -0.0001653609797358513, Parent: 1)
+
+---------- FINAL ----------
+step 5
+Edgar Allan Poe is a well-known American writer and poet.
+He is often regarded as a pioneer of the horror genre.
+He is famous for works such as "The Tell-Tale Heart" and "The Raven.".
+#### Yes.
+ (Score: -7.95312225818634e-05)
+
+Edgar Allan Poe is a well-known American writer and poet.
+He is often regarded as a pioneer of the horror genre.
+He is famous for works such as "The Tell-Tale Heart" and "The Raven.".
+#### No.
+ (Score: -0.0001653609797358513)
+tensor([[ -875577486668999300, -7320310694910891909, -1028685216478623109,
+          3471282636905793098,                    0],
+        [ -875577486668999300, -7320310694910891909, -1028685216478623109,
+         -3109048355575009819,                    0]])
+
+====================
+Q: Are rainbows devoid of color made by mixing yin and yang colors?
+
+
+********** Step: 1 **********
+
+A: Rainbows are optical and meteorological phenomena that result from the refraction, dispersion, and reflection of light in water droplets, creating a spectrum of colors in the sky. (Score: -0.001978391781449318, Parent: 0)
+
+A: Rainbows are optical and meteorological phenomena that result from the refraction, dispersion, and reflection of light in water droplets, creating a spectrum of colors in the sky. (Score: -0.001978391781449318, Parent: 0)
+
+********** Step: 2 **********
+
+A: Rainbows are optical and meteorological phenomena that result from the refraction, dispersion, and reflection of light in water droplets, creating a spectrum of colors in the sky.
+Rainbows are typically composed of a spectrum of colors, including red, orange, yellow, green, blue, indigo, and violet. (Score: -0.0016914596781134605, Parent: 0)
+
+A: Rainbows are optical and meteorological phenomena that result from the refraction, dispersion, and reflection of light in water droplets, creating a spectrum of colors in the sky.
+Rainbows are typically composed of a spectrum of colors, including red, orange, yellow, green, blue, indigo, and violet. (Score: -0.0016914596781134605, Parent: 1)
+
+********** Step: 3 **********
+
+A: Rainbows are optical and meteorological phenomena that result from the refraction, dispersion, and reflection of light in water droplets, creating a spectrum of colors in the sky.
+Rainbows are typically composed of a spectrum of colors, including red, orange, yellow, green, blue, indigo, and violet.
+The concept of yin and yang originates from Chinese philosophy and represents dualism, where opposite forces are interconnected and interdependent. (Score: -0.0015103472396731377, Parent: 0)
+
+A: Rainbows are optical and meteorological phenomena that result from the refraction, dispersion, and reflection of light in water droplets, creating a spectrum of colors in the sky.
+Rainbows are typically composed of a spectrum of colors, including red, orange, yellow, green, blue, indigo, and violet.
+The concept of yin and yang originates from Chinese philosophy and represents dualism, where opposite forces are interconnected and interdependent. (Score: -0.0015103472396731377, Parent: 1)
+
+********** Step: 4 **********
+
+A: Rainbows are optical and meteorological phenomena that result from the refraction, dispersion, and reflection of light in water droplets, creating a spectrum of colors in the sky.
+Rainbows are typically composed of a spectrum of colors, including red, orange, yellow, green, blue, indigo, and violet.
+The concept of yin and yang originates from Chinese philosophy and represents dualism, where opposite forces are interconnected and interdependent.
+#### No. (Score: -0.0006717238575220108, Parent: 0)
+
+A: Rainbows are optical and meteorological phenomena that result from the refraction, dispersion, and reflection of light in water droplets, creating a spectrum of colors in the sky.
+Rainbows are typically composed of a spectrum of colors, including red, orange, yellow, green, blue, indigo, and violet.
+The concept of yin and yang originates from Chinese philosophy and represents dualism, where opposite forces are interconnected and interdependent.
+#### No. (Score: -0.0006717238575220108, Parent: 1)
+
+********** Step: 5 **********
+
+A: Rainbows are optical and meteorological phenomena that result from the refraction, dispersion, and reflection of light in water droplets, creating a spectrum of colors in the sky.
+Rainbows are typically composed of a spectrum of colors, including red, orange, yellow, green, blue, indigo, and violet.
+The concept of yin and yang originates from Chinese philosophy and represents dualism, where opposite forces are interconnected and interdependent.
+#### No.
+ (Score: -0.0006717238575220108, Parent: 0)
+
+A: Rainbows are optical and meteorological phenomena that result from the refraction, dispersion, and reflection of light in water droplets, creating a spectrum of colors in the sky.
+Rainbows are typically composed of a spectrum of colors, including red, orange, yellow, green, blue, indigo, and violet.
+The concept of yin and yang originates from Chinese philosophy and represents dualism, where opposite forces are interconnected and interdependent.
+#### No.
+ (Score: -0.0006717238575220108, Parent: 1)
+
+---------- FINAL ----------
+step 5
+A: Rainbows are optical and meteorological phenomena that result from the refraction, dispersion, and reflection of light in water droplets, creating a spectrum of colors in the sky.
+Rainbows are typically composed of a spectrum of colors, including red, orange, yellow, green, blue, indigo, and violet.
+The concept of yin and yang originates from Chinese philosophy and represents dualism, where opposite forces are interconnected and interdependent.
+#### No.
+ (Score: -0.0006717238575220108)
+
+A: Rainbows are optical and meteorological phenomena that result from the refraction, dispersion, and reflection of light in water droplets, creating a spectrum of colors in the sky.
+Rainbows are typically composed of a spectrum of colors, including red, orange, yellow, green, blue, indigo, and violet.
+The concept of yin and yang originates from Chinese philosophy and represents dualism, where opposite forces are interconnected and interdependent.
+#### No.
+ (Score: -0.0006717238575220108)
+tensor([[ 8649191211605187004,  1836082343283092019, -7228025617242557388,
+         -3109048355575009819,                    0],
+        [ 8649191211605187004,  1836082343283092019, -7228025617242557388,
+         -3109048355575009819,                    0]])
+
+====================
+Q: Could a cow produce Harvey Milk?
+
+
+********** Step: 1 **********
+
+A: Harvey Milk was a prominent gay rights activist and politician who served on the San Francisco Board of Supervisors. (Score: -0.00037150364369153976, Parent: 0)
+
+A: Harvey Milk was a prominent gay rights activist and politician who served on the San Francisco Board of Supervisors. (Score: -0.00037150364369153976, Parent: 0)
+
+********** Step: 2 **********
+
+A: Harvey Milk was a prominent gay rights activist and politician who served on the San Francisco Board of Supervisors.
+A: Harvey Milk is not a product that can be produced; he was a human being. (Score: 0.00019316840916872025, Parent: 0)
+
+A: Harvey Milk was a prominent gay rights activist and politician who served on the San Francisco Board of Supervisors.
+A: Harvey Milk is not a product that can be produced; he was a human being. (Score: 0.00017668912187218666, Parent: 1)
+
+********** Step: 3 **********
+
+A: Harvey Milk was a prominent gay rights activist and politician who served on the San Francisco Board of Supervisors.
+A: Harvey Milk is not a product that can be produced; he was a human being.
+A: Cows are animals that produce milk, which is a dairy product. (Score: -0.00025390880182385445, Parent: 0)
+
+A: Harvey Milk was a prominent gay rights activist and politician who served on the San Francisco Board of Supervisors.
+A: Harvey Milk is not a product that can be produced; he was a human being.
+A: Cows are animals that produce milk, which is a dairy product. (Score: -0.00025390880182385445, Parent: 1)
+
+********** Step: 4 **********
+
+A: Harvey Milk was a prominent gay rights activist and politician who served on the San Francisco Board of Supervisors.
+A: Harvey Milk is not a product that can be produced; he was a human being.
+A: Cows are animals that produce milk, which is a dairy product.
+#### No. (Score: 0.0005235299468040466, Parent: 0)
+
+A: Harvey Milk was a prominent gay rights activist and politician who served on the San Francisco Board of Supervisors.
+A: Harvey Milk is not a product that can be produced; he was a human being.
+A: Cows are animals that produce milk, which is a dairy product.
+#### No. (Score: 0.0005235299468040466, Parent: 1)
+
+********** Step: 5 **********
+
+A: Harvey Milk was a prominent gay rights activist and politician who served on the San Francisco Board of Supervisors.
+A: Harvey Milk is not a product that can be produced; he was a human being.
+A: Cows are animals that produce milk, which is a dairy product.
+#### No.
+ (Score: 0.0005235299468040466, Parent: 0)
+
+A: Harvey Milk was a prominent gay rights activist and politician who served on the San Francisco Board of Supervisors.
+A: Harvey Milk is not a product that can be produced; he was a human being.
+A: Cows are animals that produce milk, which is a dairy product.
+#### No.
+ (Score: 0.0005235299468040466, Parent: 1)
+
+---------- FINAL ----------
+step 5
+A: Harvey Milk was a prominent gay rights activist and politician who served on the San Francisco Board of Supervisors.
+A: Harvey Milk is not a product that can be produced; he was a human being.
+A: Cows are animals that produce milk, which is a dairy product.
+#### No.
+ (Score: 0.0005235299468040466)
+
+A: Harvey Milk was a prominent gay rights activist and politician who served on the San Francisco Board of Supervisors.
+A: Harvey Milk is not a product that can be produced; he was a human being.
+A: Cows are animals that produce milk, which is a dairy product.
+#### No.
+ (Score: 0.0005235299468040466)
+tensor([[-2582739881315962818, -4012372118629861363, -3716533138892168568,
+         -3109048355575009819,                    0],
+        [-2582739881315962818, -4012372118629861363, -3716533138892168568,
+         -3109048355575009819,                    0]])
+
+====================
+Q: Can a woman on average have a baby before wheat seed blooms?
+
+
+********** Step: 1 **********
+
+A: The average human gestation period for a woman is about 9 months (approximately 40 weeks). (Score: 0.00036381417885422707, Parent: 0)
+
+A: The average human gestation period for a woman is about 9 months (approximately 40 weeks). (Score: 0.00036381417885422707, Parent: 0)
+
+********** Step: 2 **********
+
+A: The average human gestation period for a woman is about 9 months (approximately 40 weeks).
+Wheat typically takes about 4 to 6 months to grow from seed to harvest, depending on the variety and growing conditions. (Score: -0.0007975567132234573, Parent: 0)
+
+A: The average human gestation period for a woman is about 9 months (approximately 40 weeks).
+Wheat typically takes about 4 to 6 months to grow from seed to harvest, depending on the variety and growing conditions. (Score: -0.0007975567132234573, Parent: 1)
+
+********** Step: 3 **********
+
+A: The average human gestation period for a woman is about 9 months (approximately 40 weeks).
+Wheat typically takes about 4 to 6 months to grow from seed to harvest, depending on the variety and growing conditions.
+To determine if a woman can have a baby before wheat seed blooms, we need to compare the average gestation period of a woman with the growth period of wheat. (Score: -0.0013866680674254894, Parent: 0)
+
+A: The average human gestation period for a woman is about 9 months (approximately 40 weeks).
+Wheat typically takes about 4 to 6 months to grow from seed to harvest, depending on the variety and growing conditions.
+To determine if a woman can have a baby before wheat seed blooms, we need to compare the average gestation period of a woman with the growth period of wheat. (Score: -0.0013866680674254894, Parent: 1)
+
+********** Step: 4 **********
+
+A: The average human gestation period for a woman is about 9 months (approximately 40 weeks).
+Wheat typically takes about 4 to 6 months to grow from seed to harvest, depending on the variety and growing conditions.
+To determine if a woman can have a baby before wheat seed blooms, we need to compare the average gestation period of a woman with the growth period of wheat.
+#### No. (Score: -0.00048692384734749794, Parent: 0)
+
+A: The average human gestation period for a woman is about 9 months (approximately 40 weeks).
+Wheat typically takes about 4 to 6 months to grow from seed to harvest, depending on the variety and growing conditions.
+To determine if a woman can have a baby before wheat seed blooms, we need to compare the average gestation period of a woman with the growth period of wheat.
+#### No. (Score: -0.00048692384734749794, Parent: 1)
+
+********** Step: 5 **********
+
+A: The average human gestation period for a woman is about 9 months (approximately 40 weeks).
+Wheat typically takes about 4 to 6 months to grow from seed to harvest, depending on the variety and growing conditions.
+To determine if a woman can have a baby before wheat seed blooms, we need to compare the average gestation period of a woman with the growth period of wheat.
+#### No.
+ (Score: -0.00048692384734749794, Parent: 0)
+
+A: The average human gestation period for a woman is about 9 months (approximately 40 weeks).
+Wheat typically takes about 4 to 6 months to grow from seed to harvest, depending on the variety and growing conditions.
+To determine if a woman can have a baby before wheat seed blooms, we need to compare the average gestation period of a woman with the growth period of wheat.
+#### No.
+ (Score: -0.00048692384734749794, Parent: 1)
+
+---------- FINAL ----------
+step 5
+A: The average human gestation period for a woman is about 9 months (approximately 40 weeks).
+Wheat typically takes about 4 to 6 months to grow from seed to harvest, depending on the variety and growing conditions.
+To determine if a woman can have a baby before wheat seed blooms, we need to compare the average gestation period of a woman with the growth period of wheat.
+#### No.
+ (Score: -0.00048692384734749794)
+
+A: The average human gestation period for a woman is about 9 months (approximately 40 weeks).
+Wheat typically takes about 4 to 6 months to grow from seed to harvest, depending on the variety and growing conditions.
+To determine if a woman can have a baby before wheat seed blooms, we need to compare the average gestation period of a woman with the growth period of wheat.
+#### No.
+ (Score: -0.00048692384734749794)
+tensor([[-8946656747119897191,  8780174056475960677,   289472854842609803,
+         -3109048355575009819,                    0],
+        [-8946656747119897191,  8780174056475960677,   289472854842609803,
+         -3109048355575009819,                    0]])
+
+====================
+Q: Would Felicity Huffman vote for Mike DeWine?
+
+
+********** Step: 1 **********
+
+Felicity Huffman is an American actress known for her work in television and film. (Score: 0.0002626911737024784, Parent: 0)
+
+Felicity Huffman is an American actress known for her role in "Desperate Housewives." . (Score: -0.00030448706820607185, Parent: 0)
+
+********** Step: 2 **********
+
+Felicity Huffman is an American actress known for her work in television and film.
+Felicity Huffman is known for her political views, but there is no public record of her endorsing or voting for specific candidates like Mike DeWine. (Score: -0.0005640434101223946, Parent: 0)
+
+Felicity Huffman is an American actress known for her work in television and film.
+Felicity Huffman is known for her political views, but there is no public record of her endorsing or voting for specific candidates like Mike DeWine. (Score: -0.0005640434101223946, Parent: 0)
+
+********** Step: 3 **********
+
+Felicity Huffman is an American actress known for her work in television and film.
+Felicity Huffman is known for her political views, but there is no public record of her endorsing or voting for specific candidates like Mike DeWine.
+Mike DeWine is a Republican politician and the current governor of Ohio. (Score: -0.0006022690795361996, Parent: 0)
+
+Felicity Huffman is an American actress known for her work in television and film.
+Felicity Huffman is known for her political views, but there is no public record of her endorsing or voting for specific candidates like Mike DeWine.
+Mike DeWine is a Republican politician and the current governor of Ohio. (Score: -0.0006022690795361996, Parent: 1)
+
+********** Step: 4 **********
+
+Felicity Huffman is an American actress known for her work in television and film.
+Felicity Huffman is known for her political views, but there is no public record of her endorsing or voting for specific candidates like Mike DeWine.
+Mike DeWine is a Republican politician and the current governor of Ohio.
+#### No. (Score: 0.00023233704268932343, Parent: 0)
+
+Felicity Huffman is an American actress known for her work in television and film.
+Felicity Huffman is known for her political views, but there is no public record of her endorsing or voting for specific candidates like Mike DeWine.
+Mike DeWine is a Republican politician and the current governor of Ohio.
+#### No. (Score: 0.00023233704268932343, Parent: 1)
+
+********** Step: 5 **********
+
+Felicity Huffman is an American actress known for her work in television and film.
+Felicity Huffman is known for her political views, but there is no public record of her endorsing or voting for specific candidates like Mike DeWine.
+Mike DeWine is a Republican politician and the current governor of Ohio.
+#### No.
+ (Score: 0.00023233704268932343, Parent: 0)
+
+Felicity Huffman is an American actress known for her work in television and film.
+Felicity Huffman is known for her political views, but there is no public record of her endorsing or voting for specific candidates like Mike DeWine.
+Mike DeWine is a Republican politician and the current governor of Ohio.
+#### No.
+ (Score: 0.00023233704268932343, Parent: 1)
+
+---------- FINAL ----------
+step 5
+Felicity Huffman is an American actress known for her work in television and film.
+Felicity Huffman is known for her political views, but there is no public record of her endorsing or voting for specific candidates like Mike DeWine.
+Mike DeWine is a Republican politician and the current governor of Ohio.
+#### No.
+ (Score: 0.00023233704268932343)
+
+Felicity Huffman is an American actress known for her work in television and film.
+Felicity Huffman is known for her political views, but there is no public record of her endorsing or voting for specific candidates like Mike DeWine.
+Mike DeWine is a Republican politician and the current governor of Ohio.
+#### No.
+ (Score: 0.00023233704268932343)
+tensor([[  359445739750311709, -1061136134658444168,  7959827180654327357,
+         -3109048355575009819,                    0],
+        [  359445739750311709, -1061136134658444168,  7959827180654327357,
+         -3109048355575009819,                    0]])
+
+====================
+Q: Would it be common to find a penguin in Miami?
+
+
+********** Step: 1 **********
+
+A: Penguins are primarily found in the Southern Hemisphere, especially in Antarctica and surrounding islands. (Score: -0.0018983418121933937, Parent: 0)
+
+A: Penguins are primarily found in the Southern Hemisphere, especially in Antarctica and surrounding islands. (Score: -0.0018983418121933937, Parent: 0)
+
+********** Step: 2 **********
+
+A: Penguins are primarily found in the Southern Hemisphere, especially in Antarctica and surrounding islands.
+Most species of penguins are adapted to cold climates and are not native to tropical regions. (Score: -0.0013110148720443249, Parent: 0)
+
+A: Penguins are primarily found in the Southern Hemisphere, especially in Antarctica and surrounding islands.
+Most species of penguins are adapted to cold climates and are not native to tropical regions. (Score: -0.0013110148720443249, Parent: 1)
+
+********** Step: 3 **********
+
+A: Penguins are primarily found in the Southern Hemisphere, especially in Antarctica and surrounding islands.
+Most species of penguins are adapted to cold climates and are not native to tropical regions.
+In Miami, the climate is tropical and warm, which is not suitable for penguins. (Score: -0.001528819091618061, Parent: 0)
+
+A: Penguins are primarily found in the Southern Hemisphere, especially in Antarctica and surrounding islands.
+Most species of penguins are adapted to cold climates and are not native to tropical regions.
+In Miami, the climate is tropical and warm, which is not suitable for penguins. (Score: -0.001528819091618061, Parent: 1)
+
+********** Step: 4 **********
+
+A: Penguins are primarily found in the Southern Hemisphere, especially in Antarctica and surrounding islands.
+Most species of penguins are adapted to cold climates and are not native to tropical regions.
+In Miami, the climate is tropical and warm, which is not suitable for penguins.
+#### No. (Score: -0.0005621421150863171, Parent: 0)
+
+A: Penguins are primarily found in the Southern Hemisphere, especially in Antarctica and surrounding islands.
+Most species of penguins are adapted to cold climates and are not native to tropical regions.
+In Miami, the climate is tropical and warm, which is not suitable for penguins.
+#### No. (Score: -0.0005621421150863171, Parent: 1)
+
+********** Step: 5 **********
+
+A: Penguins are primarily found in the Southern Hemisphere, especially in Antarctica and surrounding islands.
+Most species of penguins are adapted to cold climates and are not native to tropical regions.
+In Miami, the climate is tropical and warm, which is not suitable for penguins.
+#### No.
+ (Score: -0.0005621421150863171, Parent: 0)
+
+A: Penguins are primarily found in the Southern Hemisphere, especially in Antarctica and surrounding islands.
+Most species of penguins are adapted to cold climates and are not native to tropical regions.
+In Miami, the climate is tropical and warm, which is not suitable for penguins.
+#### No.
+ (Score: -0.0005621421150863171, Parent: 1)
+
+---------- FINAL ----------
+step 5
+A: Penguins are primarily found in the Southern Hemisphere, especially in Antarctica and surrounding islands.
+Most species of penguins are adapted to cold climates and are not native to tropical regions.
+In Miami, the climate is tropical and warm, which is not suitable for penguins.
+#### No.
+ (Score: -0.0005621421150863171)
+
+A: Penguins are primarily found in the Southern Hemisphere, especially in Antarctica and surrounding islands.
+Most species of penguins are adapted to cold climates and are not native to tropical regions.
+In Miami, the climate is tropical and warm, which is not suitable for penguins.
+#### No.
+ (Score: -0.0005621421150863171)
+tensor([[ 7310986441323732827,  8281520308715815593,  3821886138485295175,
+         -3109048355575009819,                    0],
+        [ 7310986441323732827,  8281520308715815593,  3821886138485295175,
+         -3109048355575009819,                    0]])
+
+====================
+Q: Is sunscreen unhelpful for the condition that killed Bob Marley?
+
+
+********** Step: 1 **********
+
+A: Bob Marley died from complications related to melanoma, a type of skin cancer. (Score: -0.0017884811386466026, Parent: 0)
+
+A: Bob Marley died from complications related to melanoma, a type of skin cancer. (Score: -0.0017884811386466026, Parent: 0)
+
+********** Step: 2 **********
+
+A: Bob Marley died from complications related to melanoma, a type of skin cancer.
+Melanoma is a serious form of skin cancer that can be influenced by sun exposure. (Score: -0.001036045141518116, Parent: 0)
+
+A: Bob Marley died from complications related to melanoma, a type of skin cancer.
+Melanoma is a serious form of skin cancer that can be influenced by sun exposure. (Score: -0.001036045141518116, Parent: 1)
+
+********** Step: 3 **********
+
+A: Bob Marley died from complications related to melanoma, a type of skin cancer.
+Melanoma is a serious form of skin cancer that can be influenced by sun exposure.
+Sunscreen is designed to protect the skin from harmful UV rays, which can contribute to the development of skin cancer, including melanoma. (Score: -0.00235194293782115, Parent: 0)
+
+A: Bob Marley died from complications related to melanoma, a type of skin cancer.
+Melanoma is a serious form of skin cancer that can be influenced by sun exposure.
+Sunscreen is designed to protect the skin from harmful UV rays, which can contribute to the development of skin cancer, including melanoma. (Score: -0.00235194293782115, Parent: 1)
+
+********** Step: 4 **********
+
+A: Bob Marley died from complications related to melanoma, a type of skin cancer.
+Melanoma is a serious form of skin cancer that can be influenced by sun exposure.
+Sunscreen is designed to protect the skin from harmful UV rays, which can contribute to the development of skin cancer, including melanoma.
+#### No. (Score: -0.0014853659085929394, Parent: 0)
+
+A: Bob Marley died from complications related to melanoma, a type of skin cancer.
+Melanoma is a serious form of skin cancer that can be influenced by sun exposure.
+Sunscreen is designed to protect the skin from harmful UV rays, which can contribute to the development of skin cancer, including melanoma.
+#### No. (Score: -0.0014853659085929394, Parent: 1)
+
+********** Step: 5 **********
+
+A: Bob Marley died from complications related to melanoma, a type of skin cancer.
+Melanoma is a serious form of skin cancer that can be influenced by sun exposure.
+Sunscreen is designed to protect the skin from harmful UV rays, which can contribute to the development of skin cancer, including melanoma.
+#### No.
+ (Score: -0.0014853659085929394, Parent: 0)
+
+A: Bob Marley died from complications related to melanoma, a type of skin cancer.
+Melanoma is a serious form of skin cancer that can be influenced by sun exposure.
+Sunscreen is designed to protect the skin from harmful UV rays, which can contribute to the development of skin cancer, including melanoma.
+#### No.
+ (Score: -0.0014853659085929394, Parent: 1)
+
+---------- FINAL ----------
+step 5
+A: Bob Marley died from complications related to melanoma, a type of skin cancer.
+Melanoma is a serious form of skin cancer that can be influenced by sun exposure.
+Sunscreen is designed to protect the skin from harmful UV rays, which can contribute to the development of skin cancer, including melanoma.
+#### No.
+ (Score: -0.0014853659085929394)
+
+A: Bob Marley died from complications related to melanoma, a type of skin cancer.
+Melanoma is a serious form of skin cancer that can be influenced by sun exposure.
+Sunscreen is designed to protect the skin from harmful UV rays, which can contribute to the development of skin cancer, including melanoma.
+#### No.
+ (Score: -0.0014853659085929394)
+tensor([[ 3763634462998681718, -3559395512642992001,  2283369297720176496,
+         -3109048355575009819,                    0],
+        [ 3763634462998681718, -3559395512642992001,  2283369297720176496,
+         -3109048355575009819,                    0]])
+
+====================
+Q: Was P. G. Wodehouse's favorite book The Hunger Games?
+
+
+********** Step: 1 **********
+
+P. (Score: -0.0011256891302764416, Parent: 0)
+
+P. (Score: -0.0011256891302764416, Parent: 0)
+
+********** Step: 2 **********
+
+P.
+G. (Score: 0.0019107875414192677, Parent: 0)
+
+P.
+G. (Score: 0.0019107875414192677, Parent: 1)
+
+********** Step: 3 **********
+
+P.
+G.
+Wodehouse was a British author known for his humorous novels and stories. (Score: 0.0006076912395656109, Parent: 0)
+
+P.
+G.
+Wodehouse was a British author known for his humorous novels and stories. (Score: 0.0006076912395656109, Parent: 1)
+
+********** Step: 4 **********
+
+P.
+G.
+Wodehouse was a British author known for his humorous novels and stories.
+#### No. (Score: 0.00034824106842279434, Parent: 0)
+
+P.
+G.
+Wodehouse was a British author known for his humorous novels and stories.
+#### No. (Score: 0.00034824106842279434, Parent: 1)
+
+********** Step: 5 **********
+
+P.
+G.
+Wodehouse was a British author known for his humorous novels and stories.
+#### No.
+ (Score: 0.00034824106842279434, Parent: 0)
+
+P.
+G.
+Wodehouse was a British author known for his humorous novels and stories.
+#### No.
+ (Score: 0.00034824106842279434, Parent: 1)
+
+---------- FINAL ----------
+step 5
+P.
+G.
+Wodehouse was a British author known for his humorous novels and stories.
+#### No.
+ (Score: 0.00034824106842279434)
+
+P.
+G.
+Wodehouse was a British author known for his humorous novels and stories.
+#### No.
+ (Score: 0.00034824106842279434)
+tensor([[ 2135736220208599283, -5606196217495772522, -6625656907266379574,
+         -3109048355575009819,                    0],
+        [ 2135736220208599283, -5606196217495772522, -6625656907266379574,
+         -3109048355575009819,                    0]])
+
+====================
+Q: Does Alec Baldwin have more children than Clint Eastwood?
+
+
+********** Step: 1 **********
+
+Alec Baldwin has a total of 6 children. (Score: 0.0011297604069113731, Parent: 0)
+
+Alec Baldwin has a total of 7 children. (Score: 0.0010572830215096474, Parent: 0)
+
+********** Step: 2 **********
+
+Alec Baldwin has a total of 7 children.
+Clint Eastwood has a total of 8 children. (Score: -0.00016600126400589943, Parent: 1)
+
+Alec Baldwin has a total of 7 children.
+Clint Eastwood has a total of 8 children. (Score: -0.00016600126400589943, Parent: 1)
+
+********** Step: 3 **********
+
+Alec Baldwin has a total of 7 children.
+Clint Eastwood has a total of 8 children.
+A: To compare the number of children, we note that Alec Baldwin has 7 children. (Score: 0.0007184231653809547, Parent: 0)
+
+Alec Baldwin has a total of 7 children.
+Clint Eastwood has a total of 8 children.
+A: To compare the number of children, we note that Alec Baldwin has 7 children. (Score: 0.0007184231653809547, Parent: 1)
+
+********** Step: 4 **********
+
+Alec Baldwin has a total of 7 children.
+Clint Eastwood has a total of 8 children.
+A: To compare the number of children, we note that Alec Baldwin has 7 children.
+#### Yes. (Score: 0.0013999585062265396, Parent: 0)
+
+Alec Baldwin has a total of 7 children.
+Clint Eastwood has a total of 8 children.
+A: To compare the number of children, we note that Alec Baldwin has 7 children.
+#### Yes. (Score: 0.0013999585062265396, Parent: 1)
+
+********** Step: 5 **********
+
+Alec Baldwin has a total of 7 children.
+Clint Eastwood has a total of 8 children.
+A: To compare the number of children, we note that Alec Baldwin has 7 children.
+#### Yes.
+ (Score: 0.0013999585062265396, Parent: 0)
+
+Alec Baldwin has a total of 7 children.
+Clint Eastwood has a total of 8 children.
+A: To compare the number of children, we note that Alec Baldwin has 7 children.
+#### Yes.
+ (Score: 0.0013999585062265396, Parent: 1)
+
+---------- FINAL ----------
+step 5
+Alec Baldwin has a total of 7 children.
+Clint Eastwood has a total of 8 children.
+A: To compare the number of children, we note that Alec Baldwin has 7 children.
+#### Yes.
+ (Score: 0.0013999585062265396)
+
+Alec Baldwin has a total of 7 children.
+Clint Eastwood has a total of 8 children.
+A: To compare the number of children, we note that Alec Baldwin has 7 children.
+#### Yes.
+ (Score: 0.0013999585062265396)
+tensor([[-2364781542594801696,   852560447696393553, -2220803801596200437,
+          3471282636905793098,                    0],
+        [-2364781542594801696,   852560447696393553, -2220803801596200437,
+          3471282636905793098,                    0]])
+
+====================
+Q: Does Capricorn astrology symbol have all of the parts of a chimera?
+
+
+********** Step: 1 **********
+
+Capricorn is represented by a sea-goat, which is a creature with the front half of a goat and the tail of a fish. (Score: 0.00016857637092471123, Parent: 0)
+
+A: Capricorn is represented by a sea-goat, which is a creature with the front half of a goat and the tail of a fish. (Score: -0.0006876667030155659, Parent: 0)
+
+********** Step: 2 **********
+
+A: Capricorn is represented by a sea-goat, which is a creature with the front half of a goat and the tail of a fish.
+The chimera is a mythological creature that typically has parts from multiple animals, often depicted with a lion's head, a goat's body, and a serpent's tail. (Score: 0.000528446864336729, Parent: 1)
+
+Capricorn is represented by a sea-goat, which is a creature with the front half of a goat and the tail of a fish.
+A: A chimera is a mythological creature that typically has parts from multiple animals, often depicted with a lion's head, a goat's body, and a serpent's tail. (Score: 0.0004721512086689472, Parent: 0)
+
+********** Step: 3 **********
+
+Capricorn is represented by a sea-goat, which is a creature with the front half of a goat and the tail of a fish.
+A: A chimera is a mythological creature that typically has parts from multiple animals, often depicted with a lion's head, a goat's body, and a serpent's tail.
+A: The sea-goat, representing Capricorn, does not include all the parts of a chimera. (Score: 0.000297407153993845, Parent: 1)
+
+Capricorn is represented by a sea-goat, which is a creature with the front half of a goat and the tail of a fish.
+A: A chimera is a mythological creature that typically has parts from multiple animals, often depicted with a lion's head, a goat's body, and a serpent's tail.
+A: The sea-goat, representing Capricorn, does not include all the parts of a chimera. (Score: 0.000297407153993845, Parent: 1)
+
+********** Step: 4 **********
+
+Capricorn is represented by a sea-goat, which is a creature with the front half of a goat and the tail of a fish.
+A: A chimera is a mythological creature that typically has parts from multiple animals, often depicted with a lion's head, a goat's body, and a serpent's tail.
+A: The sea-goat, representing Capricorn, does not include all the parts of a chimera.
+#### No. (Score: 0.0002520112320780754, Parent: 0)
+
+Capricorn is represented by a sea-goat, which is a creature with the front half of a goat and the tail of a fish.
+A: A chimera is a mythological creature that typically has parts from multiple animals, often depicted with a lion's head, a goat's body, and a serpent's tail.
+A: The sea-goat, representing Capricorn, does not include all the parts of a chimera.
+#### No. (Score: 0.0002520112320780754, Parent: 1)
+
+********** Step: 5 **********
+
+Capricorn is represented by a sea-goat, which is a creature with the front half of a goat and the tail of a fish.
+A: A chimera is a mythological creature that typically has parts from multiple animals, often depicted with a lion's head, a goat's body, and a serpent's tail.
+A: The sea-goat, representing Capricorn, does not include all the parts of a chimera.
+#### No.
+ (Score: 0.0002520112320780754, Parent: 0)
+
+Capricorn is represented by a sea-goat, which is a creature with the front half of a goat and the tail of a fish.
+A: A chimera is a mythological creature that typically has parts from multiple animals, often depicted with a lion's head, a goat's body, and a serpent's tail.
+A: The sea-goat, representing Capricorn, does not include all the parts of a chimera.
+#### No.
+ (Score: 0.0002520112320780754, Parent: 1)
+
+---------- FINAL ----------
+step 5
+Capricorn is represented by a sea-goat, which is a creature with the front half of a goat and the tail of a fish.
+A: A chimera is a mythological creature that typically has parts from multiple animals, often depicted with a lion's head, a goat's body, and a serpent's tail.
+A: The sea-goat, representing Capricorn, does not include all the parts of a chimera.
+#### No.
+ (Score: 0.0002520112320780754)
+
+Capricorn is represented by a sea-goat, which is a creature with the front half of a goat and the tail of a fish.
+A: A chimera is a mythological creature that typically has parts from multiple animals, often depicted with a lion's head, a goat's body, and a serpent's tail.
+A: The sea-goat, representing Capricorn, does not include all the parts of a chimera.
+#### No.
+ (Score: 0.0002520112320780754)
+tensor([[-1391749581683158303,  5875989804839034639,  7506411831049710611,
+         -3109048355575009819,                    0],
+        [-1391749581683158303,  5875989804839034639,  7506411831049710611,
+         -3109048355575009819,                    0]])
+
+====================
+Q: Can a strawberry get worms similar to dogs?
+
+
+********** Step: 1 **********
+
+A: Strawberries are a type of fruit that grows on plants. (Score: -0.0003866073675453663, Parent: 0)
+
+A: Strawberries are a type of fruit that grows on plants. (Score: -0.0003866073675453663, Parent: 0)
+
+********** Step: 2 **********
+
+A: Strawberries are a type of fruit that grows on plants.
+Strawberries are not animals; they are plants. (Score: -0.00040331296622753143, Parent: 0)
+
+A: Strawberries are a type of fruit that grows on plants.
+Strawberries are not animals; they are plants. (Score: -0.00040331296622753143, Parent: 1)
+
+********** Step: 3 **********
+
+A: Strawberries are a type of fruit that grows on plants.
+Strawberries are not animals; they are plants.
+Worms are typically associated with animals, particularly invertebrates like dogs, which can have parasites. (Score: -0.000695474911481142, Parent: 0)
+
+A: Strawberries are a type of fruit that grows on plants.
+Strawberries are not animals; they are plants.
+Worms are typically associated with animals, particularly invertebrates like dogs, which can host parasites. (Score: -0.0008558365516364574, Parent: 0)
+
+********** Step: 4 **********
+
+A: Strawberries are a type of fruit that grows on plants.
+Strawberries are not animals; they are plants.
+Worms are typically associated with animals, particularly invertebrates like dogs, which can have parasites.
+#### No. (Score: 0.00035154446959495544, Parent: 0)
+
+A: Strawberries are a type of fruit that grows on plants.
+Strawberries are not animals; they are plants.
+Worms are typically associated with animals, particularly invertebrates like dogs, which can have parasites.
+#### Yes. (Score: 0.00018816208466887474, Parent: 0)
+
+********** Step: 5 **********
+
+A: Strawberries are a type of fruit that grows on plants.
+Strawberries are not animals; they are plants.
+Worms are typically associated with animals, particularly invertebrates like dogs, which can have parasites.
+#### No.
+ (Score: 0.00035154446959495544, Parent: 0)
+
+A: Strawberries are a type of fruit that grows on plants.
+Strawberries are not animals; they are plants.
+Worms are typically associated with animals, particularly invertebrates like dogs, which can have parasites.
+#### Yes.
+ (Score: 0.00018816208466887474, Parent: 1)
+
+---------- FINAL ----------
+step 5
+A: Strawberries are a type of fruit that grows on plants.
+Strawberries are not animals; they are plants.
+Worms are typically associated with animals, particularly invertebrates like dogs, which can have parasites.
+#### No.
+ (Score: 0.00035154446959495544)
+
+A: Strawberries are a type of fruit that grows on plants.
+Strawberries are not animals; they are plants.
+Worms are typically associated with animals, particularly invertebrates like dogs, which can have parasites.
+#### Yes.
+ (Score: 0.00018816208466887474)
+tensor([[ 9012475779853171579, -2678925635103678717,  3218051730129690022,
+         -3109048355575009819,                    0],
+        [ 9012475779853171579, -2678925635103678717,  3218051730129690022,
+          3471282636905793098,                    0]])
+
+====================
+Q: Can a sea turtle play tennis using a tennis racket?
+
+
+********** Step: 1 **********
+
+A: Sea turtles are marine reptiles that live in the ocean. (Score: -0.00041335495188832283, Parent: 0)
+
+A: Sea turtles are marine reptiles that live in the ocean. (Score: -0.00041335495188832283, Parent: 0)
+
+********** Step: 2 **********
+
+A: Sea turtles are marine reptiles that live in the ocean.
+Sea turtles do not have the physical capability to hold or use a tennis racket. (Score: 5.579320713877678e-05, Parent: 1)
+
+A: Sea turtles are marine reptiles that live in the ocean.
+Sea turtles do not have the physical capability to hold or use a tennis racket. (Score: 5.579320713877678e-05, Parent: 1)
+
+********** Step: 3 **********
+
+A: Sea turtles are marine reptiles that live in the ocean.
+Sea turtles do not have the physical capability to hold or use a tennis racket.
+They lack the necessary limbs and dexterity to manipulate objects like humans do. (Score: -0.00010611629113554955, Parent: 1)
+
+A: Sea turtles are marine reptiles that live in the ocean.
+Sea turtles do not have the physical capability to hold or use a tennis racket.
+They lack the necessary limbs and dexterity to manipulate objects like humans do. (Score: -0.00010611629113554955, Parent: 0)
+
+********** Step: 4 **********
+
+A: Sea turtles are marine reptiles that live in the ocean.
+Sea turtles do not have the physical capability to hold or use a tennis racket.
+They lack the necessary limbs and dexterity to manipulate objects like humans do.
+#### No. (Score: 0.0008490551263093948, Parent: 0)
+
+A: Sea turtles are marine reptiles that live in the ocean.
+Sea turtles do not have the physical capability to hold or use a tennis racket.
+They lack the necessary limbs and dexterity to manipulate objects like humans do.
+#### No. (Score: 0.0008490551263093948, Parent: 1)
+
+********** Step: 5 **********
+
+A: Sea turtles are marine reptiles that live in the ocean.
+Sea turtles do not have the physical capability to hold or use a tennis racket.
+They lack the necessary limbs and dexterity to manipulate objects like humans do.
+#### No.
+ (Score: 0.0008490551263093948, Parent: 0)
+
+A: Sea turtles are marine reptiles that live in the ocean.
+Sea turtles do not have the physical capability to hold or use a tennis racket.
+They lack the necessary limbs and dexterity to manipulate objects like humans do.
+#### No.
+ (Score: 0.0008490551263093948, Parent: 1)
+
+---------- FINAL ----------
+step 5
+A: Sea turtles are marine reptiles that live in the ocean.
+Sea turtles do not have the physical capability to hold or use a tennis racket.
+They lack the necessary limbs and dexterity to manipulate objects like humans do.
+#### No.
+ (Score: 0.0008490551263093948)
+
+A: Sea turtles are marine reptiles that live in the ocean.
+Sea turtles do not have the physical capability to hold or use a tennis racket.
+They lack the necessary limbs and dexterity to manipulate objects like humans do.
+#### No.
+ (Score: 0.0008490551263093948)
+tensor([[ 2685412742383584821, -5891573512804045524, -6737542847935353279,
+         -3109048355575009819,                    0],
+        [ 2685412742383584821, -5891573512804045524, -6737542847935353279,
+         -3109048355575009819,                    0]])
+
+====================
+Q: Would the average American family find Adam Sandler's home to be too small?
+
+
+********** Step: 1 **********
+
+Adam Sandler is a well-known actor and comedian. (Score: 0.0006950339302420616, Parent: 0)
+
+Adam Sandler is a well-known actor and comedian. (Score: 0.0006950339302420616, Parent: 0)
+
+********** Step: 2 **********
+
+Adam Sandler is a well-known actor and comedian.
+Adam Sandler is known for his successful career in film and television. (Score: 0.0009985058568418026, Parent: 0)
+
+Adam Sandler is a well-known actor and comedian.
+Adam Sandler is known for his successful career in film and television. (Score: 0.0009985058568418026, Parent: 1)
+
+********** Step: 3 **********
+
+Adam Sandler is a well-known actor and comedian.
+Adam Sandler is known for his successful career in film and television.
+Adam Sandler has a large home in Los Angeles, California. (Score: 0.0007775989361107349, Parent: 0)
+
+Adam Sandler is a well-known actor and comedian.
+Adam Sandler is known for his successful career in film and television.
+Adam Sandler has a large home in Los Angeles, California. (Score: 0.0007775989361107349, Parent: 1)
+
+********** Step: 4 **********
+
+Adam Sandler is a well-known actor and comedian.
+Adam Sandler is known for his successful career in film and television.
+Adam Sandler has a large home in Los Angeles, California.
+#### Yes. (Score: 0.0015756315551698208, Parent: 0)
+
+Adam Sandler is a well-known actor and comedian.
+Adam Sandler is known for his successful career in film and television.
+Adam Sandler has a large home in Los Angeles, California.
+#### Yes. (Score: 0.0015756315551698208, Parent: 1)
+
+********** Step: 5 **********
+
+Adam Sandler is a well-known actor and comedian.
+Adam Sandler is known for his successful career in film and television.
+Adam Sandler has a large home in Los Angeles, California.
+#### Yes.
+ (Score: 0.0015756315551698208, Parent: 0)
+
+Adam Sandler is a well-known actor and comedian.
+Adam Sandler is known for his successful career in film and television.
+Adam Sandler has a large home in Los Angeles, California.
+#### Yes.
+ (Score: 0.0015756315551698208, Parent: 1)
+
+---------- FINAL ----------
+step 5
+Adam Sandler is a well-known actor and comedian.
+Adam Sandler is known for his successful career in film and television.
+Adam Sandler has a large home in Los Angeles, California.
+#### Yes.
+ (Score: 0.0015756315551698208)
+
+Adam Sandler is a well-known actor and comedian.
+Adam Sandler is known for his successful career in film and television.
+Adam Sandler has a large home in Los Angeles, California.
+#### Yes.
+ (Score: 0.0015756315551698208)
+tensor([[-3898040767952979452,  1678013789980186726,   -66781264216180946,
+          3471282636905793098,                    0],
+        [-3898040767952979452,  1678013789980186726,   -66781264216180946,
+          3471282636905793098,                    0]])
+
+====================
+Q: Would a packed Wembley stadium be likely to have a descendant of the Mongols inside?
+
+
+********** Step: 1 **********
+
+A: Wembley Stadium is located in London, England, and is known for hosting various sporting events and concerts. (Score: -0.00029904767870903015, Parent: 0)
+
+A: Wembley Stadium is located in London, England, and is primarily used for football matches and other events. (Score: -0.0003318781964480877, Parent: 0)
+
+********** Step: 2 **********
+
+A: Wembley Stadium is located in London, England, and is primarily used for football matches and other events.
+The Mongol Empire existed from the 13th to the 14th century, and its descendants would be people of Mongolian descent or those who can trace their ancestry back to the Mongol tribes. (Score: -0.0008227508515119553, Parent: 1)
+
+A: Wembley Stadium is located in London, England, and is primarily used for football matches and other events.
+The Mongol Empire existed from the 13th to the 14th century, and its descendants would be people of Mongolian descent or those who can trace their ancestry back to the Mongol tribes. (Score: -0.0008227508515119553, Parent: 1)
+
+********** Step: 3 **********
+
+A: Wembley Stadium is located in London, England, and is primarily used for football matches and other events.
+The Mongol Empire existed from the 13th to the 14th century, and its descendants would be people of Mongolian descent or those who can trace their ancestry back to the Mongol tribes.
+The population of modern London is diverse, with many ethnicities and backgrounds represented, including those of Mongolian descent. (Score: -0.000521085225045681, Parent: 0)
+
+A: Wembley Stadium is located in London, England, and is primarily used for football matches and other events.
+The Mongol Empire existed from the 13th to the 14th century, and its descendants would be people of Mongolian descent or those who can trace their ancestry back to the Mongol tribes.
+The population of modern London is diverse, with many ethnicities and backgrounds represented. (Score: -0.0005662702023983002, Parent: 1)
+
+********** Step: 4 **********
+
+A: Wembley Stadium is located in London, England, and is primarily used for football matches and other events.
+The Mongol Empire existed from the 13th to the 14th century, and its descendants would be people of Mongolian descent or those who can trace their ancestry back to the Mongol tribes.
+The population of modern London is diverse, with many ethnicities and backgrounds represented.
+#### No. (Score: 0.00034044915810227394, Parent: 1)
+
+A: Wembley Stadium is located in London, England, and is primarily used for football matches and other events.
+The Mongol Empire existed from the 13th to the 14th century, and its descendants would be people of Mongolian descent or those who can trace their ancestry back to the Mongol tribes.
+The population of modern London is diverse, with many ethnicities and backgrounds represented, including those of Mongolian descent.
+#### No. (Score: 0.0003243926912546158, Parent: 0)
+
+********** Step: 5 **********
+
+A: Wembley Stadium is located in London, England, and is primarily used for football matches and other events.
+The Mongol Empire existed from the 13th to the 14th century, and its descendants would be people of Mongolian descent or those who can trace their ancestry back to the Mongol tribes.
+The population of modern London is diverse, with many ethnicities and backgrounds represented.
+#### No.
+ (Score: 0.00034044915810227394, Parent: 0)
+
+A: Wembley Stadium is located in London, England, and is primarily used for football matches and other events.
+The Mongol Empire existed from the 13th to the 14th century, and its descendants would be people of Mongolian descent or those who can trace their ancestry back to the Mongol tribes.
+The population of modern London is diverse, with many ethnicities and backgrounds represented, including those of Mongolian descent.
+#### No.
+ (Score: 0.0003243926912546158, Parent: 1)
+
+---------- FINAL ----------
+step 5
+A: Wembley Stadium is located in London, England, and is primarily used for football matches and other events.
+The Mongol Empire existed from the 13th to the 14th century, and its descendants would be people of Mongolian descent or those who can trace their ancestry back to the Mongol tribes.
+The population of modern London is diverse, with many ethnicities and backgrounds represented.
+#### No.
+ (Score: 0.00034044915810227394)
+
+A: Wembley Stadium is located in London, England, and is primarily used for football matches and other events.
+The Mongol Empire existed from the 13th to the 14th century, and its descendants would be people of Mongolian descent or those who can trace their ancestry back to the Mongol tribes.
+The population of modern London is diverse, with many ethnicities and backgrounds represented, including those of Mongolian descent.
+#### No.
+ (Score: 0.0003243926912546158)
+tensor([[-7252091052069661410,  -645321868437946952, -5581157149130868370,
+         -3109048355575009819,                    0],
+        [-7252091052069661410,  -645321868437946952,  4520243808579260889,
+         -3109048355575009819,                    0]])
+
+====================
+Q: Would you spend less on your food at Aldi than at Whole Foods?
+
+
+********** Step: 1 **********
+
+A: Aldi is known for its low prices and budget-friendly grocery options. (Score: -0.0009877821430563927, Parent: 0)
+
+A: Aldi is known for its low prices and budget-friendly grocery options. (Score: -0.0009877821430563927, Parent: 0)
+
+********** Step: 2 **********
+
+A: Aldi is known for its low prices and budget-friendly grocery options.
+A: Whole Foods is known for its higher prices and premium organic products. (Score: -0.0006322851404547691, Parent: 0)
+
+A: Aldi is known for its low prices and budget-friendly grocery options.
+A: Whole Foods is known for its higher prices and premium organic products. (Score: -0.0006322851404547691, Parent: 1)
+
+********** Step: 3 **********
+
+A: Aldi is known for its low prices and budget-friendly grocery options.
+A: Whole Foods is known for its higher prices and premium organic products.
+A: Many consumers report that shopping at Aldi typically results in lower grocery bills compared to shopping at Whole Foods. (Score: -0.000651664100587368, Parent: 0)
+
+A: Aldi is known for its low prices and budget-friendly grocery options.
+A: Whole Foods is known for its higher prices and premium organic products.
+A: Many consumers report that shopping at Aldi typically results in lower grocery bills compared to shopping at Whole Foods. (Score: -0.000651664100587368, Parent: 1)
+
+********** Step: 4 **********
+
+A: Aldi is known for its low prices and budget-friendly grocery options.
+A: Whole Foods is known for its higher prices and premium organic products.
+A: Many consumers report that shopping at Aldi typically results in lower grocery bills compared to shopping at Whole Foods.
+#### No. (Score: 0.0001512514427304268, Parent: 0)
+
+A: Aldi is known for its low prices and budget-friendly grocery options.
+A: Whole Foods is known for its higher prices and premium organic products.
+A: Many consumers report that shopping at Aldi typically results in lower grocery bills compared to shopping at Whole Foods.
+#### No. (Score: 0.0001512514427304268, Parent: 1)
+
+********** Step: 5 **********
+
+A: Aldi is known for its low prices and budget-friendly grocery options.
+A: Whole Foods is known for its higher prices and premium organic products.
+A: Many consumers report that shopping at Aldi typically results in lower grocery bills compared to shopping at Whole Foods.
+#### No.
+ (Score: 0.0001512514427304268, Parent: 0)
+
+A: Aldi is known for its low prices and budget-friendly grocery options.
+A: Whole Foods is known for its higher prices and premium organic products.
+A: Many consumers report that shopping at Aldi typically results in lower grocery bills compared to shopping at Whole Foods.
+#### No.
+ (Score: 0.0001512514427304268, Parent: 1)
+
+---------- FINAL ----------
+step 5
+A: Aldi is known for its low prices and budget-friendly grocery options.
+A: Whole Foods is known for its higher prices and premium organic products.
+A: Many consumers report that shopping at Aldi typically results in lower grocery bills compared to shopping at Whole Foods.
+#### No.
+ (Score: 0.0001512514427304268)
+
+A: Aldi is known for its low prices and budget-friendly grocery options.
+A: Whole Foods is known for its higher prices and premium organic products.
+A: Many consumers report that shopping at Aldi typically results in lower grocery bills compared to shopping at Whole Foods.
+#### No.
+ (Score: 0.0001512514427304268)
+tensor([[ 9029293324347617730,  -486331137030694166,  7259062386247754154,
+         -3109048355575009819,                    0],
+        [ 9029293324347617730,  -486331137030694166,  7259062386247754154,
+         -3109048355575009819,                    0]])
+
+====================
+Q: Did Francois Mitterrand ever meet Barak Obama while they both held the position of President?
+
+
+********** Step: 1 **********
+
+Francois Mitterrand was the President of France from 1981 to 1995. (Score: 0.0008752807043492794, Parent: 0)
+
+Francois Mitterrand was the President of France from 1981 to 1995. (Score: 0.0008752807043492794, Parent: 0)
+
+********** Step: 2 **********
+
+Francois Mitterrand was the President of France from 1981 to 1995.
+Barack Obama was the President of the United States from 2009 to 2017. (Score: 0.0004424271173775196, Parent: 0)
+
+Francois Mitterrand was the President of France from 1981 to 1995.
+Barack Obama was the President of the United States from 2009 to 2017. (Score: 0.0004424271173775196, Parent: 1)
+
+********** Step: 3 **********
+
+Francois Mitterrand was the President of France from 1981 to 1995.
+Barack Obama was the President of the United States from 2009 to 2017.
+Francois Mitterrand's presidency ended in 1995, while Barack Obama's presidency began in 2009. Therefore, they were never in office at the same time. (Score: 0.00090751051902771, Parent: 0)
+
+Francois Mitterrand was the President of France from 1981 to 1995.
+Barack Obama was the President of the United States from 2009 to 2017.
+Francois Mitterrand's presidency ended in 1995, while Barack Obama's presidency began in 2009. Therefore, they were never in office at the same time. (Score: 0.00090751051902771, Parent: 0)
+
+********** Step: 4 **********
+
+Francois Mitterrand was the President of France from 1981 to 1995.
+Barack Obama was the President of the United States from 2009 to 2017.
+Francois Mitterrand's presidency ended in 1995, while Barack Obama's presidency began in 2009. Therefore, they were never in office at the same time.
+#### No. (Score: 0.0015342957340180874, Parent: 0)
+
+Francois Mitterrand was the President of France from 1981 to 1995.
+Barack Obama was the President of the United States from 2009 to 2017.
+Francois Mitterrand's presidency ended in 1995, while Barack Obama's presidency began in 2009. Therefore, they were never in office at the same time.
+#### No. (Score: 0.0015342957340180874, Parent: 1)
+
+********** Step: 5 **********
+
+Francois Mitterrand was the President of France from 1981 to 1995.
+Barack Obama was the President of the United States from 2009 to 2017.
+Francois Mitterrand's presidency ended in 1995, while Barack Obama's presidency began in 2009. Therefore, they were never in office at the same time.
+#### No.
+ (Score: 0.0015342957340180874, Parent: 0)
+
+Francois Mitterrand was the President of France from 1981 to 1995.
+Barack Obama was the President of the United States from 2009 to 2017.
+Francois Mitterrand's presidency ended in 1995, while Barack Obama's presidency began in 2009. Therefore, they were never in office at the same time.
+#### No.
+ (Score: 0.0015342957340180874, Parent: 1)
+
+---------- FINAL ----------
+step 5
+Francois Mitterrand was the President of France from 1981 to 1995.
+Barack Obama was the President of the United States from 2009 to 2017.
+Francois Mitterrand's presidency ended in 1995, while Barack Obama's presidency began in 2009. Therefore, they were never in office at the same time.
+#### No.
+ (Score: 0.0015342957340180874)
+
+Francois Mitterrand was the President of France from 1981 to 1995.
+Barack Obama was the President of the United States from 2009 to 2017.
+Francois Mitterrand's presidency ended in 1995, while Barack Obama's presidency began in 2009. Therefore, they were never in office at the same time.
+#### No.
+ (Score: 0.0015342957340180874)
+tensor([[-4883635665056120483, -6272179209631505644,  -233196705491299445,
+         -3109048355575009819,                    0],
+        [-4883635665056120483, -6272179209631505644,  -233196705491299445,
+         -3109048355575009819,                    0]])
+
+====================
+Q: Can you watch Rick and Morty in Mariana Trench?
+
+
+********** Step: 1 **********
+
+The Mariana Trench is the deepest part of the world's oceans, located in the western Pacific Ocean. (Score: -0.000902724452316761, Parent: 0)
+
+The Mariana Trench is the deepest part of the world's oceans, located in the western Pacific Ocean. (Score: -0.000902724452316761, Parent: 0)
+
+********** Step: 2 **********
+
+The Mariana Trench is the deepest part of the world's oceans, located in the western Pacific Ocean.
+It is an underwater location and does not have facilities for watching television or streaming shows. (Score: -0.0004983469843864441, Parent: 0)
+
+The Mariana Trench is the deepest part of the world's oceans, located in the western Pacific Ocean.
+It is an underwater location and does not have facilities for watching television or streaming shows. (Score: -0.0004983469843864441, Parent: 1)
+
+********** Step: 3 **********
+
+The Mariana Trench is the deepest part of the world's oceans, located in the western Pacific Ocean.
+It is an underwater location and does not have facilities for watching television or streaming shows.
+#### No. (Score: 0.0004477743059396744, Parent: 0)
+
+The Mariana Trench is the deepest part of the world's oceans, located in the western Pacific Ocean.
+It is an underwater location and does not have facilities for watching television or streaming shows.
+#### No. (Score: 0.0004477743059396744, Parent: 1)
+
+********** Step: 4 **********
+
+The Mariana Trench is the deepest part of the world's oceans, located in the western Pacific Ocean.
+It is an underwater location and does not have facilities for watching television or streaming shows.
+#### No.
+ (Score: 0.0004477743059396744, Parent: 0)
+
+The Mariana Trench is the deepest part of the world's oceans, located in the western Pacific Ocean.
+It is an underwater location and does not have facilities for watching television or streaming shows.
+#### No.
+ (Score: 0.0004477743059396744, Parent: 1)
+
+---------- FINAL ----------
+step 4
+The Mariana Trench is the deepest part of the world's oceans, located in the western Pacific Ocean.
+It is an underwater location and does not have facilities for watching television or streaming shows.
+#### No.
+ (Score: 0.0004477743059396744)
+
+The Mariana Trench is the deepest part of the world's oceans, located in the western Pacific Ocean.
+It is an underwater location and does not have facilities for watching television or streaming shows.
+#### No.
+ (Score: 0.0004477743059396744)
+tensor([[ 2399890466980728478,  -858717686552941668, -3109048355575009819,
+                            0,                   -1],
+        [ 2399890466980728478,  -858717686552941668, -3109048355575009819,
+                            0,                   -1]])
+
+====================
+Q: Did Easy Rider make a profit at the theater when it was released?
+
+
+********** Step: 1 **********
+
+Easy Rider was released in 1969. (Score: 0.001528469379991293, Parent: 0)
+
+Easy Rider was released in 1969. (Score: 0.001528469379991293, Parent: 0)
+
+********** Step: 2 **********
+
+Easy Rider was released in 1969.
+Easy Rider was produced on a budget of approximately $400,000. (Score: 0.00038038333877921104, Parent: 0)
+
+Easy Rider was released in 1969.
+Easy Rider was produced on a budget of approximately $400,000. (Score: 0.00038038333877921104, Parent: 1)
+
+********** Step: 3 **********
+
+Easy Rider was released in 1969.
+Easy Rider was produced on a budget of approximately $400,000.
+Easy Rider grossed over $60 million at the box office during its theatrical run. (Score: 0.0006699506193399429, Parent: 0)
+
+Easy Rider was released in 1969.
+Easy Rider was produced on a budget of approximately $400,000.
+Easy Rider grossed over $60 million at the box office during its theatrical run. (Score: 0.0006699506193399429, Parent: 1)
+
+********** Step: 4 **********
+
+Easy Rider was released in 1969.
+Easy Rider was produced on a budget of approximately $400,000.
+Easy Rider grossed over $60 million at the box office during its theatrical run.
+#### Yes. (Score: 0.00028105592355132103, Parent: 0)
+
+Easy Rider was released in 1969.
+Easy Rider was produced on a budget of approximately $400,000.
+Easy Rider grossed over $60 million at the box office during its theatrical run.
+#### Yes. (Score: 0.00028105592355132103, Parent: 1)
+
+********** Step: 5 **********
+
+Easy Rider was released in 1969.
+Easy Rider was produced on a budget of approximately $400,000.
+Easy Rider grossed over $60 million at the box office during its theatrical run.
+#### Yes.
+ (Score: 0.00028105592355132103, Parent: 0)
+
+Easy Rider was released in 1969.
+Easy Rider was produced on a budget of approximately $400,000.
+Easy Rider grossed over $60 million at the box office during its theatrical run.
+#### Yes.
+ (Score: 0.00028105592355132103, Parent: 1)
+
+---------- FINAL ----------
+step 5
+Easy Rider was released in 1969.
+Easy Rider was produced on a budget of approximately $400,000.
+Easy Rider grossed over $60 million at the box office during its theatrical run.
+#### Yes.
+ (Score: 0.00028105592355132103)
+
+Easy Rider was released in 1969.
+Easy Rider was produced on a budget of approximately $400,000.
+Easy Rider grossed over $60 million at the box office during its theatrical run.
+#### Yes.
+ (Score: 0.00028105592355132103)
+tensor([[-6683740228375421428, -8045700001028625787, -2360687946182704527,
+          3471282636905793098,                    0],
+        [-6683740228375421428, -8045700001028625787, -2360687946182704527,
+          3471282636905793098,                    0]])
+
+====================
+Q: Can sunlight travel to the deepest part of the Black Sea?
+
+
+********** Step: 1 **********
+
+The Black Sea has a maximum depth of about 2,212 meters (7,257 feet). (Score: -0.0007459437474608421, Parent: 0)
+
+The Black Sea has a maximum depth of about 2,212 meters (7,257 feet). (Score: -0.0007459437474608421, Parent: 0)
+
+********** Step: 2 **********
+
+The Black Sea has a maximum depth of about 2,212 meters (7,257 feet).
+Sunlight can penetrate water to a certain depth, but its intensity decreases with depth. (Score: -0.0008283643983304501, Parent: 0)
+
+The Black Sea has a maximum depth of about 2,212 meters (7,257 feet).
+Sunlight can penetrate water to a certain depth, but its intensity decreases with depth. (Score: -0.0008283643983304501, Parent: 1)
+
+********** Step: 3 **********
+
+The Black Sea has a maximum depth of about 2,212 meters (7,257 feet).
+Sunlight can penetrate water to a certain depth, but its intensity decreases with depth.
+The maximum depth of the Black Sea is significant, and studies show that sunlight can only penetrate to about 200 meters (656 feet) in clear water. (Score: -0.00014260224997997284, Parent: 1)
+
+The Black Sea has a maximum depth of about 2,212 meters (7,257 feet).
+Sunlight can penetrate water to a certain depth, but its intensity decreases with depth.
+The maximum depth of the Black Sea is significant, and studies show that sunlight can only penetrate to about 200 meters (656 feet) in clear water. (Score: -0.00014260224997997284, Parent: 1)
+
+********** Step: 4 **********
+
+The Black Sea has a maximum depth of about 2,212 meters (7,257 feet).
+Sunlight can penetrate water to a certain depth, but its intensity decreases with depth.
+The maximum depth of the Black Sea is significant, and studies show that sunlight can only penetrate to about 200 meters (656 feet) in clear water.
+#### Yes. (Score: 0.0006187688559293747, Parent: 0)
+
+The Black Sea has a maximum depth of about 2,212 meters (7,257 feet).
+Sunlight can penetrate water to a certain depth, but its intensity decreases with depth.
+The maximum depth of the Black Sea is significant, and studies show that sunlight can only penetrate to about 200 meters (656 feet) in clear water.
+#### Yes. (Score: 0.0006187688559293747, Parent: 1)
+
+********** Step: 5 **********
+
+The Black Sea has a maximum depth of about 2,212 meters (7,257 feet).
+Sunlight can penetrate water to a certain depth, but its intensity decreases with depth.
+The maximum depth of the Black Sea is significant, and studies show that sunlight can only penetrate to about 200 meters (656 feet) in clear water.
+#### Yes.
+ (Score: 0.0006187688559293747, Parent: 0)
+
+The Black Sea has a maximum depth of about 2,212 meters (7,257 feet).
+Sunlight can penetrate water to a certain depth, but its intensity decreases with depth.
+The maximum depth of the Black Sea is significant, and studies show that sunlight can only penetrate to about 200 meters (656 feet) in clear water.
+#### Yes.
+ (Score: 0.0006187688559293747, Parent: 1)
+
+---------- FINAL ----------
+step 5
+The Black Sea has a maximum depth of about 2,212 meters (7,257 feet).
+Sunlight can penetrate water to a certain depth, but its intensity decreases with depth.
+The maximum depth of the Black Sea is significant, and studies show that sunlight can only penetrate to about 200 meters (656 feet) in clear water.
+#### Yes.
+ (Score: 0.0006187688559293747)
+
+The Black Sea has a maximum depth of about 2,212 meters (7,257 feet).
+Sunlight can penetrate water to a certain depth, but its intensity decreases with depth.
+The maximum depth of the Black Sea is significant, and studies show that sunlight can only penetrate to about 200 meters (656 feet) in clear water.
+#### Yes.
+ (Score: 0.0006187688559293747)
+tensor([[  688074451479754289, -1003386595349950597,  3353448102301377693,
+          3471282636905793098,                    0],
+        [  688074451479754289, -1003386595349950597,  3353448102301377693,
+          3471282636905793098,                    0]])
+
+====================
+Q: Has Oscar Wilde's most famous character ever been in an Eva Green project?
+
+
+********** Step: 1 **********
+
+Oscar Wilde is known for his play "The Importance of Being Earnest," which features the character Jack Worthing. (Score: 0.001407812349498272, Parent: 0)
+
+Oscar Wilde is known for his play "The Importance of Being Earnest," which features the character Jack Worthing. (Score: 0.001407812349498272, Parent: 0)
+
+********** Step: 2 **********
+
+Oscar Wilde is known for his play "The Importance of Being Earnest," which features the character Jack Worthing.
+Jack Worthing is a prominent character in Oscar Wilde's works, particularly in "The Importance of Being Earnest." Eva Green is a French actress known for her roles in various films and television series. (Score: 0.0011043730191886425, Parent: 0)
+
+Oscar Wilde is known for his play "The Importance of Being Earnest," which features the character Jack Worthing.
+Jack Worthing is a prominent character in Oscar Wilde's works, particularly in "The Importance of Being Earnest." Eva Green is a French actress known for her roles in various films and television series. (Score: 0.0011043730191886425, Parent: 1)
+
+********** Step: 3 **********
+
+Oscar Wilde is known for his play "The Importance of Being Earnest," which features the character Jack Worthing.
+Jack Worthing is a prominent character in Oscar Wilde's works, particularly in "The Importance of Being Earnest." Eva Green is a French actress known for her roles in various films and television series.
+To determine if Oscar Wilde's most famous character has ever been in an Eva Green project, we need to identify the character and check Eva Green's filmography. (Score: 0.0004041404463350773, Parent: 0)
+
+Oscar Wilde is known for his play "The Importance of Being Earnest," which features the character Jack Worthing.
+Jack Worthing is a prominent character in Oscar Wilde's works, particularly in "The Importance of Being Earnest." Eva Green is a French actress known for her roles in various films and television series.
+To determine if Oscar Wilde's most famous character has ever been in an Eva Green project, we need to identify the character and check Eva Green's filmography. (Score: 0.0004041404463350773, Parent: 1)
+
+********** Step: 4 **********
+
+Oscar Wilde is known for his play "The Importance of Being Earnest," which features the character Jack Worthing.
+Jack Worthing is a prominent character in Oscar Wilde's works, particularly in "The Importance of Being Earnest." Eva Green is a French actress known for her roles in various films and television series.
+To determine if Oscar Wilde's most famous character has ever been in an Eva Green project, we need to identify the character and check Eva Green's filmography.
+#### No. (Score: 9.102514013648033e-05, Parent: 0)
+
+Oscar Wilde is known for his play "The Importance of Being Earnest," which features the character Jack Worthing.
+Jack Worthing is a prominent character in Oscar Wilde's works, particularly in "The Importance of Being Earnest." Eva Green is a French actress known for her roles in various films and television series.
+To determine if Oscar Wilde's most famous character has ever been in an Eva Green project, we need to identify the character and check Eva Green's filmography.
+#### No. (Score: 9.102514013648033e-05, Parent: 1)
+
+********** Step: 5 **********
+
+Oscar Wilde is known for his play "The Importance of Being Earnest," which features the character Jack Worthing.
+Jack Worthing is a prominent character in Oscar Wilde's works, particularly in "The Importance of Being Earnest." Eva Green is a French actress known for her roles in various films and television series.
+To determine if Oscar Wilde's most famous character has ever been in an Eva Green project, we need to identify the character and check Eva Green's filmography.
+#### No.
+ (Score: 9.102514013648033e-05, Parent: 0)
+
+Oscar Wilde is known for his play "The Importance of Being Earnest," which features the character Jack Worthing.
+Jack Worthing is a prominent character in Oscar Wilde's works, particularly in "The Importance of Being Earnest." Eva Green is a French actress known for her roles in various films and television series.
+To determine if Oscar Wilde's most famous character has ever been in an Eva Green project, we need to identify the character and check Eva Green's filmography.
+#### No.
+ (Score: 9.102514013648033e-05, Parent: 1)
+
+---------- FINAL ----------
+step 5
+Oscar Wilde is known for his play "The Importance of Being Earnest," which features the character Jack Worthing.
+Jack Worthing is a prominent character in Oscar Wilde's works, particularly in "The Importance of Being Earnest." Eva Green is a French actress known for her roles in various films and television series.
+To determine if Oscar Wilde's most famous character has ever been in an Eva Green project, we need to identify the character and check Eva Green's filmography.
+#### No.
+ (Score: 9.102514013648033e-05)
+
+Oscar Wilde is known for his play "The Importance of Being Earnest," which features the character Jack Worthing.
+Jack Worthing is a prominent character in Oscar Wilde's works, particularly in "The Importance of Being Earnest." Eva Green is a French actress known for her roles in various films and television series.
+To determine if Oscar Wilde's most famous character has ever been in an Eva Green project, we need to identify the character and check Eva Green's filmography.
+#### No.
+ (Score: 9.102514013648033e-05)
+tensor([[ -724101195028083662, -8097834817636951990,  3477981244093279126,
+         -3109048355575009819,                    0],
+        [ -724101195028083662, -8097834817636951990,  3477981244093279126,
+         -3109048355575009819,                    0]])
+
+====================
+Q: Has Elon Musk's hairline changed?
+
+
+********** Step: 1 **********
+
+Elon Musk is a well-known entrepreneur and CEO of companies like Tesla and SpaceX. (Score: 0.0008185179904103279, Parent: 0)
+
+Elon Musk is a well-known entrepreneur and CEO of companies like Tesla and SpaceX. (Score: 0.0008185179904103279, Parent: 0)
+
+********** Step: 2 **********
+
+Elon Musk is a well-known entrepreneur and CEO of companies like Tesla and SpaceX.
+Elon Musk has been in the public eye for many years. (Score: 0.0005398164503276348, Parent: 0)
+
+Elon Musk is a well-known entrepreneur and CEO of companies like Tesla and SpaceX.
+Elon Musk has been in the public eye for many years. (Score: 0.0005398164503276348, Parent: 1)
+
+********** Step: 3 **********
+
+Elon Musk is a well-known entrepreneur and CEO of companies like Tesla and SpaceX.
+Elon Musk has been in the public eye for many years.
+There are numerous photos and videos of Elon Musk from different points in time. (Score: 0.0012463172897696495, Parent: 0)
+
+Elon Musk is a well-known entrepreneur and CEO of companies like Tesla and SpaceX.
+Elon Musk has been in the public eye for many years.
+There are numerous photos and videos of Elon Musk from different points in time. (Score: 0.0012463172897696495, Parent: 1)
+
+********** Step: 4 **********
+
+Elon Musk is a well-known entrepreneur and CEO of companies like Tesla and SpaceX.
+Elon Musk has been in the public eye for many years.
+There are numerous photos and videos of Elon Musk from different points in time.
+#### No. (Score: 0.0022684745490550995, Parent: 0)
+
+Elon Musk is a well-known entrepreneur and CEO of companies like Tesla and SpaceX.
+Elon Musk has been in the public eye for many years.
+There are numerous photos and videos of Elon Musk from different points in time.
+#### No. (Score: 0.0022684745490550995, Parent: 1)
+
+********** Step: 5 **********
+
+Elon Musk is a well-known entrepreneur and CEO of companies like Tesla and SpaceX.
+Elon Musk has been in the public eye for many years.
+There are numerous photos and videos of Elon Musk from different points in time.
+#### No.
+ (Score: 0.0022684745490550995, Parent: 0)
+
+Elon Musk is a well-known entrepreneur and CEO of companies like Tesla and SpaceX.
+Elon Musk has been in the public eye for many years.
+There are numerous photos and videos of Elon Musk from different points in time.
+#### No.
+ (Score: 0.0022684745490550995, Parent: 1)
+
+---------- FINAL ----------
+step 5
+Elon Musk is a well-known entrepreneur and CEO of companies like Tesla and SpaceX.
+Elon Musk has been in the public eye for many years.
+There are numerous photos and videos of Elon Musk from different points in time.
+#### No.
+ (Score: 0.0022684745490550995)
+
+Elon Musk is a well-known entrepreneur and CEO of companies like Tesla and SpaceX.
+Elon Musk has been in the public eye for many years.
+There are numerous photos and videos of Elon Musk from different points in time.
+#### No.
+ (Score: 0.0022684745490550995)
+tensor([[-1326219064810947711, -3478409725845514193,  3541387967205813694,
+         -3109048355575009819,                    0],
+        [-1326219064810947711, -3478409725845514193,  3541387967205813694,
+         -3109048355575009819,                    0]])
+
+====================
+Q: Do depressed people travel to the Golden Gate Bridge often?
+
+
+********** Step: 1 **********
+
+Depressed people may seek out places that resonate with their feelings or provide a sense of solitude. (Score: -0.0007980484515428543, Parent: 0)
+
+Depressed people may seek out places that resonate with their feelings or provide a sense of solitude. (Score: -0.0007980484515428543, Parent: 0)
+
+********** Step: 2 **********
+
+Depressed people may seek out places that resonate with their feelings or provide a sense of solitude.
+The Golden Gate Bridge is a well-known landmark in San Francisco, California. (Score: 0.0001449044793844223, Parent: 0)
+
+Depressed people may seek out places that resonate with their feelings or provide a sense of solitude.
+The Golden Gate Bridge is a well-known landmark in San Francisco, California. (Score: 0.0001449044793844223, Parent: 1)
+
+********** Step: 3 **********
+
+Depressed people may seek out places that resonate with their feelings or provide a sense of solitude.
+The Golden Gate Bridge is a well-known landmark in San Francisco, California.
+It is a popular tourist destination, attracting many visitors, including those who may be feeling depressed. (Score: -0.000527550932019949, Parent: 0)
+
+Depressed people may seek out places that resonate with their feelings or provide a sense of solitude.
+The Golden Gate Bridge is a well-known landmark in San Francisco, California.
+It is a popular tourist destination, attracting many visitors, including those who may be experiencing depression. (Score: -0.0005644978955388069, Parent: 0)
+
+********** Step: 4 **********
+
+Depressed people may seek out places that resonate with their feelings or provide a sense of solitude.
+The Golden Gate Bridge is a well-known landmark in San Francisco, California.
+It is a popular tourist destination, attracting many visitors, including those who may be feeling depressed.
+#### No. (Score: 0.00013242708519101143, Parent: 0)
+
+Depressed people may seek out places that resonate with their feelings or provide a sense of solitude.
+The Golden Gate Bridge is a well-known landmark in San Francisco, California.
+It is a popular tourist destination, attracting many visitors, including those who may be experiencing depression.
+#### No. (Score: 0.00010919058695435524, Parent: 1)
+
+********** Step: 5 **********
+
+Depressed people may seek out places that resonate with their feelings or provide a sense of solitude.
+The Golden Gate Bridge is a well-known landmark in San Francisco, California.
+It is a popular tourist destination, attracting many visitors, including those who may be feeling depressed.
+#### No.
+ (Score: 0.00013242708519101143, Parent: 0)
+
+Depressed people may seek out places that resonate with their feelings or provide a sense of solitude.
+The Golden Gate Bridge is a well-known landmark in San Francisco, California.
+It is a popular tourist destination, attracting many visitors, including those who may be experiencing depression.
+#### No.
+ (Score: 0.00010919058695435524, Parent: 1)
+
+---------- FINAL ----------
+step 5
+Depressed people may seek out places that resonate with their feelings or provide a sense of solitude.
+The Golden Gate Bridge is a well-known landmark in San Francisco, California.
+It is a popular tourist destination, attracting many visitors, including those who may be feeling depressed.
+#### No.
+ (Score: 0.00013242708519101143)
+
+Depressed people may seek out places that resonate with their feelings or provide a sense of solitude.
+The Golden Gate Bridge is a well-known landmark in San Francisco, California.
+It is a popular tourist destination, attracting many visitors, including those who may be experiencing depression.
+#### No.
+ (Score: 0.00010919058695435524)
+tensor([[-1648138606815269755,  6194970743708795936, -8800718685128893671,
+         -3109048355575009819,                    0],
+        [-1648138606815269755,  6194970743708795936,  5810747772831593412,
+         -3109048355575009819,                    0]])
+
+====================
+Q: Could a markhor give birth three times in a single year?
+
+
+********** Step: 1 **********
+
+A: The markhor is a species of wild goat found in Central Asia and the Himalayas. (Score: -0.0001285024918615818, Parent: 0)
+
+A: The markhor is a species of wild goat found in Central Asia and the Himalayas. (Score: -0.0001285024918615818, Parent: 0)
+
+********** Step: 2 **********
+
+A: The markhor is a species of wild goat found in Central Asia and the Himalayas.
+The markhor typically has a gestation period of about 5 to 6 months. (Score: -0.0007971678860485554, Parent: 0)
+
+A: The markhor is a species of wild goat found in Central Asia and the Himalayas.
+The markhor typically has a gestation period of about 5 to 6 months. (Score: -0.0007971678860485554, Parent: 1)
+
+********** Step: 3 **********
+
+A: The markhor is a species of wild goat found in Central Asia and the Himalayas.
+The markhor typically has a gestation period of about 5 to 6 months.
+The markhor usually gives birth to one kid at a time. (Score: 7.368158549070358e-05, Parent: 1)
+
+A: The markhor is a species of wild goat found in Central Asia and the Himalayas.
+The markhor typically has a gestation period of about 5 to 6 months.
+The markhor usually gives birth to one kid at a time, although twins can occur in rare cases. (Score: -0.00043196743354201317, Parent: 0)
+
+********** Step: 4 **********
+
+A: The markhor is a species of wild goat found in Central Asia and the Himalayas.
+The markhor typically has a gestation period of about 5 to 6 months.
+The markhor usually gives birth to one kid at a time.
+#### No. (Score: 0.001022830605506897, Parent: 0)
+
+A: The markhor is a species of wild goat found in Central Asia and the Himalayas.
+The markhor typically has a gestation period of about 5 to 6 months.
+The markhor usually gives birth to one kid at a time.
+#### Yes. (Score: 0.0009659989736974239, Parent: 0)
+
+********** Step: 5 **********
+
+A: The markhor is a species of wild goat found in Central Asia and the Himalayas.
+The markhor typically has a gestation period of about 5 to 6 months.
+The markhor usually gives birth to one kid at a time.
+#### No.
+ (Score: 0.001022830605506897, Parent: 0)
+
+A: The markhor is a species of wild goat found in Central Asia and the Himalayas.
+The markhor typically has a gestation period of about 5 to 6 months.
+The markhor usually gives birth to one kid at a time.
+#### Yes.
+ (Score: 0.0009659989736974239, Parent: 1)
+
+---------- FINAL ----------
+step 5
+A: The markhor is a species of wild goat found in Central Asia and the Himalayas.
+The markhor typically has a gestation period of about 5 to 6 months.
+The markhor usually gives birth to one kid at a time.
+#### No.
+ (Score: 0.001022830605506897)
+
+A: The markhor is a species of wild goat found in Central Asia and the Himalayas.
+The markhor typically has a gestation period of about 5 to 6 months.
+The markhor usually gives birth to one kid at a time.
+#### Yes.
+ (Score: 0.0009659989736974239)
+tensor([[ -316537967332862889,  2132683200458809110,  7205339142554882288,
+         -3109048355575009819,                    0],
+        [ -316537967332862889,  2132683200458809110,  7205339142554882288,
+          3471282636905793098,                    0]])
+
+====================
+Q: Will Tokyo Tower be repainted only once during President Trump's first term?
+
+
+********** Step: 1 **********
+
+Tokyo Tower is a communications and observation tower located in Tokyo, Japan. (Score: 2.50060111284256e-06, Parent: 0)
+
+Tokyo Tower is a communications and observation tower located in Tokyo, Japan. (Score: 2.50060111284256e-06, Parent: 0)
+
+********** Step: 2 **********
+
+Tokyo Tower is a communications and observation tower located in Tokyo, Japan.
+Tokyo Tower was completed in 1958 and has undergone several repainting processes since then. (Score: 0.0006932788528501987, Parent: 0)
+
+Tokyo Tower is a communications and observation tower located in Tokyo, Japan.
+Tokyo Tower was completed in 1958 and has undergone several repainting processes since then. (Score: 0.0006932788528501987, Parent: 1)
+
+********** Step: 3 **********
+
+Tokyo Tower is a communications and observation tower located in Tokyo, Japan.
+Tokyo Tower was completed in 1958 and has undergone several repainting processes since then.
+Repainting of Tokyo Tower is typically done every five years to maintain its appearance and protect it from the elements. (Score: 0.00012060906738042831, Parent: 0)
+
+Tokyo Tower is a communications and observation tower located in Tokyo, Japan.
+Tokyo Tower was completed in 1958 and has undergone several repainting processes since then.
+Repainting of Tokyo Tower is typically done every five years to maintain its appearance and protect it from the elements. (Score: 0.00012060906738042831, Parent: 1)
+
+********** Step: 4 **********
+
+Tokyo Tower is a communications and observation tower located in Tokyo, Japan.
+Tokyo Tower was completed in 1958 and has undergone several repainting processes since then.
+Repainting of Tokyo Tower is typically done every five years to maintain its appearance and protect it from the elements.
+#### Yes. (Score: 0.0008357991464436054, Parent: 0)
+
+Tokyo Tower is a communications and observation tower located in Tokyo, Japan.
+Tokyo Tower was completed in 1958 and has undergone several repainting processes since then.
+Repainting of Tokyo Tower is typically done every five years to maintain its appearance and protect it from the elements.
+#### Yes. (Score: 0.0008357991464436054, Parent: 1)
+
+********** Step: 5 **********
+
+Tokyo Tower is a communications and observation tower located in Tokyo, Japan.
+Tokyo Tower was completed in 1958 and has undergone several repainting processes since then.
+Repainting of Tokyo Tower is typically done every five years to maintain its appearance and protect it from the elements.
+#### Yes.
+ (Score: 0.0008357991464436054, Parent: 0)
+
+Tokyo Tower is a communications and observation tower located in Tokyo, Japan.
+Tokyo Tower was completed in 1958 and has undergone several repainting processes since then.
+Repainting of Tokyo Tower is typically done every five years to maintain its appearance and protect it from the elements.
+#### Yes.
+ (Score: 0.0008357991464436054, Parent: 1)
+
+---------- FINAL ----------
+step 5
+Tokyo Tower is a communications and observation tower located in Tokyo, Japan.
+Tokyo Tower was completed in 1958 and has undergone several repainting processes since then.
+Repainting of Tokyo Tower is typically done every five years to maintain its appearance and protect it from the elements.
+#### Yes.
+ (Score: 0.0008357991464436054)
+
+Tokyo Tower is a communications and observation tower located in Tokyo, Japan.
+Tokyo Tower was completed in 1958 and has undergone several repainting processes since then.
+Repainting of Tokyo Tower is typically done every five years to maintain its appearance and protect it from the elements.
+#### Yes.
+ (Score: 0.0008357991464436054)
+tensor([[1701247921294898073, 7222284120855194630, 8418173720296310702,
+         3471282636905793098,                   0],
+        [1701247921294898073, 7222284120855194630, 8418173720296310702,
+         3471282636905793098,                   0]])
+
+====================
+Q: Did Neanderthals use arithmetic?
+
+
+********** Step: 1 **********
+
+Neanderthals were a species of hominids that lived in Europe and parts of Asia until about 40,000 years ago. (Score: -0.0014562876895070076, Parent: 0)
+
+Neanderthals were a species of hominids that lived in Europe and parts of Asia until about 40,000 years ago. (Score: -0.0014562876895070076, Parent: 0)
+
+********** Step: 2 **********
+
+Neanderthals were a species of hominids that lived in Europe and parts of Asia until about 40,000 years ago.
+Neanderthals are known to have used tools and had complex social structures. (Score: -0.0021223174408078194, Parent: 0)
+
+Neanderthals were a species of hominids that lived in Europe and parts of Asia until about 40,000 years ago.
+Neanderthals are known to have used tools and had complex social structures. (Score: -0.0021223174408078194, Parent: 1)
+
+********** Step: 3 **********
+
+Neanderthals were a species of hominids that lived in Europe and parts of Asia until about 40,000 years ago.
+Neanderthals are known to have used tools and had complex social structures.
+There is limited evidence to suggest that Neanderthals engaged in activities that could be considered arithmetic. (Score: -0.0018959487788379192, Parent: 1)
+
+Neanderthals were a species of hominids that lived in Europe and parts of Asia until about 40,000 years ago.
+Neanderthals are known to have used tools and had complex social structures.
+There is limited evidence to suggest that Neanderthals engaged in activities that could be considered arithmetic, such as counting or measuring. (Score: -0.0031980331987142563, Parent: 0)
+
+********** Step: 4 **********
+
+Neanderthals were a species of hominids that lived in Europe and parts of Asia until about 40,000 years ago.
+Neanderthals are known to have used tools and had complex social structures.
+There is limited evidence to suggest that Neanderthals engaged in activities that could be considered arithmetic.
+#### No. (Score: -0.0021830983459949493, Parent: 0)
+
+Neanderthals were a species of hominids that lived in Europe and parts of Asia until about 40,000 years ago.
+Neanderthals are known to have used tools and had complex social structures.
+There is limited evidence to suggest that Neanderthals engaged in activities that could be considered arithmetic.
+#### Yes. (Score: -0.002245750278234482, Parent: 0)
+
+********** Step: 5 **********
+
+Neanderthals were a species of hominids that lived in Europe and parts of Asia until about 40,000 years ago.
+Neanderthals are known to have used tools and had complex social structures.
+There is limited evidence to suggest that Neanderthals engaged in activities that could be considered arithmetic.
+#### No.
+ (Score: -0.0021830983459949493, Parent: 0)
+
+Neanderthals were a species of hominids that lived in Europe and parts of Asia until about 40,000 years ago.
+Neanderthals are known to have used tools and had complex social structures.
+There is limited evidence to suggest that Neanderthals engaged in activities that could be considered arithmetic.
+#### Yes.
+ (Score: -0.002245750278234482, Parent: 1)
+
+---------- FINAL ----------
+step 5
+Neanderthals were a species of hominids that lived in Europe and parts of Asia until about 40,000 years ago.
+Neanderthals are known to have used tools and had complex social structures.
+There is limited evidence to suggest that Neanderthals engaged in activities that could be considered arithmetic.
+#### No.
+ (Score: -0.0021830983459949493)
+
+Neanderthals were a species of hominids that lived in Europe and parts of Asia until about 40,000 years ago.
+Neanderthals are known to have used tools and had complex social structures.
+There is limited evidence to suggest that Neanderthals engaged in activities that could be considered arithmetic.
+#### Yes.
+ (Score: -0.002245750278234482)
+tensor([[-7199001473751919069, -5858112468832440957, -3673603889743781833,
+         -3109048355575009819,                    0],
+        [-7199001473751919069, -5858112468832440957, -3673603889743781833,
+          3471282636905793098,                    0]])
+
+====================
+Q: Can children become lieutenants?
+
+
+********** Step: 1 **********
+
+A: A lieutenant is a rank typically found in military and law enforcement organizations. (Score: -0.003841801080852747, Parent: 0)
+
+A: A lieutenant is a rank typically found in military and law enforcement organizations. (Score: -0.003841801080852747, Parent: 0)
+
+********** Step: 2 **********
+
+A: A lieutenant is a rank typically found in military and law enforcement organizations.
+A: The rank of lieutenant usually requires a certain level of training and experience. (Score: -0.0032046237029135227, Parent: 0)
+
+A: A lieutenant is a rank typically found in military and law enforcement organizations.
+A: The rank of lieutenant usually requires a certain level of training and experience. (Score: -0.0032046237029135227, Parent: 1)
+
+********** Step: 3 **********
+
+A: A lieutenant is a rank typically found in military and law enforcement organizations.
+A: The rank of lieutenant usually requires a certain level of training and experience.
+A: In most military organizations, individuals must be at least 18 years old to enlist and begin training for officer ranks, including lieutenant. (Score: -0.002886454574763775, Parent: 1)
+
+A: A lieutenant is a rank typically found in military and law enforcement organizations.
+A: The rank of lieutenant usually requires a certain level of training and experience.
+A: In most military organizations, individuals must be at least 18 years old to enlist and pursue a commission as an officer, which includes the rank of lieutenant. (Score: -0.0038496791385114193, Parent: 0)
+
+********** Step: 4 **********
+
+A: A lieutenant is a rank typically found in military and law enforcement organizations.
+A: The rank of lieutenant usually requires a certain level of training and experience.
+A: In most military organizations, individuals must be at least 18 years old to enlist and begin training for officer ranks, including lieutenant.
+#### Yes. (Score: -0.0020685503259301186, Parent: 0)
+
+A: A lieutenant is a rank typically found in military and law enforcement organizations.
+A: The rank of lieutenant usually requires a certain level of training and experience.
+A: In most military organizations, individuals must be at least 18 years old to enlist and begin training for officer ranks, including lieutenant.
+#### No. (Score: -0.0021038050763309, Parent: 0)
+
+********** Step: 5 **********
+
+A: A lieutenant is a rank typically found in military and law enforcement organizations.
+A: The rank of lieutenant usually requires a certain level of training and experience.
+A: In most military organizations, individuals must be at least 18 years old to enlist and begin training for officer ranks, including lieutenant.
+#### Yes.
+ (Score: -0.0020685503259301186, Parent: 0)
+
+A: A lieutenant is a rank typically found in military and law enforcement organizations.
+A: The rank of lieutenant usually requires a certain level of training and experience.
+A: In most military organizations, individuals must be at least 18 years old to enlist and begin training for officer ranks, including lieutenant.
+#### No.
+ (Score: -0.0021038050763309, Parent: 1)
+
+---------- FINAL ----------
+step 5
+A: A lieutenant is a rank typically found in military and law enforcement organizations.
+A: The rank of lieutenant usually requires a certain level of training and experience.
+A: In most military organizations, individuals must be at least 18 years old to enlist and begin training for officer ranks, including lieutenant.
+#### Yes.
+ (Score: -0.0020685503259301186)
+
+A: A lieutenant is a rank typically found in military and law enforcement organizations.
+A: The rank of lieutenant usually requires a certain level of training and experience.
+A: In most military organizations, individuals must be at least 18 years old to enlist and begin training for officer ranks, including lieutenant.
+#### No.
+ (Score: -0.0021038050763309)
+tensor([[ 1029500133881481767, -5478521250879773797,  1572720142607653520,
+          3471282636905793098,                    0],
+        [ 1029500133881481767, -5478521250879773797,  1572720142607653520,
+         -3109048355575009819,                    0]])
+
+====================
+Q: Could someone in a coma experience fear?
+
+
+********** Step: 1 **********
+
+A: A coma is a state of prolonged unconsciousness where a person does not respond to external stimuli. (Score: -0.003829001449048519, Parent: 0)
+
+A: A coma is a state of prolonged unconsciousness where a person does not respond to external stimuli. (Score: -0.003829001449048519, Parent: 0)
+
+********** Step: 2 **********
+
+A: A coma is a state of prolonged unconsciousness where a person does not respond to external stimuli.
+A: In a coma, the brain is not functioning at a level that allows for conscious thought or emotional responses. (Score: -0.0030602281913161278, Parent: 0)
+
+A: A coma is a state of prolonged unconsciousness where a person does not respond to external stimuli.
+A: In a coma, the brain is not functioning at a level that allows for conscious thought or emotional responses. (Score: -0.0030602281913161278, Parent: 1)
+
+********** Step: 3 **********
+
+A: A coma is a state of prolonged unconsciousness where a person does not respond to external stimuli.
+A: In a coma, the brain is not functioning at a level that allows for conscious thought or emotional responses.
+A: Fear is an emotional response that requires awareness and cognitive processing. (Score: -0.0032481816597282887, Parent: 0)
+
+A: A coma is a state of prolonged unconsciousness where a person does not respond to external stimuli.
+A: In a coma, the brain is not functioning at a level that allows for conscious thought or emotional responses.
+A: Fear is an emotional response that requires awareness and cognitive processing. (Score: -0.0032481816597282887, Parent: 1)
+
+********** Step: 4 **********
+
+A: A coma is a state of prolonged unconsciousness where a person does not respond to external stimuli.
+A: In a coma, the brain is not functioning at a level that allows for conscious thought or emotional responses.
+A: Fear is an emotional response that requires awareness and cognitive processing.
+#### No. (Score: -0.0022861184552311897, Parent: 0)
+
+A: A coma is a state of prolonged unconsciousness where a person does not respond to external stimuli.
+A: In a coma, the brain is not functioning at a level that allows for conscious thought or emotional responses.
+A: Fear is an emotional response that requires awareness and cognitive processing.
+#### No. (Score: -0.0022861184552311897, Parent: 1)
+
+********** Step: 5 **********
+
+A: A coma is a state of prolonged unconsciousness where a person does not respond to external stimuli.
+A: In a coma, the brain is not functioning at a level that allows for conscious thought or emotional responses.
+A: Fear is an emotional response that requires awareness and cognitive processing.
+#### No.
+ (Score: -0.0022861184552311897, Parent: 0)
+
+A: A coma is a state of prolonged unconsciousness where a person does not respond to external stimuli.
+A: In a coma, the brain is not functioning at a level that allows for conscious thought or emotional responses.
+A: Fear is an emotional response that requires awareness and cognitive processing.
+#### No.
+ (Score: -0.0022861184552311897, Parent: 1)
+
+---------- FINAL ----------
+step 5
+A: A coma is a state of prolonged unconsciousness where a person does not respond to external stimuli.
+A: In a coma, the brain is not functioning at a level that allows for conscious thought or emotional responses.
+A: Fear is an emotional response that requires awareness and cognitive processing.
+#### No.
+ (Score: -0.0022861184552311897)
+
+A: A coma is a state of prolonged unconsciousness where a person does not respond to external stimuli.
+A: In a coma, the brain is not functioning at a level that allows for conscious thought or emotional responses.
+A: Fear is an emotional response that requires awareness and cognitive processing.
+#### No.
+ (Score: -0.0022861184552311897)
+tensor([[ 6033413214071641110,  2344465369253742379, -3840737117833065528,
+         -3109048355575009819,                    0],
+        [ 6033413214071641110,  2344465369253742379, -3840737117833065528,
+         -3109048355575009819,                    0]])
+
+====================
+Q: Was Walt Disney ever interviewed by Anderson Cooper?
+
+
+********** Step: 1 **********
+
+Walt Disney was a prominent American film producer and entrepreneur who passed away in 1966. (Score: -0.0012231310829520226, Parent: 0)
+
+Walt Disney was a prominent American film producer and co-founder of The Walt Disney Company. (Score: -0.002684195525944233, Parent: 0)
+
+********** Step: 2 **********
+
+Walt Disney was a prominent American film producer and entrepreneur who passed away in 1966.
+Anderson Cooper is a contemporary journalist and television personality who began his career in the 1990s. (Score: -0.0025388505309820175, Parent: 0)
+
+Walt Disney was a prominent American film producer and entrepreneur who passed away in 1966.
+Anderson Cooper is a contemporary journalist and television personality who began his career in the 1990s. (Score: -0.0025388505309820175, Parent: 0)
+
+********** Step: 3 **********
+
+Walt Disney was a prominent American film producer and entrepreneur who passed away in 1966.
+Anderson Cooper is a contemporary journalist and television personality who began his career in the 1990s.
+Walt Disney could not have been interviewed by Anderson Cooper because Disney died in 1966, long before Cooper began his career in journalism. (Score: -0.0019791163504123688, Parent: 0)
+
+Walt Disney was a prominent American film producer and entrepreneur who passed away in 1966.
+Anderson Cooper is a contemporary journalist and television personality who began his career in the 1990s.
+Walt Disney could not have been interviewed by Anderson Cooper because he died in 1966, long before Cooper began his career in journalism. (Score: -0.001981976442039013, Parent: 1)
+
+********** Step: 4 **********
+
+Walt Disney was a prominent American film producer and entrepreneur who passed away in 1966.
+Anderson Cooper is a contemporary journalist and television personality who began his career in the 1990s.
+Walt Disney could not have been interviewed by Anderson Cooper because he died in 1966, long before Cooper began his career in journalism.
+#### Yes. (Score: -0.0011194068938493729, Parent: 1)
+
+Walt Disney was a prominent American film producer and entrepreneur who passed away in 1966.
+Anderson Cooper is a contemporary journalist and television personality who began his career in the 1990s.
+Walt Disney could not have been interviewed by Anderson Cooper because Disney died in 1966, long before Cooper began his career in journalism.
+#### Yes. (Score: -0.0011849747970700264, Parent: 0)
+
+********** Step: 5 **********
+
+Walt Disney was a prominent American film producer and entrepreneur who passed away in 1966.
+Anderson Cooper is a contemporary journalist and television personality who began his career in the 1990s.
+Walt Disney could not have been interviewed by Anderson Cooper because he died in 1966, long before Cooper began his career in journalism.
+#### Yes.
+ (Score: -0.0011194068938493729, Parent: 0)
+
+Walt Disney was a prominent American film producer and entrepreneur who passed away in 1966.
+Anderson Cooper is a contemporary journalist and television personality who began his career in the 1990s.
+Walt Disney could not have been interviewed by Anderson Cooper because Disney died in 1966, long before Cooper began his career in journalism.
+#### Yes.
+ (Score: -0.0011849747970700264, Parent: 1)
+
+---------- FINAL ----------
+step 5
+Walt Disney was a prominent American film producer and entrepreneur who passed away in 1966.
+Anderson Cooper is a contemporary journalist and television personality who began his career in the 1990s.
+Walt Disney could not have been interviewed by Anderson Cooper because he died in 1966, long before Cooper began his career in journalism.
+#### Yes.
+ (Score: -0.0011194068938493729)
+
+Walt Disney was a prominent American film producer and entrepreneur who passed away in 1966.
+Anderson Cooper is a contemporary journalist and television personality who began his career in the 1990s.
+Walt Disney could not have been interviewed by Anderson Cooper because Disney died in 1966, long before Cooper began his career in journalism.
+#### Yes.
+ (Score: -0.0011849747970700264)
+tensor([[6019429050392164656, 9119611405083426966, 3394700777353725097,
+         3471282636905793098,                   0],
+        [6019429050392164656, 9119611405083426966,  -94895671178816151,
+         3471282636905793098,                   0]])
+
+====================
+Q: Is Gandalf hypothetically a formidable foe for Charmed's Barbas?
+
+
+********** Step: 1 **********
+
+A: Gandalf is a powerful wizard from J.R.R. Tolkien's Middle-earth legendarium. (Score: -0.004086668603122234, Parent: 0)
+
+A: Gandalf is a powerful wizard from J.R.R. Tolkien's Middle-earth legendarium. (Score: -0.004086668603122234, Parent: 0)
+
+********** Step: 2 **********
+
+A: Gandalf is a powerful wizard from J.R.R. Tolkien's Middle-earth legendarium.
+Gandalf possesses a wide range of magical abilities, including manipulation of fire, light, and nature, as well as wisdom and combat skills. (Score: -0.0048782494850456715, Parent: 0)
+
+A: Gandalf is a powerful wizard from J.R.R. Tolkien's Middle-earth legendarium.
+Gandalf possesses a wide range of magical abilities, including manipulation of fire, light, and nature, as well as wisdom and combat skills. (Score: -0.0048782494850456715, Parent: 1)
+
+********** Step: 3 **********
+
+A: Gandalf is a powerful wizard from J.R.R. Tolkien's Middle-earth legendarium.
+Gandalf possesses a wide range of magical abilities, including manipulation of fire, light, and nature, as well as wisdom and combat skills.
+Barbas is a demon from the TV show "Charmed," known for his ability to manipulate fear and create illusions. (Score: -0.0037115560844540596, Parent: 0)
+
+A: Gandalf is a powerful wizard from J.R.R. Tolkien's Middle-earth legendarium.
+Gandalf possesses a wide range of magical abilities, including manipulation of fire, light, and nature, as well as wisdom and combat skills.
+Barbas is a demon from the TV show "Charmed," known for his ability to manipulate fear and create illusions. (Score: -0.0037115560844540596, Parent: 1)
+
+********** Step: 4 **********
+
+A: Gandalf is a powerful wizard from J.R.R. Tolkien's Middle-earth legendarium.
+Gandalf possesses a wide range of magical abilities, including manipulation of fire, light, and nature, as well as wisdom and combat skills.
+Barbas is a demon from the TV show "Charmed," known for his ability to manipulate fear and create illusions.
+#### No. (Score: -0.002615797333419323, Parent: 0)
+
+A: Gandalf is a powerful wizard from J.R.R. Tolkien's Middle-earth legendarium.
+Gandalf possesses a wide range of magical abilities, including manipulation of fire, light, and nature, as well as wisdom and combat skills.
+Barbas is a demon from the TV show "Charmed," known for his ability to manipulate fear and create illusions.
+#### No. (Score: -0.002615797333419323, Parent: 1)
+
+********** Step: 5 **********
+
+A: Gandalf is a powerful wizard from J.R.R. Tolkien's Middle-earth legendarium.
+Gandalf possesses a wide range of magical abilities, including manipulation of fire, light, and nature, as well as wisdom and combat skills.
+Barbas is a demon from the TV show "Charmed," known for his ability to manipulate fear and create illusions.
+#### No.
+ (Score: -0.002615797333419323, Parent: 0)
+
+A: Gandalf is a powerful wizard from J.R.R. Tolkien's Middle-earth legendarium.
+Gandalf possesses a wide range of magical abilities, including manipulation of fire, light, and nature, as well as wisdom and combat skills.
+Barbas is a demon from the TV show "Charmed," known for his ability to manipulate fear and create illusions.
+#### No.
+ (Score: -0.002615797333419323, Parent: 1)
+
+---------- FINAL ----------
+step 5
+A: Gandalf is a powerful wizard from J.R.R. Tolkien's Middle-earth legendarium.
+Gandalf possesses a wide range of magical abilities, including manipulation of fire, light, and nature, as well as wisdom and combat skills.
+Barbas is a demon from the TV show "Charmed," known for his ability to manipulate fear and create illusions.
+#### No.
+ (Score: -0.002615797333419323)
+
+A: Gandalf is a powerful wizard from J.R.R. Tolkien's Middle-earth legendarium.
+Gandalf possesses a wide range of magical abilities, including manipulation of fire, light, and nature, as well as wisdom and combat skills.
+Barbas is a demon from the TV show "Charmed," known for his ability to manipulate fear and create illusions.
+#### No.
+ (Score: -0.002615797333419323)
+tensor([[ -158727498524860814, -8090071260820226099, -4397744130537359672,
+         -3109048355575009819,                    0],
+        [ -158727498524860814, -8090071260820226099, -4397744130537359672,
+         -3109048355575009819,                    0]])
+
+====================
+Q: Will twenty pea pods contents cover entire chess board?
+
+
+********** Step: 1 **********
+
+A: A chessboard has 64 squares (8 rows and 8 columns). (Score: -0.0030367644503712654, Parent: 0)
+
+A: A chessboard has 64 squares (8 rows and 8 columns). (Score: -0.0030367644503712654, Parent: 0)
+
+********** Step: 2 **********
+
+A: A chessboard has 64 squares (8 rows and 8 columns).
+A: The average pea pod contains about 5 to 8 peas. (Score: -0.0029710200615227222, Parent: 0)
+
+A: A chessboard has 64 squares (8 rows and 8 columns).
+A: The average pea pod contains about 5 to 8 peas. (Score: -0.0029710200615227222, Parent: 1)
+
+********** Step: 3 **********
+
+A: A chessboard has 64 squares (8 rows and 8 columns).
+A: The average pea pod contains about 5 to 8 peas.
+A: If we take an average of 6 peas per pod, then twenty pea pods would contain approximately 120 peas (20 pods x 6 peas/pod). (Score: -0.0037969928234815598, Parent: 0)
+
+A: A chessboard has 64 squares (8 rows and 8 columns).
+A: The average pea pod contains about 5 to 8 peas.
+A: If we take an average of 6 peas per pod, then twenty pea pods would contain approximately 120 peas (20 pods x 6 peas/pod). (Score: -0.0037969928234815598, Parent: 0)
+
+********** Step: 4 **********
+
+A: A chessboard has 64 squares (8 rows and 8 columns).
+A: The average pea pod contains about 5 to 8 peas.
+A: If we take an average of 6 peas per pod, then twenty pea pods would contain approximately 120 peas (20 pods x 6 peas/pod).
+#### Yes. (Score: -0.0029191309586167336, Parent: 0)
+
+A: A chessboard has 64 squares (8 rows and 8 columns).
+A: The average pea pod contains about 5 to 8 peas.
+A: If we take an average of 6 peas per pod, then twenty pea pods would contain approximately 120 peas (20 pods x 6 peas/pod).
+#### Yes. (Score: -0.0029191309586167336, Parent: 1)
+
+********** Step: 5 **********
+
+A: A chessboard has 64 squares (8 rows and 8 columns).
+A: The average pea pod contains about 5 to 8 peas.
+A: If we take an average of 6 peas per pod, then twenty pea pods would contain approximately 120 peas (20 pods x 6 peas/pod).
+#### Yes.
+ (Score: -0.0029191309586167336, Parent: 0)
+
+A: A chessboard has 64 squares (8 rows and 8 columns).
+A: The average pea pod contains about 5 to 8 peas.
+A: If we take an average of 6 peas per pod, then twenty pea pods would contain approximately 120 peas (20 pods x 6 peas/pod).
+#### Yes.
+ (Score: -0.0029191309586167336, Parent: 1)
+
+---------- FINAL ----------
+step 5
+A: A chessboard has 64 squares (8 rows and 8 columns).
+A: The average pea pod contains about 5 to 8 peas.
+A: If we take an average of 6 peas per pod, then twenty pea pods would contain approximately 120 peas (20 pods x 6 peas/pod).
+#### Yes.
+ (Score: -0.0029191309586167336)
+
+A: A chessboard has 64 squares (8 rows and 8 columns).
+A: The average pea pod contains about 5 to 8 peas.
+A: If we take an average of 6 peas per pod, then twenty pea pods would contain approximately 120 peas (20 pods x 6 peas/pod).
+#### Yes.
+ (Score: -0.0029191309586167336)
+tensor([[-4090821211958617079, -2067584951451993572,  3727366452501940063,
+          3471282636905793098,                    0],
+        [-4090821211958617079, -2067584951451993572,  3727366452501940063,
+          3471282636905793098,                    0]])
+
+====================
+Q: While on a liquid diet, are there some types of soup you cannot eat?
+
+
+********** Step: 1 **********
+
+A: A liquid diet typically includes clear liquids and some pureed foods. (Score: -0.004323083907365799, Parent: 0)
+
+A: A liquid diet typically includes clear liquids and some pureed foods. (Score: -0.004323083907365799, Parent: 0)
+
+********** Step: 2 **********
+
+A: A liquid diet typically includes clear liquids and some pureed foods.
+Certain types of soup may not be suitable for a liquid diet. (Score: -0.004298871848732233, Parent: 0)
+
+A: A liquid diet typically includes clear liquids and some pureed foods.
+Certain types of soup may not be suitable for a liquid diet. (Score: -0.004298871848732233, Parent: 1)
+
+********** Step: 3 **********
+
+A: A liquid diet typically includes clear liquids and some pureed foods.
+Certain types of soup may not be suitable for a liquid diet.
+Some soups may contain solid ingredients or be too thick, which would not align with the requirements of a liquid diet. (Score: -0.00320559274405241, Parent: 0)
+
+A: A liquid diet typically includes clear liquids and some pureed foods.
+Certain types of soup may not be suitable for a liquid diet.
+Some soups may contain solid ingredients or be too thick, which would not align with the requirements of a liquid diet. (Score: -0.00320559274405241, Parent: 1)
+
+********** Step: 4 **********
+
+A: A liquid diet typically includes clear liquids and some pureed foods.
+Certain types of soup may not be suitable for a liquid diet.
+Some soups may contain solid ingredients or be too thick, which would not align with the requirements of a liquid diet.
+#### No. (Score: -0.002166629768908024, Parent: 0)
+
+A: A liquid diet typically includes clear liquids and some pureed foods.
+Certain types of soup may not be suitable for a liquid diet.
+Some soups may contain solid ingredients or be too thick, which would not align with the requirements of a liquid diet.
+#### No. (Score: -0.002166629768908024, Parent: 1)
+
+********** Step: 5 **********
+
+A: A liquid diet typically includes clear liquids and some pureed foods.
+Certain types of soup may not be suitable for a liquid diet.
+Some soups may contain solid ingredients or be too thick, which would not align with the requirements of a liquid diet.
+#### No.
+ (Score: -0.002166629768908024, Parent: 0)
+
+A: A liquid diet typically includes clear liquids and some pureed foods.
+Certain types of soup may not be suitable for a liquid diet.
+Some soups may contain solid ingredients or be too thick, which would not align with the requirements of a liquid diet.
+#### No.
+ (Score: -0.002166629768908024, Parent: 1)
+
+---------- FINAL ----------
+step 5
+A: A liquid diet typically includes clear liquids and some pureed foods.
+Certain types of soup may not be suitable for a liquid diet.
+Some soups may contain solid ingredients or be too thick, which would not align with the requirements of a liquid diet.
+#### No.
+ (Score: -0.002166629768908024)
+
+A: A liquid diet typically includes clear liquids and some pureed foods.
+Certain types of soup may not be suitable for a liquid diet.
+Some soups may contain solid ingredients or be too thick, which would not align with the requirements of a liquid diet.
+#### No.
+ (Score: -0.002166629768908024)
+tensor([[ 8797346450604798306, -6575016344607527304,  2955821585605449616,
+         -3109048355575009819,                    0],
+        [ 8797346450604798306, -6575016344607527304,  2955821585605449616,
+         -3109048355575009819,                    0]])
+
+====================
+Q: Is breast cancer associated with a ribbon?
+
+
+********** Step: 1 **********
+
+A: Breast cancer awareness is symbolized by a pink ribbon. (Score: -0.004053768701851368, Parent: 0)
+
+A: Breast cancer awareness is symbolized by a pink ribbon. (Score: -0.004053768701851368, Parent: 0)
+
+********** Step: 2 **********
+
+A: Breast cancer awareness is symbolized by a pink ribbon.
+Breast cancer is a significant health issue affecting many individuals worldwide. (Score: -0.0028907773084938526, Parent: 0)
+
+A: Breast cancer awareness is symbolized by a pink ribbon.
+Breast cancer awareness campaigns often use the pink ribbon as a symbol to promote awareness and support for those affected by the disease. (Score: -0.0038489387370646, Parent: 1)
+
+********** Step: 3 **********
+
+A: Breast cancer awareness is symbolized by a pink ribbon.
+Breast cancer awareness campaigns often use the pink ribbon as a symbol to promote awareness and support for those affected by the disease.
+#### Yes. (Score: -0.0026704338379204273, Parent: 1)
+
+A: Breast cancer awareness is symbolized by a pink ribbon.
+Breast cancer awareness campaigns often use the pink ribbon as a symbol to promote awareness and support for those affected by the disease.
+#### Yes. (Score: -0.0026704338379204273, Parent: 1)
+
+********** Step: 4 **********
+
+A: Breast cancer awareness is symbolized by a pink ribbon.
+Breast cancer awareness campaigns often use the pink ribbon as a symbol to promote awareness and support for those affected by the disease.
+#### Yes.
+ (Score: -0.0026704338379204273, Parent: 0)
+
+A: Breast cancer awareness is symbolized by a pink ribbon.
+Breast cancer awareness campaigns often use the pink ribbon as a symbol to promote awareness and support for those affected by the disease.
+#### Yes.
+ (Score: -0.0026704338379204273, Parent: 1)
+
+---------- FINAL ----------
+step 4
+A: Breast cancer awareness is symbolized by a pink ribbon.
+Breast cancer awareness campaigns often use the pink ribbon as a symbol to promote awareness and support for those affected by the disease.
+#### Yes.
+ (Score: -0.0026704338379204273)
+
+A: Breast cancer awareness is symbolized by a pink ribbon.
+Breast cancer awareness campaigns often use the pink ribbon as a symbol to promote awareness and support for those affected by the disease.
+#### Yes.
+ (Score: -0.0026704338379204273)
+tensor([[-8226221558072040337,  7828897955288142777,  3471282636905793098,
+                            0,                   -1],
+        [-8226221558072040337,  7828897955288142777,  3471282636905793098,
+                            0,                   -1]])
+
+====================
+Q: Could Eddie Murphy dial 911 in a car as a young child?
+
+
+********** Step: 1 **********
+
+Eddie Murphy was born in 1961. (Score: -0.001122680027037859, Parent: 0)
+
+Eddie Murphy was born in 1961. (Score: -0.001122680027037859, Parent: 0)
+
+********** Step: 2 **********
+
+Eddie Murphy was born in 1961.
+Eddie Murphy grew up in the 1960s and 1970s. (Score: -0.0014069415628910065, Parent: 0)
+
+Eddie Murphy was born in 1961.
+Eddie Murphy grew up in the 1960s and 1970s. (Score: -0.0014069415628910065, Parent: 1)
+
+********** Step: 3 **********
+
+Eddie Murphy was born in 1961.
+Eddie Murphy grew up in the 1960s and 1970s.
+In the 1960s and 1970s, the emergency number 911 was not widely used in the United States. (Score: -0.0020559108816087246, Parent: 0)
+
+Eddie Murphy was born in 1961.
+Eddie Murphy grew up in the 1960s and 1970s.
+In the 1960s and 1970s, the emergency telephone number 911 was not widely used in the United States. (Score: -0.0022882185876369476, Parent: 1)
+
+********** Step: 4 **********
+
+Eddie Murphy was born in 1961.
+Eddie Murphy grew up in the 1960s and 1970s.
+In the 1960s and 1970s, the emergency number 911 was not widely used in the United States.
+#### No. (Score: -0.0011956780217587948, Parent: 0)
+
+Eddie Murphy was born in 1961.
+Eddie Murphy grew up in the 1960s and 1970s.
+In the 1960s and 1970s, the emergency number 911 was not widely used in the United States.
+#### Yes. (Score: -0.0013436516746878624, Parent: 0)
+
+********** Step: 5 **********
+
+Eddie Murphy was born in 1961.
+Eddie Murphy grew up in the 1960s and 1970s.
+In the 1960s and 1970s, the emergency number 911 was not widely used in the United States.
+#### No.
+ (Score: -0.0011956780217587948, Parent: 0)
+
+Eddie Murphy was born in 1961.
+Eddie Murphy grew up in the 1960s and 1970s.
+In the 1960s and 1970s, the emergency number 911 was not widely used in the United States.
+#### Yes.
+ (Score: -0.0013436516746878624, Parent: 1)
+
+---------- FINAL ----------
+step 5
+Eddie Murphy was born in 1961.
+Eddie Murphy grew up in the 1960s and 1970s.
+In the 1960s and 1970s, the emergency number 911 was not widely used in the United States.
+#### No.
+ (Score: -0.0011956780217587948)
+
+Eddie Murphy was born in 1961.
+Eddie Murphy grew up in the 1960s and 1970s.
+In the 1960s and 1970s, the emergency number 911 was not widely used in the United States.
+#### Yes.
+ (Score: -0.0013436516746878624)
+tensor([[-8925199916222491859,  7616759166034664493,  1440530409389222348,
+         -3109048355575009819,                    0],
+        [-8925199916222491859,  7616759166034664493,  1440530409389222348,
+          3471282636905793098,                    0]])
+
+====================
+Q: Does Olympia Washington share name with Hephaestus's workshop location?
+
+
+********** Step: 1 **********
+
+Olympia is the capital city of Washington State in the United States. (Score: -0.0028522107750177383, Parent: 0)
+
+Olympia is the capital city of Washington State in the United States. (Score: -0.0028522107750177383, Parent: 0)
+
+********** Step: 2 **********
+
+Olympia is the capital city of Washington State in the United States.
+Olympia is named after Mount Olympus, which is associated with Greek mythology. (Score: -0.0035444237291812897, Parent: 0)
+
+Olympia is the capital city of Washington State in the United States.
+Olympia is named after Mount Olympus, which is associated with Greek mythology. (Score: -0.0035444237291812897, Parent: 1)
+
+********** Step: 3 **********
+
+Olympia is the capital city of Washington State in the United States.
+Olympia is named after Mount Olympus, which is associated with Greek mythology.
+Hephaestus, in Greek mythology, is known as the god of fire and craftsmanship, and his workshop is often said to be located under Mount Etna or on the island of Lemnos, not in Olympia. (Score: -0.0031171259470283985, Parent: 1)
+
+Olympia is the capital city of Washington State in the United States.
+Olympia is named after Mount Olympus, which is associated with Greek mythology.
+Hephaestus, in Greek mythology, is known as the god of fire and craftsmanship, and his workshop is often said to be located under Mount Etna or on the island of Lemnos, not in Olympia. (Score: -0.0031171259470283985, Parent: 0)
+
+********** Step: 4 **********
+
+Olympia is the capital city of Washington State in the United States.
+Olympia is named after Mount Olympus, which is associated with Greek mythology.
+Hephaestus, in Greek mythology, is known as the god of fire and craftsmanship, and his workshop is often said to be located under Mount Etna or on the island of Lemnos, not in Olympia.
+#### Yes. (Score: -0.002383135724812746, Parent: 0)
+
+Olympia is the capital city of Washington State in the United States.
+Olympia is named after Mount Olympus, which is associated with Greek mythology.
+Hephaestus, in Greek mythology, is known as the god of fire and craftsmanship, and his workshop is often said to be located under Mount Etna or on the island of Lemnos, not in Olympia.
+#### Yes. (Score: -0.002383135724812746, Parent: 1)
+
+********** Step: 5 **********
+
+Olympia is the capital city of Washington State in the United States.
+Olympia is named after Mount Olympus, which is associated with Greek mythology.
+Hephaestus, in Greek mythology, is known as the god of fire and craftsmanship, and his workshop is often said to be located under Mount Etna or on the island of Lemnos, not in Olympia.
+#### Yes.
+ (Score: -0.002383135724812746, Parent: 0)
+
+Olympia is the capital city of Washington State in the United States.
+Olympia is named after Mount Olympus, which is associated with Greek mythology.
+Hephaestus, in Greek mythology, is known as the god of fire and craftsmanship, and his workshop is often said to be located under Mount Etna or on the island of Lemnos, not in Olympia.
+#### Yes.
+ (Score: -0.002383135724812746, Parent: 1)
+
+---------- FINAL ----------
+step 5
+Olympia is the capital city of Washington State in the United States.
+Olympia is named after Mount Olympus, which is associated with Greek mythology.
+Hephaestus, in Greek mythology, is known as the god of fire and craftsmanship, and his workshop is often said to be located under Mount Etna or on the island of Lemnos, not in Olympia.
+#### Yes.
+ (Score: -0.002383135724812746)
+
+Olympia is the capital city of Washington State in the United States.
+Olympia is named after Mount Olympus, which is associated with Greek mythology.
+Hephaestus, in Greek mythology, is known as the god of fire and craftsmanship, and his workshop is often said to be located under Mount Etna or on the island of Lemnos, not in Olympia.
+#### Yes.
+ (Score: -0.002383135724812746)
+tensor([[8327461411182952446, 3952207721638297783, 7707773005193238764,
+         3471282636905793098,                   0],
+        [8327461411182952446, 3952207721638297783, 7707773005193238764,
+         3471282636905793098,                   0]])
+
+====================
+Q: Would a Nike shoebox be too small to fit a swan in?
+
+
+********** Step: 1 **********
+
+A: A typical Nike shoebox is designed to hold a pair of shoes, which usually measures around 12 inches long, 8 inches wide, and 4-6 inches high. (Score: -0.0030757440254092216, Parent: 0)
+
+A: A typical Nike shoebox is designed to hold a pair of shoes, which usually measures around 12 inches long, 8 inches wide, and 4-6 inches high. (Score: -0.0030757440254092216, Parent: 0)
+
+********** Step: 2 **********
+
+A: A typical Nike shoebox is designed to hold a pair of shoes, which usually measures around 12 inches long, 8 inches wide, and 4-6 inches high.
+A: A swan is a large bird, with an average length of about 4 to 6 feet and a wingspan that can reach up to 10 feet. (Score: -0.003816178534179926, Parent: 0)
+
+A: A typical Nike shoebox is designed to hold a pair of shoes, which usually measures around 12 inches long, 8 inches wide, and 4-6 inches high.
+A: A swan is a large bird, with an average length of about 4 to 6 feet and a wingspan that can reach up to 10 feet. (Score: -0.003816178534179926, Parent: 1)
+

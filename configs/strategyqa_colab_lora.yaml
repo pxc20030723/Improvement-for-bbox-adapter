@@ -9,7 +9,7 @@ critic_model: microsoft/deberta-v3-base
 add_special_tokens: True
 
 # PARAMETER-EFFICIENT FINETUNING
-use_lora: False
+use_lora: True
 lora_r: 16
 lora_alpha: 64
 lora_dropout: 0.05
@@ -24,8 +24,8 @@ use_moe_head: True
 moe_num_experts: 4
 moe_gating_hidden_size: 128
 moe_expert_hidden_size: 256
-moe_expert_dropout: 0.25
-moe_load_balance_coef: 0.0005
+moe_expert_dropout: 0.1
+moe_load_balance_coef: 0.001
 moe_entropy_coef: 0.001
 moe_top_k: 2
 
@@ -37,16 +37,19 @@ score_mode:
 # SEARCH PARAMS
 beam_size: 2
 num_candidates: 4
-max_length: 8
+max_length: 5
 early_stopping: True
 only_eval_answers: False
 
 # QUERY_PARAMS
-temperature: 0.7
+temperature: 0.0
 frequency_penalty: 0
 presence_penalty: 0
-stop: ["\n", "\n\n", "\n\n\n"]
-max_tokens: 64
+stop:
+max_tokens: 128
+force_final_answer: True
+force_final_after_steps: 3
+
 
 # TRAINING_PARAMS
 offline_warmup_path:
@@ -65,8 +68,8 @@ gradient_accumulation_steps: 1
 l2_reg_coef: 1.
 energy_temp: 5.
 warmup_steps: 10
-learning_rate: 1.E-4
-min_lr: 1.E-4
+learning_rate: 5.E-5
+min_lr: 5.E-5
 T_lr: 1000
 
 use_outcome_supervision: True
@@ -78,9 +81,9 @@ eval_blackbox: False
 eval_unfinetuned: False
 num_eval_rounds: 1
 
-log_with_wandb: True
+log_with_wandb: False
 
 # LOW-COST COLAB SUBSETS
-max_train_samples: 64
+max_train_samples: 32
 max_eval_samples: 32
 

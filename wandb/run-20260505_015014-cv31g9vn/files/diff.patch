@@ -1,0 +1,173 @@
+diff --git a/algo/__pycache__/reasoning_adapter.cpython-312.pyc b/algo/__pycache__/reasoning_adapter.cpython-312.pyc
+index 4d6ea3d..214ac04 100644
+Binary files a/algo/__pycache__/reasoning_adapter.cpython-312.pyc and b/algo/__pycache__/reasoning_adapter.cpython-312.pyc differ
+diff --git a/algo/reasoning_adapter.py b/algo/reasoning_adapter.py
+index 7f2af41..94f911f 100644
+--- a/algo/reasoning_adapter.py
++++ b/algo/reasoning_adapter.py
+@@ -29,12 +29,15 @@ class Reasoning_Adapter(Adapter):
+  
+     def get_ans_from_blackbox(self, q, n=1, temp=1):
+         qa_text = self.formulate_qa(q=q, a="")
+-        prompt = f"{self.prompt}\n{qa_text}"
++        prompt = (f"{self.prompt}\n"
++              f"{qa_text}\n\n"
++             "End your answer with exactly one final line: #### Yes. or #### No."
++        )
+         ans = self.generator.get_response(
+                 prompt, 
+                 n=n, 
+-                stop=["\n\n"], 
+-                max_tokens=500, 
++                stop=self.config.get("stop", ["\n\n\n"]), 
++                max_tokens=self.config.get("max_tokens", 128), 
+                 extract_first_sentence=False,
+                 temp=temp
+             )
+@@ -159,7 +162,7 @@ class Reasoning_Adapter(Adapter):
+         
+         self.accelerator.wait_for_everyone()
+         with self.accelerator.split_between_processes(split_dict) as splitted_dict:
+-            results = dict(completions=[], ground_truths=[], rounds=[])
++            results = dict(completions=[], ground_truths=[], rounds=[], top_experts=[],top_k_experts=[],gate_probs=[],expert_scores=[],)
+             for idx, round in zip(splitted_dict["list_idx"], splitted_dict["round_idx"]):
+                 b = eval_dataset[idx]
+                 result = process_batch_item(b)
+@@ -170,10 +173,10 @@ class Reasoning_Adapter(Adapter):
+                     results["rounds"].append(round)
+                     moe_diag = self.get_moe_diagnostics()
+                     if moe_diag is not None:
+-                      results.setdefault("top_experts", []).append(moe_diag["top_expert"].tolist())
+-                      results.setdefault("top_k_experts", []).append(moe_diag["top_k_experts"].tolist())
+-                      results.setdefault("gate_probs", []).append(moe_diag["gate_probs"].tolist())
+-                      results.setdefault("expert_scores", []).append(moe_diag["expert_scores"].tolist())
++                      results["top_experts"].append(moe_diag["top_expert"])
++                      results["top_k_experts"].append(moe_diag["top_k_experts"])
++                      results["gate_probs"].append(moe_diag["gate_probs"])
++                      results["expert_scores"].append(moe_diag["expert_scores"])
+                 progress_bar.update(self.accelerator.num_processes)
+             results = [results]
+             
+diff --git a/configs/strategyqa_colab_lora.yaml b/configs/strategyqa_colab_lora.yaml
+index 7306b2e..8cfb8f9 100644
+--- a/configs/strategyqa_colab_lora.yaml
++++ b/configs/strategyqa_colab_lora.yaml
+@@ -24,8 +24,8 @@ use_moe_head: True
+ moe_num_experts: 4
+ moe_gating_hidden_size: 128
+ moe_expert_hidden_size: 256
+-moe_expert_dropout: 0.25
+-moe_load_balance_coef: 0.0005
++moe_expert_dropout: 0.1
++moe_load_balance_coef: 0.001
+ moe_entropy_coef: 0.001
+ moe_top_k: 2
+ 
+@@ -37,16 +37,17 @@ score_mode:
+ # SEARCH PARAMS
+ beam_size: 2
+ num_candidates: 4
+-max_length: 8
++max_length: 4
+ early_stopping: True
+-only_eval_answers: False
++only_eval_answers: True
+ 
+ # QUERY_PARAMS
+ temperature: 0.7
+ frequency_penalty: 0
+ presence_penalty: 0
+ stop: ["\n", "\n\n", "\n\n\n"]
+-max_tokens: 64
++max_tokens: 128
++
+ 
+ # TRAINING_PARAMS
+ offline_warmup_path:
+@@ -81,6 +82,6 @@ num_eval_rounds: 1
+ log_with_wandb: True
+ 
+ # LOW-COST COLAB SUBSETS
+-max_train_samples: 64
+-max_eval_samples: 32
++max_train_samples: 4
++max_eval_samples: 4
+ 
+diff --git a/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_0_idx_0/data-00000-of-00001.arrow b/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_0_idx_0/data-00000-of-00001.arrow
+index 79dbc6e..6327dd6 100644
+Binary files a/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_0_idx_0/data-00000-of-00001.arrow and b/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_0_idx_0/data-00000-of-00001.arrow differ
+diff --git a/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_0_idx_0/state.json b/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_0_idx_0/state.json
+index 9d23e12..a6be5d5 100644
+--- a/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_0_idx_0/state.json
++++ b/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_0_idx_0/state.json
+@@ -4,7 +4,7 @@
+       "filename": "data-00000-of-00001.arrow"
+     }
+   ],
+-  "_fingerprint": "6804af592f6e0ed5",
++  "_fingerprint": "6b35f25894411eb6",
+   "_format_columns": null,
+   "_format_kwargs": {},
+   "_format_type": "torch",
+diff --git a/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_1_idx_0/data-00000-of-00001.arrow b/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_1_idx_0/data-00000-of-00001.arrow
+index 8810b00..929d6b8 100644
+Binary files a/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_1_idx_0/data-00000-of-00001.arrow and b/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_1_idx_0/data-00000-of-00001.arrow differ
+diff --git a/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_1_idx_0/state.json b/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_1_idx_0/state.json
+index 85b717f..877c8ff 100644
+--- a/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_1_idx_0/state.json
++++ b/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_1_idx_0/state.json
+@@ -4,7 +4,7 @@
+       "filename": "data-00000-of-00001.arrow"
+     }
+   ],
+-  "_fingerprint": "7e845526175d9679",
++  "_fingerprint": "ff322f3659a3cc5d",
+   "_format_columns": null,
+   "_format_kwargs": {},
+   "_format_type": "torch",
+diff --git a/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_2_idx_0/data-00000-of-00001.arrow b/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_2_idx_0/data-00000-of-00001.arrow
+index a01fa4a..f202092 100644
+Binary files a/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_2_idx_0/data-00000-of-00001.arrow and b/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_2_idx_0/data-00000-of-00001.arrow differ
+diff --git a/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_2_idx_0/state.json b/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_2_idx_0/state.json
+index a84ab35..e78a25b 100644
+--- a/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_2_idx_0/state.json
++++ b/data/StrategyQA/microsoft/deberta-v3-base/train_epoch_2_idx_0/state.json
+@@ -4,7 +4,7 @@
+       "filename": "data-00000-of-00001.arrow"
+     }
+   ],
+-  "_fingerprint": "b543bbfdde44a1fc",
++  "_fingerprint": "357eca66a6a01c58",
+   "_format_columns": null,
+   "_format_kwargs": {},
+   "_format_type": "torch",
+diff --git a/llms/__pycache__/whitebox.cpython-312.pyc b/llms/__pycache__/whitebox.cpython-312.pyc
+index 19aa1b4..01129ed 100644
+Binary files a/llms/__pycache__/whitebox.cpython-312.pyc and b/llms/__pycache__/whitebox.cpython-312.pyc differ
+diff --git a/wandb/debug-internal.log b/wandb/debug-internal.log
+index 40cb50b..a66a838 120000
+--- a/wandb/debug-internal.log
++++ b/wandb/debug-internal.log
+@@ -1 +1 @@
+-run-20260504_220037-k1s0etwv/logs/debug-internal.log
+\ No newline at end of file
++run-20260505_015014-cv31g9vn/logs/debug-internal.log
+\ No newline at end of file
+diff --git a/wandb/debug.log b/wandb/debug.log
+index 6bb94a4..8a40e48 120000
+--- a/wandb/debug.log
++++ b/wandb/debug.log
+@@ -1 +1 @@
+-run-20260504_220037-k1s0etwv/logs/debug.log
+\ No newline at end of file
++run-20260505_015014-cv31g9vn/logs/debug.log
+\ No newline at end of file
+diff --git a/wandb/latest-run b/wandb/latest-run
+index 894546a..1d4ed18 120000
+--- a/wandb/latest-run
++++ b/wandb/latest-run
+@@ -1 +1 @@
+-run-20260504_220037-k1s0etwv
+\ No newline at end of file
++run-20260505_015014-cv31g9vn
+\ No newline at end of file
